@@ -1,0 +1,61 @@
+{
+  "id": "mc-mob-page-00013",
+  "name": "mobile-blank-screen",
+  "type": "foundation",
+  "platform": "mobile",
+  "frameworks": ["React"],
+  "description": "Neutral blank mobile screen foundation with safe-area insets, sticky app bar with back/actions, and empty scrollable content container.",
+  "capabilities": [
+    "safe-area-header",
+    "back-navigation-button",
+    "actions-slot",
+    "empty-scrollable-content",
+    "sticky-footer-slot"
+  ],
+  "keywords": [
+    "mobile screen",
+    "blank mobile page",
+    "app bar layout",
+    "mobile view",
+    "safe area screen"
+  ],
+  "aliases": [
+    "mobile page container",
+    "mobile view shell",
+    "blank app screen"
+  ],
+  "visual_references": [
+    {
+      "name": "Mobile Standard",
+      "purpose": "standard single-screen mobile layout with navigation bar",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00010",
+    "mc-mob-nav-00011"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral styling compatible with standard design tokens",
+    "Empty content area by default"
+  ],
+  "entry_points": [
+    "source/MobileBlankScreen.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/routes/login.tsx"
+    ],
+    "neutralization_summary": "Extracted blank mobile screen structure with safe-area handling and header back actions."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

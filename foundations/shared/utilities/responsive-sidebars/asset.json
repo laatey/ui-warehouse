@@ -1,0 +1,61 @@
+{
+  "id": "mc-sh-util-00017",
+  "name": "use-responsive-sidebars",
+  "type": "utility",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "React hook for responsive multi-panel layout resizing, pixel-preserved widths, auto-collapse on narrow screens, and automatic restoration.",
+  "capabilities": [
+    "pixel-preserved-resizing",
+    "localStorage-persistence",
+    "dual-sidebar-coordination",
+    "responsive-auto-collapse",
+    "auto-restore-on-expand"
+  ],
+  "keywords": [
+    "responsive sidebars",
+    "panel resize hook",
+    "layout hook",
+    "sidebar collapse",
+    "window resize listener"
+  ],
+  "aliases": [
+    "sidebar state hook",
+    "multi-panel layout hook",
+    "responsive layout controller"
+  ],
+  "visual_references": [
+    {
+      "name": "Claude Code",
+      "purpose": "dual sidebar auto-collapsing in narrow windows",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Cursor",
+      "purpose": "resizable side panels with remembered widths",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00012"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "Headless utility with no visual styling"
+  ],
+  "entry_points": [
+    "source/use-responsive-sidebars.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/hooks/use-responsive-sidebars.ts"
+    ],
+    "neutralization_summary": "Extracted headless sidebar coordinator hook, replaced specific morecode local storage keys with customizable options."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

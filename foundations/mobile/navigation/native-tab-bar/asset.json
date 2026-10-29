@@ -1,0 +1,68 @@
+{
+  "id": "mc-mob-nav-00020",
+  "name": "native-tab-bar",
+  "type": "navigation",
+  "platform": "mobile",
+  "frameworks": ["React Native", "Expo"],
+  "description": "Standard React Native bottom tab bar integrated with React Navigation, safe-area inset adaptation, haptic touch feedback, and outline-to-solid icon switching.",
+  "capabilities": [
+    "safe-area-insets",
+    "haptic-selection-feedback",
+    "react-navigation-compatible",
+    "dynamic-icon-outline-switching",
+    "token-based-neutral-theming"
+  ],
+  "keywords": [
+    "react native tab bar",
+    "bottom navigation",
+    "react navigation tabs",
+    "expo tab bar",
+    "mobile bottom nav"
+  ],
+  "aliases": [
+    "React Native bottom tab bar",
+    "iOS style docked tab bar",
+    "Expo tab bar component"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS Standard",
+      "purpose": "docked bottom navigation tab bar with safe-area handling",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Instagram",
+      "purpose": "icon-based bottom tab navigation with active states",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00019",
+    "mc-mob-page-00022"
+  ],
+  "dependencies": [
+    "@expo/vector-icons",
+    "@react-navigation/bottom-tabs",
+    "expo-haptics",
+    "react",
+    "react-native",
+    "react-native-safe-area-context"
+  ],
+  "design_constraints": [
+    "No hardcoded theme hex colors (uses configurable props)",
+    "Accessible accessibilityRole and accessibilityState attributes"
+  ],
+  "entry_points": [
+    "source/NativeTabBar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "nomo-rider-mobile.zip",
+    "original_paths": [
+      "src/navigation/TabBar.tsx"
+    ],
+    "neutralization_summary": "Extracted docked bottom tab bar component from nomo-rider-mobile navigation, made colors configurable, preserved haptics and safe-area insets."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mc-sh-prim-00015",
+  "name": "modal-overlay",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Consistent dimmed and blurred backdrop overlay for dialogs, drawers, and modal sheets.",
+  "capabilities": [
+    "backdrop-overlay",
+    "backdrop-blur-effect",
+    "accessible-dismiss-trigger",
+    "configurable-tone"
+  ],
+  "keywords": [
+    "modal overlay",
+    "dialog backdrop",
+    "backdrop blur",
+    "dimmer",
+    "scrim"
+  ],
+  "aliases": [
+    "dialog backdrop",
+    "modal scrim",
+    "sheet overlay"
+  ],
+  "visual_references": [
+    {
+      "name": "Modern SaaS Standard",
+      "purpose": "blurred modal backdrop for dialog focus",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/ModalOverlay.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/components/modal-overlay.tsx"
+    ],
+    "neutralization_summary": "Extracted standardized overlay with configurable light/blur tones, decoupled from specific state stores."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

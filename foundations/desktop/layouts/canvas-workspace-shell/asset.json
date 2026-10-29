@@ -1,0 +1,66 @@
+{
+  "id": "mc-web-layout-00004",
+  "name": "canvas-workspace-shell",
+  "type": "layout",
+  "platform": "web",
+  "frameworks": ["React"],
+  "description": "Infinite canvas workspace shell featuring floating tool palette, viewport control slots, and an empty canvas surface container.",
+  "capabilities": [
+    "infinite-canvas-viewport",
+    "floating-tool-palette",
+    "floating-zoom-controls",
+    "floating-inspector-slot",
+    "empty-canvas-surface"
+  ],
+  "keywords": [
+    "canvas layout",
+    "Figma-style editor",
+    "infinite canvas",
+    "node editor shell",
+    "diagram workspace"
+  ],
+  "aliases": [
+    "Figma-inspired canvas",
+    "Miro-style board",
+    "workflow canvas shell",
+    "editor viewport"
+  ],
+  "visual_references": [
+    {
+      "name": "Figma",
+      "purpose": "design workspace, canvas layout, layers panel, floating tool palette",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Miro",
+      "purpose": "infinite whiteboard navigation and tool overlay",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "No pre-rendered nodes or graphs",
+    "Blank canvas surface container by default"
+  ],
+  "entry_points": [
+    "source/CanvasWorkspaceShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/moor/canvas.tsx",
+      "src/routes/canvas.tsx"
+    ],
+    "neutralization_summary": "Extracted canvas viewport layout and floating tool palette from morline canvas. Removed specific cloud resource nodes, topology graph models, and brand assets."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

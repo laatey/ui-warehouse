@@ -1,0 +1,60 @@
+{
+  "id": "mc-lib-desk-00002",
+  "name": "electron-window-controls",
+  "type": "library",
+  "platform": "desktop",
+  "frameworks": ["React", "Electron"],
+  "description": "Cross-platform Electron window chrome utilities, title bar drag padding metrics, platform detectors, and custom window control buttons.",
+  "capabilities": [
+    "cross-platform-detection",
+    "macOS-traffic-light-metrics",
+    "windows-window-controls",
+    "app-drag-integration"
+  ],
+  "keywords": [
+    "electron window controls",
+    "title bar controls",
+    "desktop window chrome",
+    "macOS traffic lights",
+    "window buttons"
+  ],
+  "aliases": [
+    "window controls",
+    "electron title bar",
+    "desktop chrome buttons"
+  ],
+  "visual_references": [
+    {
+      "name": "VS Code",
+      "purpose": "custom title bar and window action buttons",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00002",
+    "mc-web-shell-00012"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "Platform-compliant UI metrics",
+    "No hardcoded brand themes"
+  ],
+  "entry_points": [
+    "source/WindowControls.tsx",
+    "source/platform.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "claude-bot.zip",
+    "original_paths": [
+      "src/renderer/src/lib/platform.ts"
+    ],
+    "neutralization_summary": "Extracted platform metrics and window control buttons into a generic desktop window library."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

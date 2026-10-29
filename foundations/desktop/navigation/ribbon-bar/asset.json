@@ -1,0 +1,65 @@
+{
+  "id": "mc-desk-nav-00025",
+  "name": "ribbon-bar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Desktop Office and CAD style ribbon toolbar with multi-tab categorization, tool grouping, large and compact tool buttons, and collapsible mode.",
+  "capabilities": [
+    "multi-tab-categories",
+    "tool-grouping-with-labels",
+    "large-and-compact-tool-items",
+    "collapsible-ribbon-bar",
+    "keyboard-shortcut-tooltips"
+  ],
+  "keywords": [
+    "ribbon bar",
+    "office ribbon",
+    "CAD toolbar",
+    "desktop ribbon",
+    "tool palette",
+    "grouped navigation"
+  ],
+  "aliases": [
+    "Microsoft Office ribbon",
+    "AutoCAD ribbon bar",
+    "desktop tool ribbon"
+  ],
+  "visual_references": [
+    {
+      "name": "Microsoft Office",
+      "purpose": "ribbon tabs and categorized tool groups with labels",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "AutoCAD",
+      "purpose": "grouped action ribbon with stacked tool buttons",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00024"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded tool icons or architecture-specific names",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/RibbonBar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "fable-architecture-v2.zip",
+    "original_paths": [
+      "src/renderer/src/components/cad/CadRibbon.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone ribbon toolbar component. Replaced domain CAD drawing tools with generic configurable tab and group schema."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "mc-desk-nav-00028",
+  "name": "status-bar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Desktop application and editor bottom status bar with position coordinates, grid and snap toggles, unit indicators, and zoom controls.",
+  "capabilities": [
+    "coordinate-readout",
+    "status-toggle-buttons",
+    "zoom-level-indicator",
+    "units-indicator",
+    "compact-desktop-footer"
+  ],
+  "keywords": [
+    "status bar",
+    "desktop status bar",
+    "IDE status bar",
+    "CAD status bar",
+    "bottom status footer"
+  ],
+  "aliases": [
+    "VS Code status bar",
+    "AutoCAD status bar",
+    "editor footer bar"
+  ],
+  "visual_references": [
+    {
+      "name": "VS Code",
+      "purpose": "bottom application status bar with mode toggles and info indicators",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "AutoCAD",
+      "purpose": "coordinate readout, snap, and ortho toggles in bottom status bar",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00024"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Neutral styling compatible with standard design tokens",
+    "Strictly unbranded"
+  ],
+  "entry_points": [
+    "source/StatusBar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "fable-architecture-v2.zip",
+    "original_paths": [
+      "src/renderer/src/components/cad/CadStatusBar.tsx"
+    ],
+    "neutralization_summary": "Extracted universal desktop application status bar, parameterized toggles and coordinates."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

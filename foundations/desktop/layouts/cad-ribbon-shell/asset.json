@@ -1,0 +1,78 @@
+{
+  "id": "mc-desk-shell-00024",
+  "name": "cad-ribbon-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Desktop CAD and 3D modeling workspace shell featuring ribbon toolbar, document tabs, floating viewport orientation gizmo, command prompt bar, and status bar.",
+  "capabilities": [
+    "ribbon-toolbar-integration",
+    "multi-document-tabs",
+    "empty-viewport-canvas",
+    "floating-viewport-gizmo",
+    "docked-command-line",
+    "inspector-side-panel",
+    "desktop-status-bar"
+  ],
+  "keywords": [
+    "CAD layout",
+    "ribbon shell",
+    "AutoCAD layout",
+    "Revit workspace",
+    "3D editor shell",
+    "Blender viewport layout",
+    "desktop engineering UI"
+  ],
+  "aliases": [
+    "AutoCAD-style layout",
+    "Revit ribbon shell",
+    "3D modeling workspace",
+    "desktop ribbon application"
+  ],
+  "visual_references": [
+    {
+      "name": "AutoCAD",
+      "purpose": "ribbon toolbar, command prompt line, and viewport workspace layout",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Revit",
+      "purpose": "architectural modeling multi-panel ribbon interface",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Blender",
+      "purpose": "3D viewport with floating orientation gizmo and status bar",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00025",
+    "mc-desk-nav-00026",
+    "mc-desk-nav-00027",
+    "mc-desk-nav-00028"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded 3D geometry or architecture models",
+    "Empty viewport container by default",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/CadRibbonShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "fable-architecture-v2.zip",
+    "original_paths": [
+      "src/renderer/src/App.tsx",
+      "src/renderer/src/components/cad/CadRibbon.tsx"
+    ],
+    "neutralization_summary": "Extracted CAD ribbon application layout skeleton. Stripped all 3D solid geometry generators, proprietary DWG parsers, and brand marks."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "mc-desk-shell-00035",
+  "name": "crm-workspace-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Modern CRM and relational data workspace shell featuring module sidebar, top record identifier bar, secondary filter/view switcher toolbar, blank data viewport, and slide-out record inspector side panel.",
+  "capabilities": [
+    "collapsible-module-navigation-sidebar",
+    "record-identifier-action-header",
+    "filter-and-view-switcher-toolbar",
+    "slide-out-record-inspector-drawer",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "crm workspace",
+    "twenty crm layout",
+    "record inspector shell",
+    "data table layout",
+    "slide over drawer",
+    "relational database ui",
+    "sales workspace"
+  ],
+  "aliases": [
+    "Twenty CRM layout",
+    "Salesforce record workspace",
+    "HubSpot deal shell"
+  ],
+  "visual_references": [
+    {
+      "name": "Twenty CRM",
+      "purpose": "relational record layout with module sidebar, filter toolbar, and slide-out side panel",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Salesforce",
+      "purpose": "compact business record manager with inspector drawer and secondary filter bar",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001",
+    "mc-sh-prim-00015"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded CRM schemas, lead data, or mock contacts",
+    "Empty main viewport container by default"
+  ],
+  "entry_points": [
+    "source/CrmWorkspaceShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "twenty",
+    "original_paths": [
+      "packages/twenty-front/src/modules/page-layout/components/PageLayoutRecordIdentifierBar.tsx",
+      "packages/twenty-front/src/modules/side-panel/components/SidePanelForDesktop.tsx"
+    ],
+    "neutralization_summary": "Extracted modern CRM workspace shell from Twenty front-end module architecture. Replaced Linaria styled-components, Jotai atoms, and Lingui i18n with clean props and standard semantic tokens."
+  },
+  "license": "AGPL-3.0-only",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "mc-sh-prim-00057",
+  "name": "empty-state",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Centered empty-state block with icon, title, description, primary and secondary action slots, three sizes, and optional dashed border.",
+  "capabilities": [
+    "icon-slot",
+    "action-slots",
+    "three-sizes",
+    "dashed-border-variant",
+    "content-slot"
+  ],
+  "keywords": [
+    "empty state",
+    "no results",
+    "blank slate",
+    "zero state",
+    "placeholder panel"
+  ],
+  "aliases": [
+    "blank slate",
+    "no data placeholder",
+    "zero data state",
+    "nothing here yet"
+  ],
+  "visual_references": [
+    {
+      "name": "Linear",
+      "purpose": "empty list with call to action",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "GitHub",
+      "purpose": "blank slate with primary action",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00046",
+    "mc-sh-prim-00048",
+    "mc-sh-prim-00055"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default"
+  ],
+  "entry_points": [
+    "source/EmptyState.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/EmptyState.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mc-sh-prim-00052",
+  "name": "sql-query-editor-stage",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "SQL query workspace stage featuring title renaming, run controls with Ctrl+Enter keyboard shortcut, execution timing and row count metrics, and an empty tabular results container.",
+  "capabilities": [
+    "sql-code-editor",
+    "query-execution-controls",
+    "keyboard-shortcuts",
+    "execution-metrics-bar",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "sql editor",
+    "query runner",
+    "database query",
+    "results table",
+    "sql console"
+  ],
+  "aliases": [
+    "Supabase SQL editor",
+    "Postgres query tool",
+    "DBeaver query stage"
+  ],
+  "visual_references": [
+    {
+      "name": "Supabase Studio",
+      "purpose": "SQL editor stage with Run button shortcut, execution timing metrics, and results panel",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00050",
+    "mc-desk-nav-00051",
+    "mc-desk-shell-00040"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Accessible keyboard shortcuts",
+    "Empty container slot for results grid"
+  ],
+  "entry_points": [
+    "source/SqlQueryEditorStage.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "supabase-studio",
+    "original_paths": [
+      "apps/studio/components/interfaces/SQLEditor/SQLEditor.tsx",
+      "apps/studio/components/interfaces/SQLEditor/UtilityPanel/UtilityPanel.tsx"
+    ],
+    "neutralization_summary": "Extracted query execution layout, shortcut listener, metrics header, and results tabs; removed Supabase AI assistant and telemetry."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "mc-desk-shell-00036",
+  "name": "project-workspace-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Modern issue and project management workspace shell featuring cycle/module sidebar, top action header, segmented layout switcher (List, Kanban, Calendar, Gantt, Table), filter bar, blank stage, and collapsible issue detail peek panel.",
+  "capabilities": [
+    "segmented-layout-mode-switcher",
+    "collapsible-project-navigation-sidebar",
+    "filter-toolbar-integration",
+    "collapsible-issue-detail-peek-panel",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "project workspace",
+    "issue tracker shell",
+    "plane layout",
+    "kanban and list switcher",
+    "linear-style shell",
+    "sprint workspace",
+    "agile project layout"
+  ],
+  "aliases": [
+    "Plane project workspace",
+    "Linear issue tracker shell",
+    "Jira agile workspace"
+  ],
+  "visual_references": [
+    {
+      "name": "Plane",
+      "purpose": "project workspace with view switcher tabs, cycle sidebar, and issue peek drawer",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Linear",
+      "purpose": "high-velocity issue management layout with multi-view toggles and detail panels",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001",
+    "mc-desk-nav-00029"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded project names, ticket IDs, or mock issues",
+    "Empty main viewport container by default"
+  ],
+  "entry_points": [
+    "source/ProjectWorkspaceShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "plane",
+    "original_paths": [
+      "apps/web/components/base-layouts/layout-switcher.tsx",
+      "apps/web/layouts/default-layout/index.tsx"
+    ],
+    "neutralization_summary": "Extracted project and issue management workspace layout from Plane architecture. Replaced Propel UI and custom i18n with clean props, Lucide icons, and standard semantic tokens."
+  },
+  "license": "AGPL-3.0-only",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

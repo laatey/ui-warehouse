@@ -1,0 +1,18 @@
+{
+  "name": "morecode-ui-warehouse",
+  "version": "1.0.0",
+  "description": "Standardized, unbranded UI foundations, components, and retrieval indexes for AI agents.",
+  "type": "module",
+  "scripts": {
+    "build:indexes": "node scripts/build-indexes.mjs",
+    "validate": "node scripts/validate-warehouse.mjs",
+    "mcp": "node mcp/server.mjs",
+    "mcp:http": "node mcp/http.mjs",
+    "test:mcp": "node mcp/test/http.test.mjs && node mcp/test/http-hosts-tls.test.mjs && node mcp/test/oauth.test.mjs"
+  },
+  "license": "MIT",
+  "bin": {
+    "ui-warehouse-mcp": "mcp/server.mjs",
+    "ui-warehouse-mcp-http": "mcp/http.mjs"
+  }
+}

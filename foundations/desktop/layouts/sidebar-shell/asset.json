@@ -1,0 +1,76 @@
+{
+  "id": "mc-web-shell-00001",
+  "name": "sidebar-shell",
+  "type": "foundation",
+  "platform": "web",
+  "frameworks": ["React"],
+  "description": "Responsive dashboard application shell with collapsible sidebar, top navigation bar, breadcrumb slots, and an empty main content area.",
+  "capabilities": [
+    "collapsible-sidebar",
+    "icon-rail-mode",
+    "keyboard-shortcuts",
+    "mobile-drawer-fallback",
+    "header-breadcrumbs",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "sidebar layout",
+    "dashboard shell",
+    "admin layout",
+    "productivity interface",
+    "responsive navigation"
+  ],
+  "aliases": [
+    "Linear-style layout",
+    "Vercel-style dashboard shell",
+    "admin sidebar foundation",
+    "SaaS application shell"
+  ],
+  "visual_references": [
+    {
+      "name": "Linear",
+      "purpose": "compact sidebar and keyboard-oriented productivity interface",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Vercel",
+      "purpose": "deployment dashboard and project navigation structure",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Notion",
+      "purpose": "hierarchical sidebar and flexible content area",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-nav-00007",
+    "mc-web-page-00008",
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "No application-specific content",
+    "No default decorative background",
+    "Neutral structural styling only"
+  ],
+  "entry_points": [
+    "source/AppShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/moor/workspace-shell.tsx",
+      "src/components/ui/sidebar.tsx"
+    ],
+    "neutralization_summary": "Extracted generic sidebar navigation shell from morline workspace-shell and shadcn sidebar. Removed specific environment, deployment, and billing UI. Preserved keyboard shortcuts and responsive drawer fallback."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

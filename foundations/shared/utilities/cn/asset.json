@@ -1,0 +1,55 @@
+{
+  "id": "mc-sh-util-00018",
+  "name": "cn-class-merger",
+  "type": "utility",
+  "platform": "cross-platform",
+  "frameworks": ["shared"],
+  "description": "Standard utility function combining clsx and tailwind-merge to reliably compose and resolve Tailwind CSS class names.",
+  "capabilities": [
+    "conditional-class-merging",
+    "tailwind-conflict-resolution",
+    "headless-utility"
+  ],
+  "keywords": [
+    "cn",
+    "clsx",
+    "tailwind-merge",
+    "classNames",
+    "css utility"
+  ],
+  "aliases": [
+    "class merger",
+    "tailwind cn helper",
+    "classNames function"
+  ],
+  "visual_references": [
+    {
+      "name": "shadcn/ui Standard",
+      "purpose": "canonical class composition utility function",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "design_constraints": [
+    "Zero visual output (pure utility)"
+  ],
+  "entry_points": [
+    "source/utils.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/lib/utils.ts"
+    ],
+    "neutralization_summary": "Extracted universal cn helper."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

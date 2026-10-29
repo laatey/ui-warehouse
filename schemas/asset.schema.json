@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://morecode.ai/schemas/asset.schema.json",
+  "title": "MoreCodeUIWarehouseAssetManifest",
+  "description": "Standardized metadata manifest for extracted MoreCode UI Warehouse foundations, components, and libraries.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "platform",
+    "frameworks",
+    "description",
+    "capabilities",
+    "keywords",
+    "aliases",
+    "visual_references",
+    "related_assets",
+    "dependencies",
+    "design_constraints",
+    "entry_points",
+    "license",
+    "validation_status",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^mc-[a-z0-9-]+$",
+      "description": "Stable, unique asset identifier (e.g., mc-web-shell-00012)."
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical asset name in kebab-case."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "foundation",
+        "layout",
+        "navigation",
+        "primitive",
+        "component",
+        "utility",
+        "library"
+      ],
+      "description": "Structural asset classification."
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "web",
+        "desktop",
+        "mobile",
+        "cross-platform"
+      ],
+      "description": "Target runtime platform."
+    },
+    "frameworks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "Supported frameworks and verified compatibility (e.g. React, React Native, Vite, Electron)."
+    },
+    "description": {
+      "type": "string",
+      "description": "Concise explanation of what the asset provides structurally."
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Structural and functional features provided by the asset."
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable keywords and intents."
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names an AI might use to request the asset."
+    },
+    "visual_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "purpose",
+          "reference_type"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Recognizable interface name used as a search hint (e.g. Claude Code, Linear, ChatGPT)."
+          },
+          "purpose": {
+            "type": "string",
+            "description": "Structural aspect the reference illustrates (e.g. developer workspace structure, issue tracker sidebar)."
+          },
+          "reference_type": {
+            "type": "string",
+            "description": "Type of reference hint (typically 'structural-search-hint')."
+          }
+        }
+      },
+      "description": "Visual reference hints for discovery."
+    },
+    "related_assets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of compatible assets that can be combined with this one."
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Required npm packages, peer dependencies, or internal asset IDs."
+    },
+    "design_constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Styling or structural restrictions ensuring neutrality (e.g. No forced brand identity)."
+    },
+    "entry_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "Relative paths to the entry point files required to use the asset."
+    },
+    "source_provenance": {
+      "type": "object",
+      "properties": {
+        "source_archive": {
+          "type": "string"
+        },
+        "original_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "neutralization_summary": {
+          "type": "string"
+        }
+      },
+      "description": "Original project origin and neutralization record."
+    },
+    "license": {
+      "type": "string",
+      "description": "Verified license or unknown (e.g. MIT, Apache-2.0, unknown)."
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "partially_verified",
+        "not_tested"
+      ],
+      "description": "Validation and test status."
+    },
+    "version": {
+      "type": "string",
+      "description": "Asset semantic version."
+    }
+  }
+}

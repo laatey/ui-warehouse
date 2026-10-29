@@ -1,0 +1,65 @@
+{
+  "id": "mc-desk-nav-00026",
+  "name": "command-prompt-bar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Desktop application command prompt bar featuring command history cycling with up/down arrows, autocomplete suggestions popover, and terminal-style prompt execution.",
+  "capabilities": [
+    "command-input-execution",
+    "history-up-down-cycling",
+    "autocomplete-suggestions-popover",
+    "terminal-prompt-styling",
+    "monospace-typography"
+  ],
+  "keywords": [
+    "command prompt",
+    "command line",
+    "CAD command bar",
+    "CLI bar",
+    "terminal input",
+    "operator bar"
+  ],
+  "aliases": [
+    "AutoCAD command line",
+    "Blender operator input",
+    "desktop command bar"
+  ],
+  "visual_references": [
+    {
+      "name": "AutoCAD",
+      "purpose": "docked bottom command prompt bar with command history and suggestions",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Blender",
+      "purpose": "operator search and execution prompt bar",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00024"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Neutral styling compatible with standard design tokens",
+    "Pure UI component with callback execution"
+  ],
+  "entry_points": [
+    "source/CommandPromptBar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "fable-architecture-v2.zip",
+    "original_paths": [
+      "src/renderer/src/components/cad/CadCommandLine.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone command prompt bar. Decoupled from CAD geometry engine and command registries, generalized for any desktop app."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

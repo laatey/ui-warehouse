@@ -1,0 +1,58 @@
+{
+  "id": "mc-mob-nav-00011",
+  "name": "mobile-bottom-navigation",
+  "type": "navigation",
+  "platform": "mobile",
+  "frameworks": ["React"],
+  "description": "Standalone mobile bottom navigation bar with active indicators, touch feedback, notification badge support, and safe-area padding.",
+  "capabilities": [
+    "touch-friendly-targets",
+    "safe-area-padding",
+    "notification-badges",
+    "active-state-highlight",
+    "aria-navigation-roles"
+  ],
+  "keywords": [
+    "bottom navigation",
+    "mobile tab bar",
+    "mobile nav",
+    "touch bar",
+    "PWA navigation"
+  ],
+  "aliases": [
+    "mobile tab bar",
+    "bottom nav bar",
+    "iOS tab bar primitive"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS Mobile Standard",
+      "purpose": "fixed bottom tab bar navigation",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00010"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral design tokens only"
+  ],
+  "entry_points": [
+    "source/BottomNavigation.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/ui/tabs.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone bottom navigation bar with touch-friendly spacing and badge support."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

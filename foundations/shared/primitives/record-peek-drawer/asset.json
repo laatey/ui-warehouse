@@ -1,0 +1,62 @@
+{
+  "id": "mc-sh-prim-00044",
+  "name": "record-peek-drawer",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Slide-out record inspection drawer featuring an entity header, tab navigation bar, metadata properties grid, and empty content container for custom activity timelines or detail forms.",
+  "capabilities": [
+    "slide-out-drawer",
+    "tabs-navigation",
+    "metadata-grid",
+    "keyboard-shortcuts",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "crm drawer",
+    "record details",
+    "side panel",
+    "peek drawer",
+    "inspect record"
+  ],
+  "aliases": [
+    "Twenty side panel",
+    "HubSpot record peek",
+    "Salesforce side drawer"
+  ],
+  "visual_references": [
+    {
+      "name": "Twenty CRM",
+      "purpose": "slide-out record detail inspector with tabs and field summaries",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00038",
+    "mc-sh-prim-00043"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Empty content container by default",
+    "Escape key dismiss"
+  ],
+  "entry_points": [
+    "source/RecordPeekDrawer.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "twenty-front",
+    "original_paths": [
+      "packages/twenty-front/src/modules/side-panel/components/SidePanelForDesktop.tsx"
+    ],
+    "neutralization_summary": "Extracted side-panel layout, converted state management to generic callbacks, removed CRM-specific routing, and established blank content slots."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

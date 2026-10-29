@@ -1,0 +1,463 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-29T10:15:08.431Z",
+  "total_frameworks": 5,
+  "frameworks": [
+    {
+      "framework": "Electron",
+      "compatible_platforms": [
+        "desktop"
+      ],
+      "total_assets": 1,
+      "assets": [
+        {
+          "id": "mc-lib-desk-00002",
+          "name": "electron-window-controls",
+          "type": "library",
+          "storage_path": "libraries/desktop/electron-window-controls"
+        }
+      ]
+    },
+    {
+      "framework": "Expo",
+      "compatible_platforms": [
+        "mobile"
+      ],
+      "total_assets": 5,
+      "assets": [
+        {
+          "id": "mc-lib-mob-00023",
+          "name": "react-native-primitives",
+          "type": "library",
+          "storage_path": "libraries/mobile/react-native-primitives"
+        },
+        {
+          "id": "mc-mob-nav-00020",
+          "name": "native-tab-bar",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/native-tab-bar"
+        },
+        {
+          "id": "mc-mob-nav-00021",
+          "name": "native-screen-header",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/native-screen-header"
+        },
+        {
+          "id": "mc-mob-page-00022",
+          "name": "native-blank-screen",
+          "type": "foundation",
+          "storage_path": "foundations/mobile/blank-pages/native-blank-screen"
+        },
+        {
+          "id": "mc-mob-shell-00019",
+          "name": "map-bottom-sheet-shell",
+          "type": "layout",
+          "storage_path": "foundations/mobile/layouts/map-bottom-sheet-shell"
+        }
+      ]
+    },
+    {
+      "framework": "React",
+      "compatible_platforms": [
+        "cross-platform",
+        "desktop",
+        "mobile",
+        "web"
+      ],
+      "total_assets": 56,
+      "assets": [
+        {
+          "id": "mc-desk-nav-00005",
+          "name": "desktop-tab-strip",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/tab-strip"
+        },
+        {
+          "id": "mc-desk-nav-00006",
+          "name": "omnibox-toolbar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/omnibox-toolbar"
+        },
+        {
+          "id": "mc-desk-nav-00025",
+          "name": "ribbon-bar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/ribbon-bar"
+        },
+        {
+          "id": "mc-desk-nav-00026",
+          "name": "command-prompt-bar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/command-prompt-bar"
+        },
+        {
+          "id": "mc-desk-nav-00027",
+          "name": "viewport-navigation-gizmo",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/viewport-navigation-gizmo"
+        },
+        {
+          "id": "mc-desk-nav-00028",
+          "name": "status-bar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/status-bar"
+        },
+        {
+          "id": "mc-desk-nav-00029",
+          "name": "file-tree",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/file-tree"
+        },
+        {
+          "id": "mc-desk-nav-00039",
+          "name": "widget-palette-grid",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/widget-palette-grid"
+        },
+        {
+          "id": "mc-desk-nav-00041",
+          "name": "inbox-conversation-list",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/inbox-conversation-list"
+        },
+        {
+          "id": "mc-desk-nav-00047",
+          "name": "view-switcher-bar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/view-switcher-bar"
+        },
+        {
+          "id": "mc-desk-nav-00050",
+          "name": "schema-table-sidebar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/schema-table-sidebar"
+        },
+        {
+          "id": "mc-desk-nav-00051",
+          "name": "data-grid-toolbar",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/data-grid-toolbar"
+        },
+        {
+          "id": "mc-desk-shell-00002",
+          "name": "browser-shell",
+          "type": "foundation",
+          "storage_path": "foundations/desktop/layouts/browser-shell"
+        },
+        {
+          "id": "mc-desk-shell-00024",
+          "name": "cad-ribbon-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/cad-ribbon-shell"
+        },
+        {
+          "id": "mc-desk-shell-00032",
+          "name": "dynamic-island-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/dynamic-island-shell"
+        },
+        {
+          "id": "mc-desk-shell-00033",
+          "name": "internal-tool-builder-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/internal-tool-builder-shell"
+        },
+        {
+          "id": "mc-desk-shell-00034",
+          "name": "inbox-workspace-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/inbox-workspace-shell"
+        },
+        {
+          "id": "mc-desk-shell-00035",
+          "name": "crm-workspace-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/crm-workspace-shell"
+        },
+        {
+          "id": "mc-desk-shell-00036",
+          "name": "project-workspace-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/project-workspace-shell"
+        },
+        {
+          "id": "mc-desk-shell-00037",
+          "name": "database-workspace-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/database-workspace-shell"
+        },
+        {
+          "id": "mc-desk-shell-00040",
+          "name": "query-console-drawer",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/query-console-drawer"
+        },
+        {
+          "id": "mc-lib-desk-00002",
+          "name": "electron-window-controls",
+          "type": "library",
+          "storage_path": "libraries/desktop/electron-window-controls"
+        },
+        {
+          "id": "mc-lib-mob-00003",
+          "name": "mobile-touch-primitives",
+          "type": "library",
+          "storage_path": "libraries/mobile/touch-primitives"
+        },
+        {
+          "id": "mc-lib-web-00001",
+          "name": "shadcn-ui-react",
+          "type": "library",
+          "storage_path": "libraries/web/shadcn-ui"
+        },
+        {
+          "id": "mc-mob-nav-00011",
+          "name": "mobile-bottom-navigation",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/bottom-navigation"
+        },
+        {
+          "id": "mc-mob-nav-00012",
+          "name": "mobile-drawer-nav",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/mobile-drawer-nav"
+        },
+        {
+          "id": "mc-mob-page-00013",
+          "name": "mobile-blank-screen",
+          "type": "foundation",
+          "storage_path": "foundations/mobile/blank-pages/blank-screen"
+        },
+        {
+          "id": "mc-mob-shell-00010",
+          "name": "mobile-bottom-nav-shell",
+          "type": "foundation",
+          "storage_path": "foundations/mobile/layouts/bottom-nav-shell"
+        },
+        {
+          "id": "mc-sh-prim-00014",
+          "name": "segmented-switch",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/segmented-switch"
+        },
+        {
+          "id": "mc-sh-prim-00015",
+          "name": "modal-overlay",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/modal-overlay"
+        },
+        {
+          "id": "mc-sh-prim-00016",
+          "name": "diff-viewer",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/diff-viewer"
+        },
+        {
+          "id": "mc-sh-prim-00030",
+          "name": "prompt-input",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/prompt-input"
+        },
+        {
+          "id": "mc-sh-prim-00038",
+          "name": "property-inspector-panel",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/property-inspector-panel"
+        },
+        {
+          "id": "mc-sh-prim-00042",
+          "name": "message-thread",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/message-thread"
+        },
+        {
+          "id": "mc-sh-prim-00043",
+          "name": "contact-detail-card",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/contact-detail-card"
+        },
+        {
+          "id": "mc-sh-prim-00044",
+          "name": "record-peek-drawer",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/record-peek-drawer"
+        },
+        {
+          "id": "mc-sh-prim-00045",
+          "name": "crm-filter-builder",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/crm-filter-builder"
+        },
+        {
+          "id": "mc-sh-prim-00046",
+          "name": "crm-data-table",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/crm-data-table"
+        },
+        {
+          "id": "mc-sh-prim-00048",
+          "name": "kanban-board-stage",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/kanban-board-stage"
+        },
+        {
+          "id": "mc-sh-prim-00049",
+          "name": "issue-row-item",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/issue-row-item"
+        },
+        {
+          "id": "mc-sh-prim-00052",
+          "name": "sql-query-editor-stage",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/sql-query-editor-stage"
+        },
+        {
+          "id": "mc-sh-prim-00053",
+          "name": "form-field-group",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/form-field-group"
+        },
+        {
+          "id": "mc-sh-prim-00054",
+          "name": "form-wizard-shell",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/form-wizard-shell"
+        },
+        {
+          "id": "mc-sh-prim-00055",
+          "name": "chart-panel-shell",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/chart-panel-shell"
+        },
+        {
+          "id": "mc-sh-prim-00056",
+          "name": "stat-tile",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/stat-tile"
+        },
+        {
+          "id": "mc-sh-prim-00057",
+          "name": "empty-state",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/empty-state"
+        },
+        {
+          "id": "mc-sh-prim-00058",
+          "name": "settings-row-group",
+          "type": "primitive",
+          "storage_path": "foundations/shared/primitives/settings-row-group"
+        },
+        {
+          "id": "mc-sh-util-00017",
+          "name": "use-responsive-sidebars",
+          "type": "utility",
+          "storage_path": "foundations/shared/utilities/responsive-sidebars"
+        },
+        {
+          "id": "mc-web-layout-00003",
+          "name": "auth-split-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/auth-split-shell"
+        },
+        {
+          "id": "mc-web-layout-00004",
+          "name": "canvas-workspace-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/canvas-workspace-shell"
+        },
+        {
+          "id": "mc-web-nav-00007",
+          "name": "vertical-icon-rail",
+          "type": "navigation",
+          "storage_path": "foundations/desktop/navigation/icon-rail"
+        },
+        {
+          "id": "mc-web-page-00008",
+          "name": "blank-dashboard-page",
+          "type": "foundation",
+          "storage_path": "foundations/desktop/blank-pages/dashboard-page"
+        },
+        {
+          "id": "mc-web-page-00009",
+          "name": "blank-settings-page",
+          "type": "foundation",
+          "storage_path": "foundations/desktop/blank-pages/settings-page"
+        },
+        {
+          "id": "mc-web-shell-00001",
+          "name": "sidebar-shell",
+          "type": "foundation",
+          "storage_path": "foundations/desktop/layouts/sidebar-shell"
+        },
+        {
+          "id": "mc-web-shell-00012",
+          "name": "assistant-workspace-shell",
+          "type": "foundation",
+          "storage_path": "foundations/desktop/layouts/assistant-workspace-shell"
+        },
+        {
+          "id": "mc-web-shell-00031",
+          "name": "marketing-shell",
+          "type": "layout",
+          "storage_path": "foundations/desktop/layouts/marketing-shell"
+        }
+      ]
+    },
+    {
+      "framework": "React Native",
+      "compatible_platforms": [
+        "mobile"
+      ],
+      "total_assets": 5,
+      "assets": [
+        {
+          "id": "mc-lib-mob-00023",
+          "name": "react-native-primitives",
+          "type": "library",
+          "storage_path": "libraries/mobile/react-native-primitives"
+        },
+        {
+          "id": "mc-mob-nav-00020",
+          "name": "native-tab-bar",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/native-tab-bar"
+        },
+        {
+          "id": "mc-mob-nav-00021",
+          "name": "native-screen-header",
+          "type": "navigation",
+          "storage_path": "foundations/mobile/navigation/native-screen-header"
+        },
+        {
+          "id": "mc-mob-page-00022",
+          "name": "native-blank-screen",
+          "type": "foundation",
+          "storage_path": "foundations/mobile/blank-pages/native-blank-screen"
+        },
+        {
+          "id": "mc-mob-shell-00019",
+          "name": "map-bottom-sheet-shell",
+          "type": "layout",
+          "storage_path": "foundations/mobile/layouts/map-bottom-sheet-shell"
+        }
+      ]
+    },
+    {
+      "framework": "shared",
+      "compatible_platforms": [
+        "cross-platform"
+      ],
+      "total_assets": 1,
+      "assets": [
+        {
+          "id": "mc-sh-util-00018",
+          "name": "cn-class-merger",
+          "type": "utility",
+          "storage_path": "foundations/shared/utilities/cn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mc-mob-shell-00010",
+  "name": "mobile-bottom-nav-shell",
+  "type": "foundation",
+  "platform": "mobile",
+  "frameworks": ["React"],
+  "description": "Mobile application shell featuring safe-area top app bar, scrollable empty screen container, and fixed bottom navigation bar with active indicators.",
+  "capabilities": [
+    "safe-area-insets",
+    "sticky-top-app-bar",
+    "back-navigation-action",
+    "fixed-bottom-nav-bar",
+    "notification-badges",
+    "empty-screen-container"
+  ],
+  "keywords": [
+    "mobile shell",
+    "bottom navigation",
+    "mobile app bar",
+    "PWA layout",
+    "tab bar layout"
+  ],
+  "aliases": [
+    "iOS tab bar shell",
+    "Android bottom navigation layout",
+    "mobile web app shell",
+    "PWA container"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS App Store / Mobile Standard",
+      "purpose": "bottom tab bar and safe-area header navigation shell",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-nav-00011",
+    "mc-mob-page-00013"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral styling compatible with standard design tokens",
+    "Empty page body container by default"
+  ],
+  "entry_points": [
+    "source/MobileBottomNavShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/hooks/use-mobile.tsx",
+      "src/components/ui/drawer.tsx"
+    ],
+    "neutralization_summary": "Extracted standard mobile navigation shell with safe-area insets, top app bar, and fixed tab bar from responsive layout foundations."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

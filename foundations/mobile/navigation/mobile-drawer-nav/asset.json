@@ -1,0 +1,59 @@
+{
+  "id": "mc-mob-nav-00012",
+  "name": "mobile-drawer-nav",
+  "type": "navigation",
+  "platform": "mobile",
+  "frameworks": ["React"],
+  "description": "Slide-over mobile drawer navigation with backdrop blur overlay, accessible close action, and safe-area padding.",
+  "capabilities": [
+    "slide-over-animation",
+    "backdrop-overlay",
+    "safe-area-padding",
+    "touch-friendly-items",
+    "drawer-footer-slot"
+  ],
+  "keywords": [
+    "mobile drawer",
+    "side drawer",
+    "slide out menu",
+    "hamburger menu",
+    "sheet navigation"
+  ],
+  "aliases": [
+    "mobile slide-over",
+    "navigation drawer",
+    "mobile hamburger menu"
+  ],
+  "visual_references": [
+    {
+      "name": "Mobile Standard",
+      "purpose": "slide-over mobile drawer navigation menu",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00010"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral design tokens only"
+  ],
+  "entry_points": [
+    "source/MobileDrawerNav.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/ui/sheet.tsx"
+    ],
+    "neutralization_summary": "Extracted lightweight mobile drawer navigation container from sheet primitives."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

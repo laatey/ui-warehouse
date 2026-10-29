@@ -1,0 +1,72 @@
+{
+  "id": "mc-sh-prim-00055",
+  "name": "chart-panel-shell",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Chart card frame with title, range selector, actions, legend slot, and fixed-height plot area that handles ready, loading, empty, and error states without layout shift. Chart library not included.",
+  "capabilities": [
+    "range-selector",
+    "loading-skeleton",
+    "empty-state-message",
+    "error-with-retry",
+    "fixed-height-plot-area",
+    "legend-slot",
+    "library-agnostic-chart-slot"
+  ],
+  "keywords": [
+    "chart card",
+    "chart panel",
+    "analytics widget",
+    "graph container",
+    "time range selector",
+    "data viz shell"
+  ],
+  "aliases": [
+    "chart wrapper",
+    "analytics panel",
+    "graph card",
+    "metrics chart frame"
+  ],
+  "visual_references": [
+    {
+      "name": "Vercel Analytics",
+      "purpose": "chart card with range tabs",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Grafana",
+      "purpose": "panel with loading and no-data states",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00056",
+    "mc-web-page-00008",
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default",
+    "No chart library or sample data included"
+  ],
+  "entry_points": [
+    "source/ChartPanelShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/ChartPanelShell.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

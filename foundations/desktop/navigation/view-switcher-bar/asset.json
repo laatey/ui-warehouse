@@ -1,0 +1,65 @@
+{
+  "id": "mc-desk-nav-00047",
+  "name": "view-switcher-bar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Horizontal productivity view switcher bar providing segmented layout toggles (list, kanban board, calendar, gantt, spreadsheet) alongside title indicators and secondary filter/action slots.",
+  "capabilities": [
+    "segmented-layout-toggle",
+    "view-mode-radiogroup",
+    "title-and-badge",
+    "filter-trigger-slot",
+    "action-button-slot"
+  ],
+  "keywords": [
+    "view switcher",
+    "layout switcher",
+    "board toggle",
+    "list switcher",
+    "project views",
+    "segmented control"
+  ],
+  "aliases": [
+    "Plane layout switcher",
+    "Linear view toggle",
+    "Jira view switcher",
+    "ClickUp layout bar"
+  ],
+  "visual_references": [
+    {
+      "name": "Plane",
+      "purpose": "segmented layout switcher bar for switching between list, kanban, and gantt",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00048",
+    "mc-sh-prim-00049"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Accessible radiogroup role",
+    "Flexible view definitions"
+  ],
+  "entry_points": [
+    "source/ViewSwitcherBar.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "plane-web",
+    "original_paths": [
+      "apps/web/components/base-layouts/layout-switcher.tsx",
+      "apps/web/components/base-layouts/constants.ts"
+    ],
+    "neutralization_summary": "Extracted segmented layout pill mechanics and responsive layout toggle, decoupled i18n and Propel UI tokens into semantic HTML and Tailwind tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

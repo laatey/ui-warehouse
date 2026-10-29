@@ -1,0 +1,67 @@
+{
+  "id": "mc-desk-nav-00027",
+  "name": "viewport-navigation-gizmo",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "3D viewport navigation gizmo / viewcube overlay providing cardinal face view selection (Top, Front, Right, Isometric), home reset, and perspective/orthographic camera projection toggling.",
+  "capabilities": [
+    "cardinal-direction-navigation",
+    "isometric-corner-triggers",
+    "home-view-reset-action",
+    "perspective-orthographic-toggle",
+    "floating-viewport-overlay"
+  ],
+  "keywords": [
+    "viewcube",
+    "navigation gizmo",
+    "3D viewport navigation",
+    "camera orientation gizmo",
+    "CAD orientation cube",
+    "orientation widget"
+  ],
+  "aliases": [
+    "AutoCAD ViewCube",
+    "Blender navigation gizmo",
+    "3D view orientation cube",
+    "camera orientation widget"
+  ],
+  "visual_references": [
+    {
+      "name": "AutoCAD",
+      "purpose": "interactive ViewCube camera orientation widget in viewport corner",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Blender",
+      "purpose": "3D viewport orientation gizmo overlay with axis navigation",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00024"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Headless 3D math integration (pure UI triggering orientation callbacks)",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/ViewportNavigationGizmo.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "fable-architecture-v2.zip",
+    "original_paths": [
+      "src/renderer/src/components/cad/CadViewCube.tsx",
+      "src/renderer/src/components/cad/CadNavigationGizmo.tsx"
+    ],
+    "neutralization_summary": "Extracted lightweight UI orientation gizmo overlay, decoupled from Three.js scene graph direct mutation."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mc-desk-shell-00032",
+  "name": "dynamic-island-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Floating or bezel-flush dynamic island HUD shell with concave fillet notch ears and smooth morphing between idle pill, compact activity, and expanded card states.",
+  "capabilities": [
+    "flush-notch-attachment",
+    "floating-island-placement",
+    "concave-notch-ear-fillets",
+    "morphing-geometry-transitions",
+    "stateful-idle-compact-expanded-modes"
+  ],
+  "keywords": [
+    "dynamic island",
+    "notch HUD",
+    "macOS notch",
+    "morphing pill",
+    "activity indicator",
+    "status bar pill",
+    "floating HUD"
+  ],
+  "aliases": [
+    "Apple Dynamic Island",
+    "macOS Notch HUD shell",
+    "floating dynamic pill"
+  ],
+  "visual_references": [
+    {
+      "name": "Apple Dynamic Island",
+      "purpose": "smooth morphing pill between compact activity badge and expanded card",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "macOS Notch HUD",
+      "purpose": "bezel-flush top screen attachment with concave inverted fillet ears",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00028"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded device logos or application-specific transfer logic",
+    "Flexible container slots for idle, compact, and expanded views"
+  ],
+  "entry_points": [
+    "source/DynamicIslandShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "airlink.zip",
+    "original_paths": [
+      "src/index.html",
+      "src/style.css"
+    ],
+    "neutralization_summary": "Extracted top-bezel flush Dynamic Island HUD shell with concave fillet ears and multi-state geometry morphing. Removed AirLink file transfer and pairing logic in favor of generic slots."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "mc-mob-shell-00019",
+  "name": "map-bottom-sheet-shell",
+  "type": "layout",
+  "platform": "mobile",
+  "frameworks": ["React Native", "Expo"],
+  "description": "Full-bleed background map viewport shell with floating navigation bar, action controls, and 60fps gesture-tracking native bottom sheet with empty content container.",
+  "capabilities": [
+    "gesture-tracking-bottom-sheet",
+    "map-viewport-underlay",
+    "collapsible-snap-points",
+    "floating-top-bar",
+    "floating-action-slot",
+    "empty-content-container",
+    "haptic-feedback"
+  ],
+  "keywords": [
+    "map sheet",
+    "bottom sheet layout",
+    "ride sharing shell",
+    "Uber-style layout",
+    "delivery app shell",
+    "react native map screen"
+  ],
+  "aliases": [
+    "Uber-style map screen",
+    "Lyft-style bottom sheet layout",
+    "map bottom drawer shell",
+    "delivery tracking layout"
+  ],
+  "visual_references": [
+    {
+      "name": "Uber",
+      "purpose": "map screen with draggable ride booking bottom sheet",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Lyft",
+      "purpose": "interactive map with expandable destination drawer",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "DoorDash",
+      "purpose": "live delivery tracking map with bottom order status card",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-nav-00020",
+    "mc-lib-mob-00023"
+  ],
+  "dependencies": [
+    "@expo/vector-icons",
+    "expo-haptics",
+    "react",
+    "react-native",
+    "react-native-safe-area-context"
+  ],
+  "design_constraints": [
+    "No hardcoded map coordinates or proprietary vehicle icons",
+    "Empty content area by default",
+    "Neutral design tokens"
+  ],
+  "entry_points": [
+    "source/MapBottomSheetShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "nomo-rider-mobile.zip",
+    "original_paths": [
+      "src/components/MapScreen.tsx",
+      "src/components/Sheet.tsx"
+    ],
+    "neutralization_summary": "Extracted high-performance map underlay and bottom sheet shell. Removed specific ride-booking state, live vehicle simulations, and branding."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mc-desk-nav-00005",
+  "name": "desktop-tab-strip",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Standalone desktop tab bar with pinned tab support, close triggers, loading state indicators, and new tab action button.",
+  "capabilities": [
+    "closable-tabs",
+    "pinned-tabs",
+    "loading-indicators",
+    "new-tab-trigger",
+    "overflow-horizontal-scroll"
+  ],
+  "keywords": [
+    "tab strip",
+    "tab bar",
+    "browser tabs",
+    "desktop navigation",
+    "editor tabs"
+  ],
+  "aliases": [
+    "Chrome tabs",
+    "VS Code editor tabs",
+    "horizontal tab bar",
+    "workspace tab strip"
+  ],
+  "visual_references": [
+    {
+      "name": "Chrome",
+      "purpose": "browser tab strip with pinned and active tab styling",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "VS Code",
+      "purpose": "editor tab bar with close icons and active indicators",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00002"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/TabStrip.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "claude-bot.zip",
+    "original_paths": [
+      "src/renderer/src/features/browser/tab-strip.tsx"
+    ],
+    "neutralization_summary": "Extracted tab strip component, removed multi-session profile state and context menu actions, standardized tab item interface."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mc-desk-nav-00006",
+  "name": "omnibox-toolbar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Desktop browser address bar and navigation toolbar featuring history back/forward buttons, refresh/stop actions, and security-aware URL input.",
+  "capabilities": [
+    "browser-history-buttons",
+    "reload-stop-actions",
+    "omnibox-input",
+    "security-protocol-badge",
+    "custom-actions-slot"
+  ],
+  "keywords": [
+    "omnibox",
+    "address bar",
+    "browser toolbar",
+    "URL input",
+    "navigation controls"
+  ],
+  "aliases": [
+    "Chrome address bar",
+    "browser navigation bar",
+    "URL toolbar"
+  ],
+  "visual_references": [
+    {
+      "name": "Chrome",
+      "purpose": "address bar and browser navigation controls",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00002",
+    "mc-desk-nav-00005"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced search engine brand",
+    "Neutral theme tokens",
+    "No hardcoded bookmarks or profile data"
+  ],
+  "entry_points": [
+    "source/OmniboxToolbar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "claude-bot.zip",
+    "original_paths": [
+      "src/renderer/src/features/browser/toolbar.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone omnibox toolbar from claude-bot browser features. Removed profile dropdown and hardcoded download managers."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

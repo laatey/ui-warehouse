@@ -1,0 +1,69 @@
+{
+  "id": "mc-sh-prim-00056",
+  "name": "stat-tile",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Metric tile with label, value, change indicator (direction and sentiment are independent), caption, loading skeleton, optional sparkline slot, and optional click behavior. Props only, no sample numbers.",
+  "capabilities": [
+    "delta-indicator",
+    "direction-vs-sentiment",
+    "loading-skeleton",
+    "sparkline-slot",
+    "clickable-variant",
+    "screen-reader-delta-text"
+  ],
+  "keywords": [
+    "stat card",
+    "kpi tile",
+    "metric card",
+    "dashboard stat",
+    "number card"
+  ],
+  "aliases": [
+    "KPI card",
+    "metric tile",
+    "summary stat",
+    "dashboard number"
+  ],
+  "visual_references": [
+    {
+      "name": "Stripe Dashboard",
+      "purpose": "KPI tile with change delta",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Linear Insights",
+      "purpose": "compact metric with caption",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00055",
+    "mc-web-page-00008"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default",
+    "Delta colors overridable via sentimentClassNames"
+  ],
+  "entry_points": [
+    "source/StatTile.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/StatTile.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "mc-sh-prim-00054",
+  "name": "form-wizard-shell",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Multi-step form shell with a numbered progress stepper, empty per-step content slot, Back/Next/Submit footer, gated progression, and optional jump-back to completed steps.",
+  "capabilities": [
+    "step-progress-indicator",
+    "controlled-or-uncontrolled-step",
+    "gated-next-button",
+    "submit-on-last-step",
+    "jump-back-navigation",
+    "aria-current-step",
+    "empty-step-content-slot"
+  ],
+  "keywords": [
+    "wizard",
+    "multi-step form",
+    "stepper",
+    "onboarding flow",
+    "checkout steps",
+    "progress steps"
+  ],
+  "aliases": [
+    "step form",
+    "onboarding wizard",
+    "form stepper",
+    "multi-page form"
+  ],
+  "visual_references": [
+    {
+      "name": "Stripe Checkout",
+      "purpose": "step progression with gated continue",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Typeform",
+      "purpose": "one-step-at-a-time form flow",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00053",
+    "mc-lib-web-00001",
+    "mc-sh-prim-00015"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default",
+    "No validation logic included; supply canProceed"
+  ],
+  "entry_points": [
+    "source/FormWizardShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/FormWizardShell.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

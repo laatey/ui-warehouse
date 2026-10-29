@@ -1,0 +1,71 @@
+{
+  "id": "mc-desk-shell-00033",
+  "name": "internal-tool-builder-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Multi-panel internal tool and low-code builder workspace layout with top mode switcher (Edit/Preview), collapsible entity explorer, canvas stage, right property inspector, and bottom console drawer.",
+  "capabilities": [
+    "edit-preview-mode-switching",
+    "collapsible-entity-explorer-sidebar",
+    "collapsible-property-inspector",
+    "collapsible-bottom-drawer",
+    "canvas-gridlines-background",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "app builder",
+    "internal tools layout",
+    "admin builder shell",
+    "low code editor",
+    "property inspector shell",
+    "multi panel workspace",
+    "retool layout"
+  ],
+  "aliases": [
+    "Appsmith workspace shell",
+    "Retool builder layout",
+    "low-code builder shell"
+  ],
+  "visual_references": [
+    {
+      "name": "Appsmith",
+      "purpose": "internal tool editor with entity sidebar, canvas stage, and property inspector",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Retool",
+      "purpose": "builder layout with collapsible component inspector and query console drawer",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-layout-00004",
+    "mc-desk-shell-00024"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded Appsmith widgets, DSL state, or backend queries",
+    "Empty canvas stage by default"
+  ],
+  "entry_points": [
+    "source/InternalToolBuilderShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "appsmith",
+    "original_paths": [
+      "app/client/src/IDE/Structure/Header.tsx",
+      "app/client/src/IDE/Components/BottomView.tsx",
+      "app/client/src/IDE/Components/SidePaneWrapper.tsx",
+      "app/client/src/pages/Editor/PropertyPane/PropertyPaneTab.tsx"
+    ],
+    "neutralization_summary": "Extracted multi-panel builder layout architecture from Appsmith IDE structure. Replaced Redux state, widget DSL, and proprietary styled-components with clean props and semantic tokens."
+  },
+  "license": "Apache-2.0",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

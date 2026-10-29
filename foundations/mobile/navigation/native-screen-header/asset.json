@@ -1,0 +1,61 @@
+{
+  "id": "mc-mob-nav-00021",
+  "name": "native-screen-header",
+  "type": "navigation",
+  "platform": "mobile",
+  "frameworks": ["React Native", "Expo"],
+  "description": "Standard mobile screen header bar with haptic back navigation action, title slot, and right-side action slot.",
+  "capabilities": [
+    "back-navigation-button",
+    "haptic-feedback",
+    "title-typography-customization",
+    "right-action-slot",
+    "accessible-touch-target"
+  ],
+  "keywords": [
+    "screen header",
+    "app bar",
+    "native navigation header",
+    "react native header",
+    "top bar"
+  ],
+  "aliases": [
+    "mobile app bar",
+    "stack screen header",
+    "React Native top header"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS Standard",
+      "purpose": "stack navigation screen header with chevron back button",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-page-00022",
+    "mc-mob-shell-00019"
+  ],
+  "dependencies": [
+    "@expo/vector-icons",
+    "expo-haptics",
+    "react",
+    "react-native"
+  ],
+  "design_constraints": [
+    "No hardcoded theme tokens (fully parameterized)",
+    "Neutral unbranded layout"
+  ],
+  "entry_points": [
+    "source/NativeScreenHeader.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "nomo-rider-mobile.zip",
+    "original_paths": [
+      "src/components/ScreenHeader.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone screen header, decoupled from proprietary theme and hardcoded navigation hooks, providing clean prop interface."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "mc-lib-mob-00023",
+  "name": "react-native-primitives",
+  "type": "library",
+  "platform": "mobile",
+  "frameworks": ["React Native", "Expo"],
+  "description": "Comprehensive suite of unbranded React Native and Expo UI primitives including 60fps gesture-driven bottom sheets, modal action sheets, haptic buttons, animated skeleton loaders, typography, and state placeholders.",
+  "capabilities": [
+    "native-gesture-bottom-sheet",
+    "modal-action-sheet",
+    "haptic-feedback-buttons",
+    "animated-skeleton-placeholders",
+    "empty-and-error-states",
+    "semantic-design-tokens",
+    "typography-components"
+  ],
+  "keywords": [
+    "react native primitives",
+    "expo ui kit",
+    "mobile component library",
+    "react native bottom sheet",
+    "action sheet",
+    "skeleton loader"
+  ],
+  "aliases": [
+    "React Native UI kit",
+    "Expo primitives",
+    "mobile component library"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS Standard",
+      "purpose": "tactile mobile button states, typography, and bottom sheet dialogs",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Uber",
+      "purpose": "smooth gesture-responsive bottom sheets and trip action cards",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00019",
+    "mc-mob-page-00022"
+  ],
+  "dependencies": [
+    "@expo/vector-icons",
+    "expo-haptics",
+    "react",
+    "react-native",
+    "react-native-safe-area-context"
+  ],
+  "design_constraints": [
+    "Zero application-specific branding",
+    "Platform-agnostic tokenized theme (iOS/Android)",
+    "60fps native-driver animations"
+  ],
+  "entry_points": [
+    "source/index.ts",
+    "source/Sheet.tsx",
+    "source/UI.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "nomo-rider-mobile.zip",
+    "original_paths": [
+      "src/components/Sheet.tsx",
+      "src/components/ActionSheet.tsx",
+      "src/components/UI.tsx",
+      "src/components/States.tsx",
+      "src/components/Skeleton.tsx",
+      "src/components/Text.tsx",
+      "src/theme/index.ts"
+    ],
+    "neutralization_summary": "Extracted foundational React Native primitives and design tokens. Removed proprietary font configurations, web-specific assets, and payment/ride branding."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

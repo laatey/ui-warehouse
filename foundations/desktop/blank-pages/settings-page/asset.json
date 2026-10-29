@@ -1,0 +1,71 @@
+{
+  "id": "mc-web-page-00009",
+  "name": "blank-settings-page",
+  "type": "foundation",
+  "platform": "web",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Two-column settings layout structure with category navigation sidebar on the left and empty section content container on the right.",
+  "capabilities": [
+    "two-column-settings-layout",
+    "category-navigation-tabs",
+    "section-description-header",
+    "empty-settings-container",
+    "responsive-stacking"
+  ],
+  "keywords": [
+    "settings layout",
+    "preferences page",
+    "configuration shell",
+    "account settings",
+    "options panel"
+  ],
+  "aliases": [
+    "settings layout",
+    "preferences shell",
+    "account settings page",
+    "two-column settings"
+  ],
+  "visual_references": [
+    {
+      "name": "Vercel",
+      "purpose": "project and team settings navigation layout",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "GitHub",
+      "purpose": "repository settings category sidebar and configuration body",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001",
+    "mc-lib-web-00001",
+    "mc-sh-prim-00053",
+    "mc-sh-prim-00058"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No pre-filled application settings or secrets",
+    "Neutral styling compatible with standard design tokens",
+    "Empty section content slots"
+  ],
+  "entry_points": [
+    "source/BlankSettingsPage.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/features/settings/settings-dialog.tsx",
+      "src/routes/settings.tsx"
+    ],
+    "neutralization_summary": "Extracted category sidebar and section content container. Removed AI model keys, billing details, and shortcut editor, providing an unbranded settings foundation."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

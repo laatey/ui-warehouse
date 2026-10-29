@@ -1,0 +1,67 @@
+{
+  "id": "mc-sh-prim-00043",
+  "name": "contact-detail-card",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Customer support and CRM contact profile card featuring avatar summary, one-click copyable contact attributes, collapsible custom key-value metadata list, and internal notes slot.",
+  "capabilities": [
+    "profile-summary-header",
+    "copyable-contact-attributes",
+    "collapsible-custom-attributes-list",
+    "internal-notes-slot"
+  ],
+  "keywords": [
+    "contact detail card",
+    "contact profile",
+    "chatwoot contact panel",
+    "customer metadata",
+    "user info card",
+    "crm contact card",
+    "support sidebar"
+  ],
+  "aliases": [
+    "Chatwoot ContactPanel",
+    "HubSpot contact sidebar",
+    "customer attribute card"
+  ],
+  "visual_references": [
+    {
+      "name": "Chatwoot",
+      "purpose": "contact panel with profile details, custom attributes, and notes",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "HubSpot",
+      "purpose": "contact sidebar widget with copyable fields and metadata",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00034",
+    "mc-desk-nav-00041"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded customer data or messaging backend couplings",
+    "Generic attribute array interface"
+  ],
+  "entry_points": [
+    "source/ContactDetailCard.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "chatwoot",
+    "original_paths": [
+      "app/javascript/dashboard/routes/dashboard/conversation/ContactPanel.vue",
+      "app/javascript/dashboard/components/CustomAttribute.vue"
+    ],
+    "neutralization_summary": "Extracted contact details and metadata card from Chatwoot ContactPanel architecture. Replaced Vuex state and helper mixins with clean React props and semantic CSS tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

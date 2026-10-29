@@ -1,0 +1,67 @@
+{
+  "id": "mc-sh-prim-00042",
+  "name": "message-thread",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Conversation message stream primitive featuring inbound and outbound message bubbles, delivery status checkmarks (sent, delivered, read), system activity pills, and bouncing typing indicators.",
+  "capabilities": [
+    "inbound-and-outbound-message-bubbles",
+    "delivery-status-checkmarks",
+    "system-event-dividers",
+    "bouncing-typing-indicator",
+    "auto-scroll-to-bottom"
+  ],
+  "keywords": [
+    "message thread",
+    "chat bubbles",
+    "chatwoot messages",
+    "conversation stream",
+    "chat view",
+    "read receipts",
+    "typing indicator"
+  ],
+  "aliases": [
+    "Chatwoot MessagesView",
+    "WhatsApp bubble stream",
+    "chat message timeline"
+  ],
+  "visual_references": [
+    {
+      "name": "Chatwoot",
+      "purpose": "chat conversation view with inbound/outbound bubbles and delivery status",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "WhatsApp",
+      "purpose": "modern message bubble feed with read receipts and typing animations",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00034",
+    "mc-sh-prim-00030"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded customer data or messaging backend couplings",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/MessageThread.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "chatwoot",
+    "original_paths": [
+      "app/javascript/dashboard/components/widgets/conversation/MessagesView.vue"
+    ],
+    "neutralization_summary": "Extracted message stream and bubble layout from Chatwoot MessagesView. Replaced Vuex state and helper functions with clean React props and semantic CSS tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "mc-lib-web-00001",
+  "name": "shadcn-ui-react",
+  "type": "library",
+  "platform": "web",
+  "frameworks": ["React"],
+  "description": "Complete collection of 46 unstyled, accessible UI primitives based on Radix UI and Tailwind CSS with components.json configuration and neutral CSS tokens.",
+  "capabilities": [
+    "46-accessible-primitives",
+    "radix-ui-foundations",
+    "headless-keyboard-navigation",
+    "aria-compliant",
+    "theme-token-neutrality",
+    "components-json-compatible"
+  ],
+  "keywords": [
+    "shadcn",
+    "component library",
+    "radix ui",
+    "tailwind components",
+    "react primitives",
+    "ui kit"
+  ],
+  "aliases": [
+    "shadcn library",
+    "shadcn/ui",
+    "Radix React components",
+    "neutral web component kit"
+  ],
+  "visual_references": [
+    {
+      "name": "shadcn/ui",
+      "purpose": "reusable component primitives and configuration",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001",
+    "mc-web-shell-00012",
+    "mc-sh-util-00018"
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "@radix-ui/react-alert-dialog",
+    "@radix-ui/react-aspect-ratio",
+    "@radix-ui/react-avatar",
+    "@radix-ui/react-checkbox",
+    "@radix-ui/react-collapsible",
+    "@radix-ui/react-context-menu",
+    "@radix-ui/react-dialog",
+    "@radix-ui/react-dropdown-menu",
+    "@radix-ui/react-hover-card",
+    "@radix-ui/react-label",
+    "@radix-ui/react-menubar",
+    "@radix-ui/react-navigation-menu",
+    "@radix-ui/react-popover",
+    "@radix-ui/react-progress",
+    "@radix-ui/react-radio-group",
+    "@radix-ui/react-scroll-area",
+    "@radix-ui/react-select",
+    "@radix-ui/react-separator",
+    "@radix-ui/react-slider",
+    "@radix-ui/react-slot",
+    "@radix-ui/react-switch",
+    "@radix-ui/react-tabs",
+    "@radix-ui/react-toggle",
+    "@radix-ui/react-toggle-group",
+    "@radix-ui/react-tooltip",
+    "class-variance-authority",
+    "clsx",
+    "cmdk",
+    "embla-carousel-react",
+    "input-otp",
+    "lucide-react",
+    "react",
+    "react-day-picker",
+    "react-dom",
+    "react-hook-form",
+    "react-resizable-panels",
+    "recharts",
+    "sonner",
+    "tailwind-merge",
+    "vaul"
+  ],
+  "design_constraints": [
+    "Neutral CSS variables, no hardcoded colors",
+    "Strictly accessible ARIA primitives"
+  ],
+  "entry_points": [
+    "source/index.ts",
+    "source/components/button.tsx",
+    "source/components/dialog.tsx",
+    "source/components/sidebar.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/ui/*",
+      "src/lib/utils.ts",
+      "src/hooks/use-mobile.tsx"
+    ],
+    "neutralization_summary": "Extracted 46 core shadcn/ui components, isolated utilities and responsive hooks, provided standard theme.css tokens and components.json."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

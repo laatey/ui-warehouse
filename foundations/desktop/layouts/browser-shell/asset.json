@@ -1,0 +1,72 @@
+{
+  "id": "mc-desk-shell-00002",
+  "name": "browser-shell",
+  "type": "foundation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Multi-tab desktop browser application shell featuring top tab strip, navigation omnibox toolbar with address input, and empty webview viewport container.",
+  "capabilities": [
+    "multi-tab-strip",
+    "pinned-tabs",
+    "omnibox-address-bar",
+    "browser-navigation-controls",
+    "empty-viewport-container"
+  ],
+  "keywords": [
+    "browser shell",
+    "tab strip",
+    "address bar",
+    "omnibox",
+    "desktop application",
+    "electron shell"
+  ],
+  "aliases": [
+    "Chrome-inspired shell",
+    "Arc-style browser layout",
+    "tabbed desktop workspace",
+    "browser window layout"
+  ],
+  "visual_references": [
+    {
+      "name": "Chrome",
+      "purpose": "browser shell, tab strip, address bar, navigation controls",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Arc",
+      "purpose": "isolated multi-session tab management and navigation structure",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00005",
+    "mc-desk-nav-00006",
+    "mc-lib-desk-00002"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "No application-specific content",
+    "Empty viewport container by default",
+    "Neutral structural styling"
+  ],
+  "entry_points": [
+    "source/BrowserShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "claude-bot.zip",
+    "original_paths": [
+      "src/renderer/src/features/browser/tab-strip.tsx",
+      "src/renderer/src/features/browser/toolbar.tsx",
+      "src/renderer/src/features/browser/tab-view.tsx"
+    ],
+    "neutralization_summary": "Extracted tab strip and omnibox navigation toolbar into a generic browser shell, removed specific profile icons and hardcoded search engines, provided clean prop interfaces."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

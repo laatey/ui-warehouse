@@ -1,0 +1,5111 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-29T10:15:08.428Z",
+  "total_assets": 62,
+  "assets": [
+    {
+      "id": "mc-desk-nav-00005",
+      "name": "desktop-tab-strip",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Standalone desktop tab bar with pinned tab support, close triggers, loading state indicators, and new tab action button.",
+      "capabilities": [
+        "closable-tabs",
+        "pinned-tabs",
+        "loading-indicators",
+        "new-tab-trigger",
+        "overflow-horizontal-scroll"
+      ],
+      "keywords": [
+        "tab strip",
+        "tab bar",
+        "browser tabs",
+        "desktop navigation",
+        "editor tabs"
+      ],
+      "aliases": [
+        "Chrome tabs",
+        "VS Code editor tabs",
+        "horizontal tab bar",
+        "workspace tab strip"
+      ],
+      "visual_references": [
+        {
+          "name": "Chrome",
+          "purpose": "browser tab strip with pinned and active tab styling",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "VS Code",
+          "purpose": "editor tab bar with close icons and active indicators",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00002"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/tab-strip/source/TabStrip.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/tab-strip",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00005",
+        "desktop-tab-strip",
+        "tab strip",
+        "tab bar",
+        "browser tabs",
+        "desktop navigation",
+        "editor tabs",
+        "chrome tabs",
+        "vs code editor tabs",
+        "horizontal tab bar",
+        "workspace tab strip",
+        "chrome",
+        "vs code",
+        "closable-tabs",
+        "pinned-tabs",
+        "loading-indicators",
+        "new-tab-trigger",
+        "overflow-horizontal-scroll"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00006",
+      "name": "omnibox-toolbar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Desktop browser address bar and navigation toolbar featuring history back/forward buttons, refresh/stop actions, and security-aware URL input.",
+      "capabilities": [
+        "browser-history-buttons",
+        "reload-stop-actions",
+        "omnibox-input",
+        "security-protocol-badge",
+        "custom-actions-slot"
+      ],
+      "keywords": [
+        "omnibox",
+        "address bar",
+        "browser toolbar",
+        "URL input",
+        "navigation controls"
+      ],
+      "aliases": [
+        "Chrome address bar",
+        "browser navigation bar",
+        "URL toolbar"
+      ],
+      "visual_references": [
+        {
+          "name": "Chrome",
+          "purpose": "address bar and browser navigation controls",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00002",
+        "mc-desk-nav-00005"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced search engine brand",
+        "Neutral theme tokens",
+        "No hardcoded bookmarks or profile data"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/omnibox-toolbar/source/OmniboxToolbar.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/omnibox-toolbar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00006",
+        "omnibox-toolbar",
+        "omnibox",
+        "address bar",
+        "browser toolbar",
+        "url input",
+        "navigation controls",
+        "chrome address bar",
+        "browser navigation bar",
+        "url toolbar",
+        "chrome",
+        "browser-history-buttons",
+        "reload-stop-actions",
+        "omnibox-input",
+        "security-protocol-badge",
+        "custom-actions-slot"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00025",
+      "name": "ribbon-bar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Desktop Office and CAD style ribbon toolbar with multi-tab categorization, tool grouping, large and compact tool buttons, and collapsible mode.",
+      "capabilities": [
+        "multi-tab-categories",
+        "tool-grouping-with-labels",
+        "large-and-compact-tool-items",
+        "collapsible-ribbon-bar",
+        "keyboard-shortcut-tooltips"
+      ],
+      "keywords": [
+        "ribbon bar",
+        "office ribbon",
+        "CAD toolbar",
+        "desktop ribbon",
+        "tool palette",
+        "grouped navigation"
+      ],
+      "aliases": [
+        "Microsoft Office ribbon",
+        "AutoCAD ribbon bar",
+        "desktop tool ribbon"
+      ],
+      "visual_references": [
+        {
+          "name": "Microsoft Office",
+          "purpose": "ribbon tabs and categorized tool groups with labels",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "AutoCAD",
+          "purpose": "grouped action ribbon with stacked tool buttons",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00024"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded tool icons or architecture-specific names",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/ribbon-bar/source/RibbonBar.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/ribbon-bar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00025",
+        "ribbon-bar",
+        "ribbon bar",
+        "office ribbon",
+        "cad toolbar",
+        "desktop ribbon",
+        "tool palette",
+        "grouped navigation",
+        "microsoft office ribbon",
+        "autocad ribbon bar",
+        "desktop tool ribbon",
+        "microsoft office",
+        "autocad",
+        "multi-tab-categories",
+        "tool-grouping-with-labels",
+        "large-and-compact-tool-items",
+        "collapsible-ribbon-bar",
+        "keyboard-shortcut-tooltips"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00026",
+      "name": "command-prompt-bar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Desktop application command prompt bar featuring command history cycling with up/down arrows, autocomplete suggestions popover, and terminal-style prompt execution.",
+      "capabilities": [
+        "command-input-execution",
+        "history-up-down-cycling",
+        "autocomplete-suggestions-popover",
+        "terminal-prompt-styling",
+        "monospace-typography"
+      ],
+      "keywords": [
+        "command prompt",
+        "command line",
+        "CAD command bar",
+        "CLI bar",
+        "terminal input",
+        "operator bar"
+      ],
+      "aliases": [
+        "AutoCAD command line",
+        "Blender operator input",
+        "desktop command bar"
+      ],
+      "visual_references": [
+        {
+          "name": "AutoCAD",
+          "purpose": "docked bottom command prompt bar with command history and suggestions",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Blender",
+          "purpose": "operator search and execution prompt bar",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00024"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Neutral styling compatible with standard design tokens",
+        "Pure UI component with callback execution"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/command-prompt-bar/source/CommandPromptBar.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/command-prompt-bar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00026",
+        "command-prompt-bar",
+        "command prompt",
+        "command line",
+        "cad command bar",
+        "cli bar",
+        "terminal input",
+        "operator bar",
+        "autocad command line",
+        "blender operator input",
+        "desktop command bar",
+        "autocad",
+        "blender",
+        "command-input-execution",
+        "history-up-down-cycling",
+        "autocomplete-suggestions-popover",
+        "terminal-prompt-styling",
+        "monospace-typography"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00027",
+      "name": "viewport-navigation-gizmo",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "3D viewport navigation gizmo / viewcube overlay providing cardinal face view selection (Top, Front, Right, Isometric), home reset, and perspective/orthographic camera projection toggling.",
+      "capabilities": [
+        "cardinal-direction-navigation",
+        "isometric-corner-triggers",
+        "home-view-reset-action",
+        "perspective-orthographic-toggle",
+        "floating-viewport-overlay"
+      ],
+      "keywords": [
+        "viewcube",
+        "navigation gizmo",
+        "3D viewport navigation",
+        "camera orientation gizmo",
+        "CAD orientation cube",
+        "orientation widget"
+      ],
+      "aliases": [
+        "AutoCAD ViewCube",
+        "Blender navigation gizmo",
+        "3D view orientation cube",
+        "camera orientation widget"
+      ],
+      "visual_references": [
+        {
+          "name": "AutoCAD",
+          "purpose": "interactive ViewCube camera orientation widget in viewport corner",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Blender",
+          "purpose": "3D viewport orientation gizmo overlay with axis navigation",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00024"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Headless 3D math integration (pure UI triggering orientation callbacks)",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/viewport-navigation-gizmo/source/ViewportNavigationGizmo.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/viewport-navigation-gizmo",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00027",
+        "viewport-navigation-gizmo",
+        "viewcube",
+        "navigation gizmo",
+        "3d viewport navigation",
+        "camera orientation gizmo",
+        "cad orientation cube",
+        "orientation widget",
+        "autocad viewcube",
+        "blender navigation gizmo",
+        "3d view orientation cube",
+        "camera orientation widget",
+        "autocad",
+        "blender",
+        "cardinal-direction-navigation",
+        "isometric-corner-triggers",
+        "home-view-reset-action",
+        "perspective-orthographic-toggle",
+        "floating-viewport-overlay"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00028",
+      "name": "status-bar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Desktop application and editor bottom status bar with position coordinates, grid and snap toggles, unit indicators, and zoom controls.",
+      "capabilities": [
+        "coordinate-readout",
+        "status-toggle-buttons",
+        "zoom-level-indicator",
+        "units-indicator",
+        "compact-desktop-footer"
+      ],
+      "keywords": [
+        "status bar",
+        "desktop status bar",
+        "IDE status bar",
+        "CAD status bar",
+        "bottom status footer"
+      ],
+      "aliases": [
+        "VS Code status bar",
+        "AutoCAD status bar",
+        "editor footer bar"
+      ],
+      "visual_references": [
+        {
+          "name": "VS Code",
+          "purpose": "bottom application status bar with mode toggles and info indicators",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "AutoCAD",
+          "purpose": "coordinate readout, snap, and ortho toggles in bottom status bar",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00024"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Neutral styling compatible with standard design tokens",
+        "Strictly unbranded"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/status-bar/source/StatusBar.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/status-bar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00028",
+        "status-bar",
+        "status bar",
+        "desktop status bar",
+        "ide status bar",
+        "cad status bar",
+        "bottom status footer",
+        "vs code status bar",
+        "autocad status bar",
+        "editor footer bar",
+        "vs code",
+        "autocad",
+        "coordinate-readout",
+        "status-toggle-buttons",
+        "zoom-level-indicator",
+        "units-indicator",
+        "compact-desktop-footer"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00029",
+      "name": "file-tree",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Hierarchical file and directory tree navigation with expandable folders, active file selection, inline search filter, and file type icons.",
+      "capabilities": [
+        "hierarchical-folder-expansion",
+        "search-filter-filtering",
+        "active-path-selection",
+        "file-extension-icon-mapping",
+        "custom-filter-placeholder"
+      ],
+      "keywords": [
+        "file tree",
+        "directory tree",
+        "explorer tree",
+        "project tree",
+        "folder navigator",
+        "VS code explorer"
+      ],
+      "aliases": [
+        "VS Code file tree",
+        "GitHub repo explorer",
+        "directory tree navigator"
+      ],
+      "visual_references": [
+        {
+          "name": "VS Code",
+          "purpose": "left sidebar file explorer with hierarchical indentation and active item highlight",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "GitHub",
+          "purpose": "repository file browser tree view",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-nav-00007"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded file systems or project paths",
+        "Generic recursive node model with customizable active state"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/file-tree/source/FileTree.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/file-tree",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00029",
+        "file-tree",
+        "file tree",
+        "directory tree",
+        "explorer tree",
+        "project tree",
+        "folder navigator",
+        "vs code explorer",
+        "vs code file tree",
+        "github repo explorer",
+        "directory tree navigator",
+        "vs code",
+        "github",
+        "hierarchical-folder-expansion",
+        "search-filter-filtering",
+        "active-path-selection",
+        "file-extension-icon-mapping",
+        "custom-filter-placeholder"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00039",
+      "name": "widget-palette-grid",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Categorized widget and component palette grid featuring search filtering, draggable component cards, category grouping, and click-to-insert triggers.",
+      "capabilities": [
+        "categorized-component-cards",
+        "realtime-search-filtering",
+        "html5-drag-and-drop-support",
+        "customizable-grid-columns"
+      ],
+      "keywords": [
+        "widget palette",
+        "component grid",
+        "appsmith widgets",
+        "draggable components",
+        "builder palette",
+        "component picker",
+        "low code palette"
+      ],
+      "aliases": [
+        "Appsmith Widget Palette",
+        "Retool component drawer",
+        "visual builder palette"
+      ],
+      "visual_references": [
+        {
+          "name": "Appsmith",
+          "purpose": "widget palette grid with categorized cards for Inputs, Display, and Buttons",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Retool",
+          "purpose": "component palette drawer with search input and draggable component tiles",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00033",
+        "mc-sh-prim-00038"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded Appsmith proprietary widget DSL types",
+        "Generic item and category interface"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/widget-palette-grid/source/WidgetPaletteGrid.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/widget-palette-grid",
+      "license": "Apache-2.0",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00039",
+        "widget-palette-grid",
+        "widget palette",
+        "component grid",
+        "appsmith widgets",
+        "draggable components",
+        "builder palette",
+        "component picker",
+        "low code palette",
+        "appsmith widget palette",
+        "retool component drawer",
+        "visual builder palette",
+        "appsmith",
+        "retool",
+        "categorized-component-cards",
+        "realtime-search-filtering",
+        "html5-drag-and-drop-support",
+        "customizable-grid-columns"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00041",
+      "name": "inbox-conversation-list",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Shared support inbox conversation list feed featuring search filtering, status tabs (Open, Pending, Resolved), unread counter badges, channel tags, priority badges, and active conversation selection.",
+      "capabilities": [
+        "status-segmented-tabs",
+        "realtime-search-filtering",
+        "unread-badge-counters",
+        "channel-and-priority-indicators",
+        "active-conversation-selection"
+      ],
+      "keywords": [
+        "conversation list",
+        "chatwoot inbox list",
+        "support ticket list",
+        "message feed",
+        "inbox card list",
+        "unread badges",
+        "status filtering"
+      ],
+      "aliases": [
+        "Chatwoot ConversationCard list",
+        "Intercom conversation feed",
+        "Zendesk ticket queue list"
+      ],
+      "visual_references": [
+        {
+          "name": "Chatwoot",
+          "purpose": "conversation list feed with status tabs, unread badges, and last message previews",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Intercom",
+          "purpose": "team inbox conversation column with priority tags and assignee indicators",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00034"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded customer data or messaging backend couplings",
+        "Clean item array interface with customizable callbacks"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/inbox-conversation-list/source/InboxConversationList.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/inbox-conversation-list",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00041",
+        "inbox-conversation-list",
+        "conversation list",
+        "chatwoot inbox list",
+        "support ticket list",
+        "message feed",
+        "inbox card list",
+        "unread badges",
+        "status filtering",
+        "chatwoot conversationcard list",
+        "intercom conversation feed",
+        "zendesk ticket queue list",
+        "chatwoot",
+        "intercom",
+        "status-segmented-tabs",
+        "realtime-search-filtering",
+        "unread-badge-counters",
+        "channel-and-priority-indicators",
+        "active-conversation-selection"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00047",
+      "name": "view-switcher-bar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Horizontal productivity view switcher bar providing segmented layout toggles (list, kanban board, calendar, gantt, spreadsheet) alongside title indicators and secondary filter/action slots.",
+      "capabilities": [
+        "segmented-layout-toggle",
+        "view-mode-radiogroup",
+        "title-and-badge",
+        "filter-trigger-slot",
+        "action-button-slot"
+      ],
+      "keywords": [
+        "view switcher",
+        "layout switcher",
+        "board toggle",
+        "list switcher",
+        "project views",
+        "segmented control"
+      ],
+      "aliases": [
+        "Plane layout switcher",
+        "Linear view toggle",
+        "Jira view switcher",
+        "ClickUp layout bar"
+      ],
+      "visual_references": [
+        {
+          "name": "Plane",
+          "purpose": "segmented layout switcher bar for switching between list, kanban, and gantt",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00048",
+        "mc-sh-prim-00049"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Accessible radiogroup role",
+        "Flexible view definitions"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/view-switcher-bar/source/ViewSwitcherBar.tsx",
+        "foundations/desktop/navigation/view-switcher-bar/source/types.ts"
+      ],
+      "storage_path": "foundations/desktop/navigation/view-switcher-bar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00047",
+        "view-switcher-bar",
+        "view switcher",
+        "layout switcher",
+        "board toggle",
+        "list switcher",
+        "project views",
+        "segmented control",
+        "plane layout switcher",
+        "linear view toggle",
+        "jira view switcher",
+        "clickup layout bar",
+        "plane",
+        "segmented-layout-toggle",
+        "view-mode-radiogroup",
+        "title-and-badge",
+        "filter-trigger-slot",
+        "action-button-slot"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00050",
+      "name": "schema-table-sidebar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Database schema and table navigation sidebar supporting schema selector dropdown, real-time table search filtering, entity status icons (tables, views, RLS locks), row count badges, and new-table triggers.",
+      "capabilities": [
+        "schema-picker-dropdown",
+        "table-filter-search",
+        "entity-status-badges",
+        "row-count-indicators",
+        "create-table-action"
+      ],
+      "keywords": [
+        "database sidebar",
+        "schema navigation",
+        "table list",
+        "database tables",
+        "studio navigation"
+      ],
+      "aliases": [
+        "Supabase table editor menu",
+        "Postgres studio sidebar",
+        "Prisma studio sidebar"
+      ],
+      "visual_references": [
+        {
+          "name": "Supabase Studio",
+          "purpose": "schema picker dropdown and table list sidebar with RLS badges and row counts",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00051",
+        "mc-sh-prim-00052"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Semantic navigation markup",
+        "Empty container slot for tree extensions"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/schema-table-sidebar/source/SchemaTableSidebar.tsx",
+        "foundations/desktop/navigation/schema-table-sidebar/source/types.ts"
+      ],
+      "storage_path": "foundations/desktop/navigation/schema-table-sidebar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00050",
+        "schema-table-sidebar",
+        "database sidebar",
+        "schema navigation",
+        "table list",
+        "database tables",
+        "studio navigation",
+        "supabase table editor menu",
+        "postgres studio sidebar",
+        "prisma studio sidebar",
+        "supabase studio",
+        "schema-picker-dropdown",
+        "table-filter-search",
+        "entity-status-badges",
+        "row-count-indicators",
+        "create-table-action"
+      ]
+    },
+    {
+      "id": "mc-desk-nav-00051",
+      "name": "data-grid-toolbar",
+      "type": "navigation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Database and table data grid action toolbar featuring schema breadcrumbs, active filter/sort counter triggers, role view indicators, row insertion actions, and export menus.",
+      "capabilities": [
+        "schema-table-breadcrumb",
+        "filter-counter-trigger",
+        "sort-counter-trigger",
+        "insert-row-action",
+        "export-dropdown-menu",
+        "grid-refresh-control"
+      ],
+      "keywords": [
+        "data grid toolbar",
+        "table toolbar",
+        "database toolbar",
+        "studio actions",
+        "filter sort bar"
+      ],
+      "aliases": [
+        "Supabase grid header actions",
+        "Postgres grid toolbar",
+        "Airtable table header"
+      ],
+      "visual_references": [
+        {
+          "name": "Supabase Studio",
+          "purpose": "table grid header toolbar with filter and sort badges and insert row button",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00050",
+        "mc-sh-prim-00052"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Accessible toolbar role",
+        "Empty container slot for custom actions"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/data-grid-toolbar/source/DataGridToolbar.tsx",
+        "foundations/desktop/navigation/data-grid-toolbar/source/types.ts"
+      ],
+      "storage_path": "foundations/desktop/navigation/data-grid-toolbar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-nav-00051",
+        "data-grid-toolbar",
+        "data grid toolbar",
+        "table toolbar",
+        "database toolbar",
+        "studio actions",
+        "filter sort bar",
+        "supabase grid header actions",
+        "postgres grid toolbar",
+        "airtable table header",
+        "supabase studio",
+        "schema-table-breadcrumb",
+        "filter-counter-trigger",
+        "sort-counter-trigger",
+        "insert-row-action",
+        "export-dropdown-menu",
+        "grid-refresh-control"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00002",
+      "name": "browser-shell",
+      "type": "foundation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-tab desktop browser application shell featuring top tab strip, navigation omnibox toolbar with address input, and empty webview viewport container.",
+      "capabilities": [
+        "multi-tab-strip",
+        "pinned-tabs",
+        "omnibox-address-bar",
+        "browser-navigation-controls",
+        "empty-viewport-container"
+      ],
+      "keywords": [
+        "browser shell",
+        "tab strip",
+        "address bar",
+        "omnibox",
+        "desktop application",
+        "electron shell"
+      ],
+      "aliases": [
+        "Chrome-inspired shell",
+        "Arc-style browser layout",
+        "tabbed desktop workspace",
+        "browser window layout"
+      ],
+      "visual_references": [
+        {
+          "name": "Chrome",
+          "purpose": "browser shell, tab strip, address bar, navigation controls",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Arc",
+          "purpose": "isolated multi-session tab management and navigation structure",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00005",
+        "mc-desk-nav-00006",
+        "mc-lib-desk-00002"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "No application-specific content",
+        "Empty viewport container by default",
+        "Neutral structural styling"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/browser-shell/source/BrowserShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/browser-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00002",
+        "browser-shell",
+        "browser shell",
+        "tab strip",
+        "address bar",
+        "omnibox",
+        "desktop application",
+        "electron shell",
+        "chrome-inspired shell",
+        "arc-style browser layout",
+        "tabbed desktop workspace",
+        "browser window layout",
+        "chrome",
+        "arc",
+        "multi-tab-strip",
+        "pinned-tabs",
+        "omnibox-address-bar",
+        "browser-navigation-controls",
+        "empty-viewport-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00024",
+      "name": "cad-ribbon-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Desktop CAD and 3D modeling workspace shell featuring ribbon toolbar, document tabs, floating viewport orientation gizmo, command prompt bar, and status bar.",
+      "capabilities": [
+        "ribbon-toolbar-integration",
+        "multi-document-tabs",
+        "empty-viewport-canvas",
+        "floating-viewport-gizmo",
+        "docked-command-line",
+        "inspector-side-panel",
+        "desktop-status-bar"
+      ],
+      "keywords": [
+        "CAD layout",
+        "ribbon shell",
+        "AutoCAD layout",
+        "Revit workspace",
+        "3D editor shell",
+        "Blender viewport layout",
+        "desktop engineering UI"
+      ],
+      "aliases": [
+        "AutoCAD-style layout",
+        "Revit ribbon shell",
+        "3D modeling workspace",
+        "desktop ribbon application"
+      ],
+      "visual_references": [
+        {
+          "name": "AutoCAD",
+          "purpose": "ribbon toolbar, command prompt line, and viewport workspace layout",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Revit",
+          "purpose": "architectural modeling multi-panel ribbon interface",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Blender",
+          "purpose": "3D viewport with floating orientation gizmo and status bar",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00025",
+        "mc-desk-nav-00026",
+        "mc-desk-nav-00027",
+        "mc-desk-nav-00028"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded 3D geometry or architecture models",
+        "Empty viewport container by default",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/cad-ribbon-shell/source/CadRibbonShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/cad-ribbon-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00024",
+        "cad-ribbon-shell",
+        "cad layout",
+        "ribbon shell",
+        "autocad layout",
+        "revit workspace",
+        "3d editor shell",
+        "blender viewport layout",
+        "desktop engineering ui",
+        "autocad-style layout",
+        "revit ribbon shell",
+        "3d modeling workspace",
+        "desktop ribbon application",
+        "autocad",
+        "revit",
+        "blender",
+        "ribbon-toolbar-integration",
+        "multi-document-tabs",
+        "empty-viewport-canvas",
+        "floating-viewport-gizmo",
+        "docked-command-line",
+        "inspector-side-panel",
+        "desktop-status-bar"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00032",
+      "name": "dynamic-island-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Floating or bezel-flush dynamic island HUD shell with concave fillet notch ears and smooth morphing between idle pill, compact activity, and expanded card states.",
+      "capabilities": [
+        "flush-notch-attachment",
+        "floating-island-placement",
+        "concave-notch-ear-fillets",
+        "morphing-geometry-transitions",
+        "stateful-idle-compact-expanded-modes"
+      ],
+      "keywords": [
+        "dynamic island",
+        "notch HUD",
+        "macOS notch",
+        "morphing pill",
+        "activity indicator",
+        "status bar pill",
+        "floating HUD"
+      ],
+      "aliases": [
+        "Apple Dynamic Island",
+        "macOS Notch HUD shell",
+        "floating dynamic pill"
+      ],
+      "visual_references": [
+        {
+          "name": "Apple Dynamic Island",
+          "purpose": "smooth morphing pill between compact activity badge and expanded card",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "macOS Notch HUD",
+          "purpose": "bezel-flush top screen attachment with concave inverted fillet ears",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00028"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded device logos or application-specific transfer logic",
+        "Flexible container slots for idle, compact, and expanded views"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/dynamic-island-shell/source/DynamicIslandShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/dynamic-island-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00032",
+        "dynamic-island-shell",
+        "dynamic island",
+        "notch hud",
+        "macos notch",
+        "morphing pill",
+        "activity indicator",
+        "status bar pill",
+        "floating hud",
+        "apple dynamic island",
+        "macos notch hud shell",
+        "floating dynamic pill",
+        "macos notch hud",
+        "flush-notch-attachment",
+        "floating-island-placement",
+        "concave-notch-ear-fillets",
+        "morphing-geometry-transitions",
+        "stateful-idle-compact-expanded-modes"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00033",
+      "name": "internal-tool-builder-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-panel internal tool and low-code builder workspace layout with top mode switcher (Edit/Preview), collapsible entity explorer, canvas stage, right property inspector, and bottom console drawer.",
+      "capabilities": [
+        "edit-preview-mode-switching",
+        "collapsible-entity-explorer-sidebar",
+        "collapsible-property-inspector",
+        "collapsible-bottom-drawer",
+        "canvas-gridlines-background",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "app builder",
+        "internal tools layout",
+        "admin builder shell",
+        "low code editor",
+        "property inspector shell",
+        "multi panel workspace",
+        "retool layout"
+      ],
+      "aliases": [
+        "Appsmith workspace shell",
+        "Retool builder layout",
+        "low-code builder shell"
+      ],
+      "visual_references": [
+        {
+          "name": "Appsmith",
+          "purpose": "internal tool editor with entity sidebar, canvas stage, and property inspector",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Retool",
+          "purpose": "builder layout with collapsible component inspector and query console drawer",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-layout-00004",
+        "mc-desk-shell-00024"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded Appsmith widgets, DSL state, or backend queries",
+        "Empty canvas stage by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/internal-tool-builder-shell/source/InternalToolBuilderShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/internal-tool-builder-shell",
+      "license": "Apache-2.0",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00033",
+        "internal-tool-builder-shell",
+        "app builder",
+        "internal tools layout",
+        "admin builder shell",
+        "low code editor",
+        "property inspector shell",
+        "multi panel workspace",
+        "retool layout",
+        "appsmith workspace shell",
+        "retool builder layout",
+        "low-code builder shell",
+        "appsmith",
+        "retool",
+        "edit-preview-mode-switching",
+        "collapsible-entity-explorer-sidebar",
+        "collapsible-property-inspector",
+        "collapsible-bottom-drawer",
+        "canvas-gridlines-background",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00034",
+      "name": "inbox-workspace-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-pane shared inbox and support agent workspace shell featuring navigation channel rail, conversation list, active thread view, bottom composer slot, and collapsible contact details panel.",
+      "capabilities": [
+        "multi-pane-inbox-architecture",
+        "collapsible-contact-sidebar",
+        "responsive-mobile-thread-toggle",
+        "bottom-composer-slot",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "inbox workspace",
+        "chatwoot layout",
+        "support inbox shell",
+        "conversation thread layout",
+        "customer support desk",
+        "multi pane inbox",
+        "split pane chat"
+      ],
+      "aliases": [
+        "Chatwoot inbox shell",
+        "Zendesk support layout",
+        "Intercom conversation workspace"
+      ],
+      "visual_references": [
+        {
+          "name": "Chatwoot",
+          "purpose": "3-column split inbox with channel rail, ticket list, active conversation box, and contact sidebar",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Zendesk",
+          "purpose": "agent workspace with collapsible ticket sidebar and multi-panel workflow",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-sh-prim-00030"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded customer data, mock messages, or branding",
+        "Empty message stream container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/inbox-workspace-shell/source/InboxWorkspaceShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/inbox-workspace-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00034",
+        "inbox-workspace-shell",
+        "inbox workspace",
+        "chatwoot layout",
+        "support inbox shell",
+        "conversation thread layout",
+        "customer support desk",
+        "multi pane inbox",
+        "split pane chat",
+        "chatwoot inbox shell",
+        "zendesk support layout",
+        "intercom conversation workspace",
+        "chatwoot",
+        "zendesk",
+        "multi-pane-inbox-architecture",
+        "collapsible-contact-sidebar",
+        "responsive-mobile-thread-toggle",
+        "bottom-composer-slot",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00035",
+      "name": "crm-workspace-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Modern CRM and relational data workspace shell featuring module sidebar, top record identifier bar, secondary filter/view switcher toolbar, blank data viewport, and slide-out record inspector side panel.",
+      "capabilities": [
+        "collapsible-module-navigation-sidebar",
+        "record-identifier-action-header",
+        "filter-and-view-switcher-toolbar",
+        "slide-out-record-inspector-drawer",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "crm workspace",
+        "twenty crm layout",
+        "record inspector shell",
+        "data table layout",
+        "slide over drawer",
+        "relational database ui",
+        "sales workspace"
+      ],
+      "aliases": [
+        "Twenty CRM layout",
+        "Salesforce record workspace",
+        "HubSpot deal shell"
+      ],
+      "visual_references": [
+        {
+          "name": "Twenty CRM",
+          "purpose": "relational record layout with module sidebar, filter toolbar, and slide-out side panel",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Salesforce",
+          "purpose": "compact business record manager with inspector drawer and secondary filter bar",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-sh-prim-00015"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded CRM schemas, lead data, or mock contacts",
+        "Empty main viewport container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/crm-workspace-shell/source/CrmWorkspaceShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/crm-workspace-shell",
+      "license": "AGPL-3.0-only",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00035",
+        "crm-workspace-shell",
+        "crm workspace",
+        "twenty crm layout",
+        "record inspector shell",
+        "data table layout",
+        "slide over drawer",
+        "relational database ui",
+        "sales workspace",
+        "salesforce record workspace",
+        "hubspot deal shell",
+        "twenty crm",
+        "salesforce",
+        "collapsible-module-navigation-sidebar",
+        "record-identifier-action-header",
+        "filter-and-view-switcher-toolbar",
+        "slide-out-record-inspector-drawer",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00036",
+      "name": "project-workspace-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Modern issue and project management workspace shell featuring cycle/module sidebar, top action header, segmented layout switcher (List, Kanban, Calendar, Gantt, Table), filter bar, blank stage, and collapsible issue detail peek panel.",
+      "capabilities": [
+        "segmented-layout-mode-switcher",
+        "collapsible-project-navigation-sidebar",
+        "filter-toolbar-integration",
+        "collapsible-issue-detail-peek-panel",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "project workspace",
+        "issue tracker shell",
+        "plane layout",
+        "kanban and list switcher",
+        "linear-style shell",
+        "sprint workspace",
+        "agile project layout"
+      ],
+      "aliases": [
+        "Plane project workspace",
+        "Linear issue tracker shell",
+        "Jira agile workspace"
+      ],
+      "visual_references": [
+        {
+          "name": "Plane",
+          "purpose": "project workspace with view switcher tabs, cycle sidebar, and issue peek drawer",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Linear",
+          "purpose": "high-velocity issue management layout with multi-view toggles and detail panels",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-desk-nav-00029"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded project names, ticket IDs, or mock issues",
+        "Empty main viewport container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/project-workspace-shell/source/ProjectWorkspaceShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/project-workspace-shell",
+      "license": "AGPL-3.0-only",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00036",
+        "project-workspace-shell",
+        "project workspace",
+        "issue tracker shell",
+        "plane layout",
+        "kanban and list switcher",
+        "linear-style shell",
+        "sprint workspace",
+        "agile project layout",
+        "plane project workspace",
+        "linear issue tracker shell",
+        "jira agile workspace",
+        "plane",
+        "linear",
+        "segmented-layout-mode-switcher",
+        "collapsible-project-navigation-sidebar",
+        "filter-toolbar-integration",
+        "collapsible-issue-detail-peek-panel",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00037",
+      "name": "database-workspace-shell",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-tier database and table editor workspace layout featuring primary service navigation rail, collapsible schema & entity explorer sidebar, secondary action toolbar, blank data stage, and resizable right inspector panel.",
+      "capabilities": [
+        "primary-service-navigation-rail",
+        "collapsible-secondary-schema-table-sidebar",
+        "keyboard-shortcut-sidebar-toggle",
+        "secondary-action-and-filter-toolbar",
+        "resizable-right-inspector-panel",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "database workspace",
+        "supabase studio layout",
+        "table editor shell",
+        "sql editor layout",
+        "schema explorer shell",
+        "admin database console",
+        "two tier navigation"
+      ],
+      "aliases": [
+        "Supabase Studio workspace",
+        "Neon database console",
+        "Drizzle Studio table layout"
+      ],
+      "visual_references": [
+        {
+          "name": "Supabase Studio",
+          "purpose": "database and table editor with primary icon rail, secondary schema sidebar, and action toolbar",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Neon",
+          "purpose": "serverless database console with branch/table explorer and SQL stage",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-nav-00007",
+        "mc-desk-shell-00035"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded database schemas, SQL statements, or Postgres connection strings",
+        "Empty main stage container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/database-workspace-shell/source/DatabaseWorkspaceShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/database-workspace-shell",
+      "license": "Apache-2.0",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00037",
+        "database-workspace-shell",
+        "database workspace",
+        "supabase studio layout",
+        "table editor shell",
+        "sql editor layout",
+        "schema explorer shell",
+        "admin database console",
+        "two tier navigation",
+        "supabase studio workspace",
+        "neon database console",
+        "drizzle studio table layout",
+        "supabase studio",
+        "neon",
+        "primary-service-navigation-rail",
+        "collapsible-secondary-schema-table-sidebar",
+        "keyboard-shortcut-sidebar-toggle",
+        "secondary-action-and-filter-toolbar",
+        "resizable-right-inspector-panel",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-desk-shell-00040",
+      "name": "query-console-drawer",
+      "type": "layout",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Collapsible bottom query, console, and execution logs drawer featuring category tabs with badge counters, height resize handle, maximize/restore view, and empty content container.",
+      "capabilities": [
+        "collapsible-bottom-drawer",
+        "resizable-height-handle",
+        "maximize-minimize-view",
+        "tabbed-console-navigation",
+        "badge-counter-status-pills",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "query console",
+        "bottom drawer",
+        "appsmith console",
+        "developer logs drawer",
+        "terminal drawer",
+        "execution panel",
+        "resizable console"
+      ],
+      "aliases": [
+        "Appsmith BottomView drawer",
+        "Retool query console",
+        "developer logs panel"
+      ],
+      "visual_references": [
+        {
+          "name": "Appsmith",
+          "purpose": "bottom view drawer with tabs for Query, Errors, and Logs with collapse button",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Retool",
+          "purpose": "bottom query and state inspector drawer with resize handle",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00033",
+        "mc-desk-nav-00028"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded Appsmith API actions, queries, or redux dispatchers",
+        "Empty console viewport by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/query-console-drawer/source/QueryConsoleDrawer.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/query-console-drawer",
+      "license": "Apache-2.0",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-desk-shell-00040",
+        "query-console-drawer",
+        "query console",
+        "bottom drawer",
+        "appsmith console",
+        "developer logs drawer",
+        "terminal drawer",
+        "execution panel",
+        "resizable console",
+        "appsmith bottomview drawer",
+        "retool query console",
+        "developer logs panel",
+        "appsmith",
+        "retool",
+        "collapsible-bottom-drawer",
+        "resizable-height-handle",
+        "maximize-minimize-view",
+        "tabbed-console-navigation",
+        "badge-counter-status-pills",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-lib-desk-00002",
+      "name": "electron-window-controls",
+      "type": "library",
+      "platform": "desktop",
+      "frameworks": [
+        "React",
+        "Electron"
+      ],
+      "description": "Cross-platform Electron window chrome utilities, title bar drag padding metrics, platform detectors, and custom window control buttons.",
+      "capabilities": [
+        "cross-platform-detection",
+        "macOS-traffic-light-metrics",
+        "windows-window-controls",
+        "app-drag-integration"
+      ],
+      "keywords": [
+        "electron window controls",
+        "title bar controls",
+        "desktop window chrome",
+        "macOS traffic lights",
+        "window buttons"
+      ],
+      "aliases": [
+        "window controls",
+        "electron title bar",
+        "desktop chrome buttons"
+      ],
+      "visual_references": [
+        {
+          "name": "VS Code",
+          "purpose": "custom title bar and window action buttons",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00002",
+        "mc-web-shell-00012"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "Platform-compliant UI metrics",
+        "No hardcoded brand themes"
+      ],
+      "entry_points": [
+        "libraries/desktop/electron-window-controls/source/WindowControls.tsx",
+        "libraries/desktop/electron-window-controls/source/platform.ts"
+      ],
+      "storage_path": "libraries/desktop/electron-window-controls",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-lib-desk-00002",
+        "electron-window-controls",
+        "electron window controls",
+        "title bar controls",
+        "desktop window chrome",
+        "macos traffic lights",
+        "window buttons",
+        "window controls",
+        "electron title bar",
+        "desktop chrome buttons",
+        "vs code",
+        "cross-platform-detection",
+        "macos-traffic-light-metrics",
+        "windows-window-controls",
+        "app-drag-integration"
+      ]
+    },
+    {
+      "id": "mc-lib-mob-00003",
+      "name": "mobile-touch-primitives",
+      "type": "library",
+      "platform": "mobile",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Touch-optimized mobile UI primitives including swipeable gesture bottom sheet drawer (vaul-based) and haptic touch buttons.",
+      "capabilities": [
+        "touch-friendly-dimensions",
+        "gesture-drag-handle",
+        "safe-area-awareness",
+        "active-touch-scale-feedback",
+        "swipe-to-dismiss"
+      ],
+      "keywords": [
+        "mobile touch primitives",
+        "bottom sheet",
+        "touch button",
+        "gesture drawer",
+        "vaul sheet"
+      ],
+      "aliases": [
+        "mobile drawer kit",
+        "touch primitives",
+        "bottom sheet modal"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS / Mobile Standard",
+          "purpose": "native-feeling swipeable bottom sheet and touch feedback button",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00010",
+        "mc-mob-nav-00012"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "vaul"
+      ],
+      "design_constraints": [
+        "Minimum touch target size (44px)",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "libraries/mobile/touch-primitives/source/BottomSheet.tsx",
+        "libraries/mobile/touch-primitives/source/TouchButton.tsx"
+      ],
+      "storage_path": "libraries/mobile/touch-primitives",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-lib-mob-00003",
+        "mobile-touch-primitives",
+        "mobile touch primitives",
+        "bottom sheet",
+        "touch button",
+        "gesture drawer",
+        "vaul sheet",
+        "mobile drawer kit",
+        "touch primitives",
+        "bottom sheet modal",
+        "ios / mobile standard",
+        "touch-friendly-dimensions",
+        "gesture-drag-handle",
+        "safe-area-awareness",
+        "active-touch-scale-feedback",
+        "swipe-to-dismiss"
+      ]
+    },
+    {
+      "id": "mc-lib-mob-00023",
+      "name": "react-native-primitives",
+      "type": "library",
+      "platform": "mobile",
+      "frameworks": [
+        "React Native",
+        "Expo"
+      ],
+      "description": "Comprehensive suite of unbranded React Native and Expo UI primitives including 60fps gesture-driven bottom sheets, modal action sheets, haptic buttons, animated skeleton loaders, typography, and state placeholders.",
+      "capabilities": [
+        "native-gesture-bottom-sheet",
+        "modal-action-sheet",
+        "haptic-feedback-buttons",
+        "animated-skeleton-placeholders",
+        "empty-and-error-states",
+        "semantic-design-tokens",
+        "typography-components"
+      ],
+      "keywords": [
+        "react native primitives",
+        "expo ui kit",
+        "mobile component library",
+        "react native bottom sheet",
+        "action sheet",
+        "skeleton loader"
+      ],
+      "aliases": [
+        "React Native UI kit",
+        "Expo primitives",
+        "mobile component library"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS Standard",
+          "purpose": "tactile mobile button states, typography, and bottom sheet dialogs",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Uber",
+          "purpose": "smooth gesture-responsive bottom sheets and trip action cards",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00019",
+        "mc-mob-page-00022"
+      ],
+      "dependencies": [
+        "@expo/vector-icons",
+        "expo-haptics",
+        "react",
+        "react-native",
+        "react-native-safe-area-context"
+      ],
+      "design_constraints": [
+        "Zero application-specific branding",
+        "Platform-agnostic tokenized theme (iOS/Android)",
+        "60fps native-driver animations"
+      ],
+      "entry_points": [
+        "libraries/mobile/react-native-primitives/source/index.ts",
+        "libraries/mobile/react-native-primitives/source/Sheet.tsx",
+        "libraries/mobile/react-native-primitives/source/UI.tsx"
+      ],
+      "storage_path": "libraries/mobile/react-native-primitives",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-lib-mob-00023",
+        "react-native-primitives",
+        "react native primitives",
+        "expo ui kit",
+        "mobile component library",
+        "react native bottom sheet",
+        "action sheet",
+        "skeleton loader",
+        "react native ui kit",
+        "expo primitives",
+        "ios standard",
+        "uber",
+        "native-gesture-bottom-sheet",
+        "modal-action-sheet",
+        "haptic-feedback-buttons",
+        "animated-skeleton-placeholders",
+        "empty-and-error-states",
+        "semantic-design-tokens",
+        "typography-components"
+      ]
+    },
+    {
+      "id": "mc-lib-web-00001",
+      "name": "shadcn-ui-react",
+      "type": "library",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Complete collection of 46 unstyled, accessible UI primitives based on Radix UI and Tailwind CSS with components.json configuration and neutral CSS tokens.",
+      "capabilities": [
+        "46-accessible-primitives",
+        "radix-ui-foundations",
+        "headless-keyboard-navigation",
+        "aria-compliant",
+        "theme-token-neutrality",
+        "components-json-compatible"
+      ],
+      "keywords": [
+        "shadcn",
+        "component library",
+        "radix ui",
+        "tailwind components",
+        "react primitives",
+        "ui kit"
+      ],
+      "aliases": [
+        "shadcn library",
+        "shadcn/ui",
+        "Radix React components",
+        "neutral web component kit"
+      ],
+      "visual_references": [
+        {
+          "name": "shadcn/ui",
+          "purpose": "reusable component primitives and configuration",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-web-shell-00012",
+        "mc-sh-util-00018"
+      ],
+      "dependencies": [
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-alert-dialog",
+        "@radix-ui/react-aspect-ratio",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-collapsible",
+        "@radix-ui/react-context-menu",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-hover-card",
+        "@radix-ui/react-label",
+        "@radix-ui/react-menubar",
+        "@radix-ui/react-navigation-menu",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-slider",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-tabs",
+        "@radix-ui/react-toggle",
+        "@radix-ui/react-toggle-group",
+        "@radix-ui/react-tooltip",
+        "class-variance-authority",
+        "clsx",
+        "cmdk",
+        "embla-carousel-react",
+        "input-otp",
+        "lucide-react",
+        "react",
+        "react-day-picker",
+        "react-dom",
+        "react-hook-form",
+        "react-resizable-panels",
+        "recharts",
+        "sonner",
+        "tailwind-merge",
+        "vaul"
+      ],
+      "design_constraints": [
+        "Neutral CSS variables, no hardcoded colors",
+        "Strictly accessible ARIA primitives"
+      ],
+      "entry_points": [
+        "libraries/web/shadcn-ui/source/index.ts",
+        "libraries/web/shadcn-ui/source/components/button.tsx",
+        "libraries/web/shadcn-ui/source/components/dialog.tsx",
+        "libraries/web/shadcn-ui/source/components/sidebar.tsx"
+      ],
+      "storage_path": "libraries/web/shadcn-ui",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-lib-web-00001",
+        "shadcn-ui-react",
+        "shadcn",
+        "component library",
+        "radix ui",
+        "tailwind components",
+        "react primitives",
+        "ui kit",
+        "shadcn library",
+        "shadcn/ui",
+        "radix react components",
+        "neutral web component kit",
+        "46-accessible-primitives",
+        "radix-ui-foundations",
+        "headless-keyboard-navigation",
+        "aria-compliant",
+        "theme-token-neutrality",
+        "components-json-compatible"
+      ]
+    },
+    {
+      "id": "mc-mob-nav-00011",
+      "name": "mobile-bottom-navigation",
+      "type": "navigation",
+      "platform": "mobile",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Standalone mobile bottom navigation bar with active indicators, touch feedback, notification badge support, and safe-area padding.",
+      "capabilities": [
+        "touch-friendly-targets",
+        "safe-area-padding",
+        "notification-badges",
+        "active-state-highlight",
+        "aria-navigation-roles"
+      ],
+      "keywords": [
+        "bottom navigation",
+        "mobile tab bar",
+        "mobile nav",
+        "touch bar",
+        "PWA navigation"
+      ],
+      "aliases": [
+        "mobile tab bar",
+        "bottom nav bar",
+        "iOS tab bar primitive"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS Mobile Standard",
+          "purpose": "fixed bottom tab bar navigation",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00010"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral design tokens only"
+      ],
+      "entry_points": [
+        "foundations/mobile/navigation/bottom-navigation/source/BottomNavigation.tsx"
+      ],
+      "storage_path": "foundations/mobile/navigation/bottom-navigation",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-nav-00011",
+        "mobile-bottom-navigation",
+        "bottom navigation",
+        "mobile tab bar",
+        "mobile nav",
+        "touch bar",
+        "pwa navigation",
+        "bottom nav bar",
+        "ios tab bar primitive",
+        "ios mobile standard",
+        "touch-friendly-targets",
+        "safe-area-padding",
+        "notification-badges",
+        "active-state-highlight",
+        "aria-navigation-roles"
+      ]
+    },
+    {
+      "id": "mc-mob-nav-00012",
+      "name": "mobile-drawer-nav",
+      "type": "navigation",
+      "platform": "mobile",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Slide-over mobile drawer navigation with backdrop blur overlay, accessible close action, and safe-area padding.",
+      "capabilities": [
+        "slide-over-animation",
+        "backdrop-overlay",
+        "safe-area-padding",
+        "touch-friendly-items",
+        "drawer-footer-slot"
+      ],
+      "keywords": [
+        "mobile drawer",
+        "side drawer",
+        "slide out menu",
+        "hamburger menu",
+        "sheet navigation"
+      ],
+      "aliases": [
+        "mobile slide-over",
+        "navigation drawer",
+        "mobile hamburger menu"
+      ],
+      "visual_references": [
+        {
+          "name": "Mobile Standard",
+          "purpose": "slide-over mobile drawer navigation menu",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00010"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral design tokens only"
+      ],
+      "entry_points": [
+        "foundations/mobile/navigation/mobile-drawer-nav/source/MobileDrawerNav.tsx"
+      ],
+      "storage_path": "foundations/mobile/navigation/mobile-drawer-nav",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-nav-00012",
+        "mobile-drawer-nav",
+        "mobile drawer",
+        "side drawer",
+        "slide out menu",
+        "hamburger menu",
+        "sheet navigation",
+        "mobile slide-over",
+        "navigation drawer",
+        "mobile hamburger menu",
+        "mobile standard",
+        "slide-over-animation",
+        "backdrop-overlay",
+        "safe-area-padding",
+        "touch-friendly-items",
+        "drawer-footer-slot"
+      ]
+    },
+    {
+      "id": "mc-mob-nav-00020",
+      "name": "native-tab-bar",
+      "type": "navigation",
+      "platform": "mobile",
+      "frameworks": [
+        "React Native",
+        "Expo"
+      ],
+      "description": "Standard React Native bottom tab bar integrated with React Navigation, safe-area inset adaptation, haptic touch feedback, and outline-to-solid icon switching.",
+      "capabilities": [
+        "safe-area-insets",
+        "haptic-selection-feedback",
+        "react-navigation-compatible",
+        "dynamic-icon-outline-switching",
+        "token-based-neutral-theming"
+      ],
+      "keywords": [
+        "react native tab bar",
+        "bottom navigation",
+        "react navigation tabs",
+        "expo tab bar",
+        "mobile bottom nav"
+      ],
+      "aliases": [
+        "React Native bottom tab bar",
+        "iOS style docked tab bar",
+        "Expo tab bar component"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS Standard",
+          "purpose": "docked bottom navigation tab bar with safe-area handling",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Instagram",
+          "purpose": "icon-based bottom tab navigation with active states",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00019",
+        "mc-mob-page-00022"
+      ],
+      "dependencies": [
+        "@expo/vector-icons",
+        "@react-navigation/bottom-tabs",
+        "expo-haptics",
+        "react",
+        "react-native",
+        "react-native-safe-area-context"
+      ],
+      "design_constraints": [
+        "No hardcoded theme hex colors (uses configurable props)",
+        "Accessible accessibilityRole and accessibilityState attributes"
+      ],
+      "entry_points": [
+        "foundations/mobile/navigation/native-tab-bar/source/NativeTabBar.tsx"
+      ],
+      "storage_path": "foundations/mobile/navigation/native-tab-bar",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-nav-00020",
+        "native-tab-bar",
+        "react native tab bar",
+        "bottom navigation",
+        "react navigation tabs",
+        "expo tab bar",
+        "mobile bottom nav",
+        "react native bottom tab bar",
+        "ios style docked tab bar",
+        "expo tab bar component",
+        "ios standard",
+        "instagram",
+        "safe-area-insets",
+        "haptic-selection-feedback",
+        "react-navigation-compatible",
+        "dynamic-icon-outline-switching",
+        "token-based-neutral-theming"
+      ]
+    },
+    {
+      "id": "mc-mob-nav-00021",
+      "name": "native-screen-header",
+      "type": "navigation",
+      "platform": "mobile",
+      "frameworks": [
+        "React Native",
+        "Expo"
+      ],
+      "description": "Standard mobile screen header bar with haptic back navigation action, title slot, and right-side action slot.",
+      "capabilities": [
+        "back-navigation-button",
+        "haptic-feedback",
+        "title-typography-customization",
+        "right-action-slot",
+        "accessible-touch-target"
+      ],
+      "keywords": [
+        "screen header",
+        "app bar",
+        "native navigation header",
+        "react native header",
+        "top bar"
+      ],
+      "aliases": [
+        "mobile app bar",
+        "stack screen header",
+        "React Native top header"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS Standard",
+          "purpose": "stack navigation screen header with chevron back button",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-page-00022",
+        "mc-mob-shell-00019"
+      ],
+      "dependencies": [
+        "@expo/vector-icons",
+        "expo-haptics",
+        "react",
+        "react-native"
+      ],
+      "design_constraints": [
+        "No hardcoded theme tokens (fully parameterized)",
+        "Neutral unbranded layout"
+      ],
+      "entry_points": [
+        "foundations/mobile/navigation/native-screen-header/source/NativeScreenHeader.tsx"
+      ],
+      "storage_path": "foundations/mobile/navigation/native-screen-header",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-nav-00021",
+        "native-screen-header",
+        "screen header",
+        "app bar",
+        "native navigation header",
+        "react native header",
+        "top bar",
+        "mobile app bar",
+        "stack screen header",
+        "react native top header",
+        "ios standard",
+        "back-navigation-button",
+        "haptic-feedback",
+        "title-typography-customization",
+        "right-action-slot",
+        "accessible-touch-target"
+      ]
+    },
+    {
+      "id": "mc-mob-page-00013",
+      "name": "mobile-blank-screen",
+      "type": "foundation",
+      "platform": "mobile",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Neutral blank mobile screen foundation with safe-area insets, sticky app bar with back/actions, and empty scrollable content container.",
+      "capabilities": [
+        "safe-area-header",
+        "back-navigation-button",
+        "actions-slot",
+        "empty-scrollable-content",
+        "sticky-footer-slot"
+      ],
+      "keywords": [
+        "mobile screen",
+        "blank mobile page",
+        "app bar layout",
+        "mobile view",
+        "safe area screen"
+      ],
+      "aliases": [
+        "mobile page container",
+        "mobile view shell",
+        "blank app screen"
+      ],
+      "visual_references": [
+        {
+          "name": "Mobile Standard",
+          "purpose": "standard single-screen mobile layout with navigation bar",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-shell-00010",
+        "mc-mob-nav-00011"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral styling compatible with standard design tokens",
+        "Empty content area by default"
+      ],
+      "entry_points": [
+        "foundations/mobile/blank-pages/blank-screen/source/MobileBlankScreen.tsx"
+      ],
+      "storage_path": "foundations/mobile/blank-pages/blank-screen",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-page-00013",
+        "mobile-blank-screen",
+        "mobile screen",
+        "blank mobile page",
+        "app bar layout",
+        "mobile view",
+        "safe area screen",
+        "mobile page container",
+        "mobile view shell",
+        "blank app screen",
+        "mobile standard",
+        "safe-area-header",
+        "back-navigation-button",
+        "actions-slot",
+        "empty-scrollable-content",
+        "sticky-footer-slot"
+      ]
+    },
+    {
+      "id": "mc-mob-page-00022",
+      "name": "native-blank-screen",
+      "type": "foundation",
+      "platform": "mobile",
+      "frameworks": [
+        "React Native",
+        "Expo"
+      ],
+      "description": "Neutral blank screen foundation for React Native and Expo with safe-area insets, optional header with back action, and empty scrollable content container.",
+      "capabilities": [
+        "safe-area-insets",
+        "optional-screen-header",
+        "back-navigation-support",
+        "empty-scrollable-container",
+        "fixed-footer-slot",
+        "keyboard-handled-taps"
+      ],
+      "keywords": [
+        "react native blank screen",
+        "expo screen shell",
+        "mobile page container",
+        "safe area screen",
+        "empty mobile page"
+      ],
+      "aliases": [
+        "React Native screen shell",
+        "Expo blank page",
+        "mobile screen container"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS Standard",
+          "purpose": "standard single-screen layout with safe-area handling and header",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-nav-00021",
+        "mc-mob-nav-00020",
+        "mc-lib-mob-00023"
+      ],
+      "dependencies": [
+        "@expo/vector-icons",
+        "expo-haptics",
+        "react",
+        "react-native",
+        "react-native-safe-area-context"
+      ],
+      "design_constraints": [
+        "Empty content area by default",
+        "No hardcoded brand themes",
+        "Safe-area insets preserved"
+      ],
+      "entry_points": [
+        "foundations/mobile/blank-pages/native-blank-screen/source/NativeBlankScreen.tsx"
+      ],
+      "storage_path": "foundations/mobile/blank-pages/native-blank-screen",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-page-00022",
+        "native-blank-screen",
+        "react native blank screen",
+        "expo screen shell",
+        "mobile page container",
+        "safe area screen",
+        "empty mobile page",
+        "react native screen shell",
+        "expo blank page",
+        "mobile screen container",
+        "ios standard",
+        "safe-area-insets",
+        "optional-screen-header",
+        "back-navigation-support",
+        "empty-scrollable-container",
+        "fixed-footer-slot",
+        "keyboard-handled-taps"
+      ]
+    },
+    {
+      "id": "mc-mob-shell-00010",
+      "name": "mobile-bottom-nav-shell",
+      "type": "foundation",
+      "platform": "mobile",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Mobile application shell featuring safe-area top app bar, scrollable empty screen container, and fixed bottom navigation bar with active indicators.",
+      "capabilities": [
+        "safe-area-insets",
+        "sticky-top-app-bar",
+        "back-navigation-action",
+        "fixed-bottom-nav-bar",
+        "notification-badges",
+        "empty-screen-container"
+      ],
+      "keywords": [
+        "mobile shell",
+        "bottom navigation",
+        "mobile app bar",
+        "PWA layout",
+        "tab bar layout"
+      ],
+      "aliases": [
+        "iOS tab bar shell",
+        "Android bottom navigation layout",
+        "mobile web app shell",
+        "PWA container"
+      ],
+      "visual_references": [
+        {
+          "name": "iOS App Store / Mobile Standard",
+          "purpose": "bottom tab bar and safe-area header navigation shell",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-nav-00011",
+        "mc-mob-page-00013"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral styling compatible with standard design tokens",
+        "Empty page body container by default"
+      ],
+      "entry_points": [
+        "foundations/mobile/layouts/bottom-nav-shell/source/MobileBottomNavShell.tsx"
+      ],
+      "storage_path": "foundations/mobile/layouts/bottom-nav-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-shell-00010",
+        "mobile-bottom-nav-shell",
+        "mobile shell",
+        "bottom navigation",
+        "mobile app bar",
+        "pwa layout",
+        "tab bar layout",
+        "ios tab bar shell",
+        "android bottom navigation layout",
+        "mobile web app shell",
+        "pwa container",
+        "ios app store / mobile standard",
+        "safe-area-insets",
+        "sticky-top-app-bar",
+        "back-navigation-action",
+        "fixed-bottom-nav-bar",
+        "notification-badges",
+        "empty-screen-container"
+      ]
+    },
+    {
+      "id": "mc-mob-shell-00019",
+      "name": "map-bottom-sheet-shell",
+      "type": "layout",
+      "platform": "mobile",
+      "frameworks": [
+        "React Native",
+        "Expo"
+      ],
+      "description": "Full-bleed background map viewport shell with floating navigation bar, action controls, and 60fps gesture-tracking native bottom sheet with empty content container.",
+      "capabilities": [
+        "gesture-tracking-bottom-sheet",
+        "map-viewport-underlay",
+        "collapsible-snap-points",
+        "floating-top-bar",
+        "floating-action-slot",
+        "empty-content-container",
+        "haptic-feedback"
+      ],
+      "keywords": [
+        "map sheet",
+        "bottom sheet layout",
+        "ride sharing shell",
+        "Uber-style layout",
+        "delivery app shell",
+        "react native map screen"
+      ],
+      "aliases": [
+        "Uber-style map screen",
+        "Lyft-style bottom sheet layout",
+        "map bottom drawer shell",
+        "delivery tracking layout"
+      ],
+      "visual_references": [
+        {
+          "name": "Uber",
+          "purpose": "map screen with draggable ride booking bottom sheet",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Lyft",
+          "purpose": "interactive map with expandable destination drawer",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "DoorDash",
+          "purpose": "live delivery tracking map with bottom order status card",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-mob-nav-00020",
+        "mc-lib-mob-00023"
+      ],
+      "dependencies": [
+        "@expo/vector-icons",
+        "expo-haptics",
+        "react",
+        "react-native",
+        "react-native-safe-area-context"
+      ],
+      "design_constraints": [
+        "No hardcoded map coordinates or proprietary vehicle icons",
+        "Empty content area by default",
+        "Neutral design tokens"
+      ],
+      "entry_points": [
+        "foundations/mobile/layouts/map-bottom-sheet-shell/source/MapBottomSheetShell.tsx"
+      ],
+      "storage_path": "foundations/mobile/layouts/map-bottom-sheet-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-mob-shell-00019",
+        "map-bottom-sheet-shell",
+        "map sheet",
+        "bottom sheet layout",
+        "ride sharing shell",
+        "uber-style layout",
+        "delivery app shell",
+        "react native map screen",
+        "uber-style map screen",
+        "lyft-style bottom sheet layout",
+        "map bottom drawer shell",
+        "delivery tracking layout",
+        "uber",
+        "lyft",
+        "doordash",
+        "gesture-tracking-bottom-sheet",
+        "map-viewport-underlay",
+        "collapsible-snap-points",
+        "floating-top-bar",
+        "floating-action-slot",
+        "empty-content-container",
+        "haptic-feedback"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00014",
+      "name": "segmented-switch",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Accessible sliding segmented switch / control with animated thumb for mode selection and multi-state view toggles.",
+      "capabilities": [
+        "animated-sliding-thumb",
+        "radiogroup-aria-semantics",
+        "icon-and-label-support",
+        "customizable-dimensions",
+        "token-based-neutral-theming"
+      ],
+      "keywords": [
+        "segmented switch",
+        "segmented control",
+        "mode toggle",
+        "pill switch",
+        "tab switch"
+      ],
+      "aliases": [
+        "iOS segmented control",
+        "mode switcher",
+        "pill toggle",
+        "sliding toggle"
+      ],
+      "visual_references": [
+        {
+          "name": "Linear",
+          "purpose": "segmented view mode switch",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Claude Code",
+          "purpose": "compact mode toggle control",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00012"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Neutral styling compatible with standard design tokens",
+        "No hardcoded colors"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/segmented-switch/source/SegmentedSwitch.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/segmented-switch",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00014",
+        "segmented-switch",
+        "segmented switch",
+        "segmented control",
+        "mode toggle",
+        "pill switch",
+        "tab switch",
+        "ios segmented control",
+        "mode switcher",
+        "pill toggle",
+        "sliding toggle",
+        "linear",
+        "claude code",
+        "animated-sliding-thumb",
+        "radiogroup-aria-semantics",
+        "icon-and-label-support",
+        "customizable-dimensions",
+        "token-based-neutral-theming"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00015",
+      "name": "modal-overlay",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Consistent dimmed and blurred backdrop overlay for dialogs, drawers, and modal sheets.",
+      "capabilities": [
+        "backdrop-overlay",
+        "backdrop-blur-effect",
+        "accessible-dismiss-trigger",
+        "configurable-tone"
+      ],
+      "keywords": [
+        "modal overlay",
+        "dialog backdrop",
+        "backdrop blur",
+        "dimmer",
+        "scrim"
+      ],
+      "aliases": [
+        "dialog backdrop",
+        "modal scrim",
+        "sheet overlay"
+      ],
+      "visual_references": [
+        {
+          "name": "Modern SaaS Standard",
+          "purpose": "blurred modal backdrop for dialog focus",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/modal-overlay/source/ModalOverlay.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/modal-overlay",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00015",
+        "modal-overlay",
+        "modal overlay",
+        "dialog backdrop",
+        "backdrop blur",
+        "dimmer",
+        "scrim",
+        "modal scrim",
+        "sheet overlay",
+        "modern saas standard",
+        "backdrop-overlay",
+        "backdrop-blur-effect",
+        "accessible-dismiss-trigger",
+        "configurable-tone"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00016",
+      "name": "diff-viewer",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Unified code diff viewer with line numbers, hunk separation, addition/deletion highlights, and line truncation handling.",
+      "capabilities": [
+        "unified-diff-view",
+        "gutter-line-numbers",
+        "hunk-separation",
+        "addition-deletion-styling",
+        "large-diff-truncation"
+      ],
+      "keywords": [
+        "diff viewer",
+        "code diff",
+        "git diff",
+        "syntax diff",
+        "patch viewer"
+      ],
+      "aliases": [
+        "GitHub diff viewer",
+        "code change viewer",
+        "patch inspector"
+      ],
+      "visual_references": [
+        {
+          "name": "GitHub",
+          "purpose": "unified pull request code diff display",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Cursor",
+          "purpose": "inline code modification diff panel",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00012"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "Neutral styling compatible with standard design tokens",
+        "No hardcoded dark/light values"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/diff-viewer/source/DiffViewer.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/diff-viewer",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00016",
+        "diff-viewer",
+        "diff viewer",
+        "code diff",
+        "git diff",
+        "syntax diff",
+        "patch viewer",
+        "github diff viewer",
+        "code change viewer",
+        "patch inspector",
+        "github",
+        "cursor",
+        "unified-diff-view",
+        "gutter-line-numbers",
+        "hunk-separation",
+        "addition-deletion-styling",
+        "large-diff-truncation"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00030",
+      "name": "prompt-input",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Auto-expanding AI prompt input primitive with attachment chips, model selector slot, voice recording state, and morphing submit/stop actions.",
+      "capabilities": [
+        "auto-expanding-multiline-input",
+        "keyboard-enter-submission",
+        "attachment-chips-with-removal",
+        "file-attachment-trigger",
+        "morphing-submit-stop-button",
+        "voice-recording-toggle",
+        "model-selector-slot"
+      ],
+      "keywords": [
+        "prompt input",
+        "AI composer",
+        "chat input",
+        "prompt textarea",
+        "chat composer",
+        "message box",
+        "multimodal input"
+      ],
+      "aliases": [
+        "ChatGPT prompt bar",
+        "Claude chat input",
+        "Cursor composer input"
+      ],
+      "visual_references": [
+        {
+          "name": "ChatGPT",
+          "purpose": "minimal prompt bar with rounded borders and circular submit button",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Claude",
+          "purpose": "multiline composer with attachment chips and model selection",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Cursor",
+          "purpose": "AI prompt composer with context chips and morphing send/stop action",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded AI providers, model endpoints, or API clients",
+        "Empty and neutral layout customizable via standard CSS tokens"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/prompt-input/source/PromptInput.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/prompt-input",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00030",
+        "prompt-input",
+        "prompt input",
+        "ai composer",
+        "chat input",
+        "prompt textarea",
+        "chat composer",
+        "message box",
+        "multimodal input",
+        "chatgpt prompt bar",
+        "claude chat input",
+        "cursor composer input",
+        "chatgpt",
+        "claude",
+        "cursor",
+        "auto-expanding-multiline-input",
+        "keyboard-enter-submission",
+        "attachment-chips-with-removal",
+        "file-attachment-trigger",
+        "morphing-submit-stop-button",
+        "voice-recording-toggle",
+        "model-selector-slot"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00038",
+      "name": "property-inspector-panel",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Tabbed property inspector panel featuring editable entity title, Content/Style/Events tab switching, real-time property search, collapsible accordion sections, and JS expression toggle triggers.",
+      "capabilities": [
+        "editable-entity-title",
+        "tabbed-inspector-modes",
+        "collapsible-property-sections",
+        "search-filtering-properties",
+        "js-expression-toggle-pills"
+      ],
+      "keywords": [
+        "property inspector",
+        "property pane",
+        "appsmith properties",
+        "low code inspector",
+        "settings sidebar",
+        "component config panel",
+        "accordion inspector"
+      ],
+      "aliases": [
+        "Appsmith PropertyPane",
+        "Figma properties inspector",
+        "widget property panel"
+      ],
+      "visual_references": [
+        {
+          "name": "Appsmith",
+          "purpose": "property pane with Content and Style tabs, search input, and collapsible section cards",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Figma",
+          "purpose": "right properties panel with collapsible section headers and input rows",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00033"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded Appsmith widgets, DSL types, or Redux store connections",
+        "Fully controlled/uncontrolled tabs and clean section configuration schema"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/property-inspector-panel/source/PropertyInspectorPanel.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/property-inspector-panel",
+      "license": "Apache-2.0",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00038",
+        "property-inspector-panel",
+        "property inspector",
+        "property pane",
+        "appsmith properties",
+        "low code inspector",
+        "settings sidebar",
+        "component config panel",
+        "accordion inspector",
+        "appsmith propertypane",
+        "figma properties inspector",
+        "widget property panel",
+        "appsmith",
+        "figma",
+        "editable-entity-title",
+        "tabbed-inspector-modes",
+        "collapsible-property-sections",
+        "search-filtering-properties",
+        "js-expression-toggle-pills"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00042",
+      "name": "message-thread",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Conversation message stream primitive featuring inbound and outbound message bubbles, delivery status checkmarks (sent, delivered, read), system activity pills, and bouncing typing indicators.",
+      "capabilities": [
+        "inbound-and-outbound-message-bubbles",
+        "delivery-status-checkmarks",
+        "system-event-dividers",
+        "bouncing-typing-indicator",
+        "auto-scroll-to-bottom"
+      ],
+      "keywords": [
+        "message thread",
+        "chat bubbles",
+        "chatwoot messages",
+        "conversation stream",
+        "chat view",
+        "read receipts",
+        "typing indicator"
+      ],
+      "aliases": [
+        "Chatwoot MessagesView",
+        "WhatsApp bubble stream",
+        "chat message timeline"
+      ],
+      "visual_references": [
+        {
+          "name": "Chatwoot",
+          "purpose": "chat conversation view with inbound/outbound bubbles and delivery status",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "WhatsApp",
+          "purpose": "modern message bubble feed with read receipts and typing animations",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00034",
+        "mc-sh-prim-00030"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded customer data or messaging backend couplings",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/message-thread/source/MessageThread.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/message-thread",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00042",
+        "message-thread",
+        "message thread",
+        "chat bubbles",
+        "chatwoot messages",
+        "conversation stream",
+        "chat view",
+        "read receipts",
+        "typing indicator",
+        "chatwoot messagesview",
+        "whatsapp bubble stream",
+        "chat message timeline",
+        "chatwoot",
+        "whatsapp",
+        "inbound-and-outbound-message-bubbles",
+        "delivery-status-checkmarks",
+        "system-event-dividers",
+        "bouncing-typing-indicator",
+        "auto-scroll-to-bottom"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00043",
+      "name": "contact-detail-card",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Customer support and CRM contact profile card featuring avatar summary, one-click copyable contact attributes, collapsible custom key-value metadata list, and internal notes slot.",
+      "capabilities": [
+        "profile-summary-header",
+        "copyable-contact-attributes",
+        "collapsible-custom-attributes-list",
+        "internal-notes-slot"
+      ],
+      "keywords": [
+        "contact detail card",
+        "contact profile",
+        "chatwoot contact panel",
+        "customer metadata",
+        "user info card",
+        "crm contact card",
+        "support sidebar"
+      ],
+      "aliases": [
+        "Chatwoot ContactPanel",
+        "HubSpot contact sidebar",
+        "customer attribute card"
+      ],
+      "visual_references": [
+        {
+          "name": "Chatwoot",
+          "purpose": "contact panel with profile details, custom attributes, and notes",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "HubSpot",
+          "purpose": "contact sidebar widget with copyable fields and metadata",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-shell-00034",
+        "mc-desk-nav-00041"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded customer data or messaging backend couplings",
+        "Generic attribute array interface"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/contact-detail-card/source/ContactDetailCard.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/contact-detail-card",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00043",
+        "contact-detail-card",
+        "contact detail card",
+        "contact profile",
+        "chatwoot contact panel",
+        "customer metadata",
+        "user info card",
+        "crm contact card",
+        "support sidebar",
+        "chatwoot contactpanel",
+        "hubspot contact sidebar",
+        "customer attribute card",
+        "chatwoot",
+        "hubspot",
+        "profile-summary-header",
+        "copyable-contact-attributes",
+        "collapsible-custom-attributes-list",
+        "internal-notes-slot"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00044",
+      "name": "record-peek-drawer",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Slide-out record inspection drawer featuring an entity header, tab navigation bar, metadata properties grid, and empty content container for custom activity timelines or detail forms.",
+      "capabilities": [
+        "slide-out-drawer",
+        "tabs-navigation",
+        "metadata-grid",
+        "keyboard-shortcuts",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "crm drawer",
+        "record details",
+        "side panel",
+        "peek drawer",
+        "inspect record"
+      ],
+      "aliases": [
+        "Twenty side panel",
+        "HubSpot record peek",
+        "Salesforce side drawer"
+      ],
+      "visual_references": [
+        {
+          "name": "Twenty CRM",
+          "purpose": "slide-out record detail inspector with tabs and field summaries",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00038",
+        "mc-sh-prim-00043"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Empty content container by default",
+        "Escape key dismiss"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/record-peek-drawer/source/RecordPeekDrawer.tsx",
+        "foundations/shared/primitives/record-peek-drawer/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/record-peek-drawer",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00044",
+        "record-peek-drawer",
+        "crm drawer",
+        "record details",
+        "side panel",
+        "peek drawer",
+        "inspect record",
+        "twenty side panel",
+        "hubspot record peek",
+        "salesforce side drawer",
+        "twenty crm",
+        "slide-out-drawer",
+        "tabs-navigation",
+        "metadata-grid",
+        "keyboard-shortcuts",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00045",
+      "name": "crm-filter-builder",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Compact interactive filter bar primitive supporting dynamic filter chips, operator toggles (is, contains, empty), in-place value editing, and add-filter field picker dropdown.",
+      "capabilities": [
+        "dynamic-filter-chips",
+        "operator-selection",
+        "inline-value-editor",
+        "field-picker-menu",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "crm filter",
+        "filter builder",
+        "filter chips",
+        "view bar filter",
+        "data filters"
+      ],
+      "aliases": [
+        "Twenty filter chip bar",
+        "Notion filter builder",
+        "Airtable filter row"
+      ],
+      "visual_references": [
+        {
+          "name": "Twenty CRM",
+          "purpose": "inline view bar filter chips with operator and value dropdowns",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00044",
+        "mc-sh-prim-00046"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Generic operator vocabulary",
+        "Empty container slot for custom popovers"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/crm-filter-builder/source/CrmFilterBuilder.tsx",
+        "foundations/shared/primitives/crm-filter-builder/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/crm-filter-builder",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00045",
+        "crm-filter-builder",
+        "crm filter",
+        "filter builder",
+        "filter chips",
+        "view bar filter",
+        "data filters",
+        "twenty filter chip bar",
+        "notion filter builder",
+        "airtable filter row",
+        "twenty crm",
+        "dynamic-filter-chips",
+        "operator-selection",
+        "inline-value-editor",
+        "field-picker-menu",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00046",
+      "name": "crm-data-table",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Tabular record data grid foundation featuring sticky sortable column headers, multi-select checkboxes, indeterminate selection states, custom cell renderers, and an empty content container.",
+      "capabilities": [
+        "sticky-table-header",
+        "multi-select-checkboxes",
+        "indeterminate-selection",
+        "column-sorting",
+        "custom-cell-renderers",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "crm table",
+        "data table",
+        "record table",
+        "grid view",
+        "sortable table"
+      ],
+      "aliases": [
+        "Twenty record table",
+        "Airtable grid view",
+        "Attio record table"
+      ],
+      "visual_references": [
+        {
+          "name": "Twenty CRM",
+          "purpose": "dense record table with sticky column headers and row select checkboxes",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00044",
+        "mc-sh-prim-00045"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Semantic table markup (thead, tbody, tr, th, td)",
+        "Empty container slot for virtualization or custom records"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/crm-data-table/source/CrmDataTable.tsx",
+        "foundations/shared/primitives/crm-data-table/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/crm-data-table",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00046",
+        "crm-data-table",
+        "crm table",
+        "data table",
+        "record table",
+        "grid view",
+        "sortable table",
+        "twenty record table",
+        "airtable grid view",
+        "attio record table",
+        "twenty crm",
+        "sticky-table-header",
+        "multi-select-checkboxes",
+        "indeterminate-selection",
+        "column-sorting",
+        "custom-cell-renderers",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00048",
+      "name": "kanban-board-stage",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-column kanban board stage supporting collapsible status lanes, count badges, add-item triggers, card renderer slots, and empty drop zones.",
+      "capabilities": [
+        "multi-column-kanban",
+        "collapsible-lanes",
+        "column-header-badges",
+        "add-item-trigger",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "kanban board",
+        "card lanes",
+        "board stage",
+        "task board",
+        "issue columns"
+      ],
+      "aliases": [
+        "Plane kanban board",
+        "Jira sprint board",
+        "Linear project board",
+        "Trello board"
+      ],
+      "visual_references": [
+        {
+          "name": "Plane",
+          "purpose": "horizontal scrollable kanban columns with status headers and collapsible states",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00047",
+        "mc-sh-prim-00049"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Accessible region landmarks",
+        "Empty container slot for cards"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/kanban-board-stage/source/KanbanBoardStage.tsx",
+        "foundations/shared/primitives/kanban-board-stage/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/kanban-board-stage",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00048",
+        "kanban-board-stage",
+        "kanban board",
+        "card lanes",
+        "board stage",
+        "task board",
+        "issue columns",
+        "plane kanban board",
+        "jira sprint board",
+        "linear project board",
+        "trello board",
+        "plane",
+        "multi-column-kanban",
+        "collapsible-lanes",
+        "column-header-badges",
+        "add-item-trigger",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00049",
+      "name": "issue-row-item",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Compact horizontal issue and task item row primitive featuring priority icons, status badges, mono key identifier, title truncation, assignee avatar, and due date indicators.",
+      "capabilities": [
+        "priority-indicators",
+        "status-badge",
+        "key-identifier-tag",
+        "assignee-avatar",
+        "due-date-pill",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "issue row",
+        "task row",
+        "issue item",
+        "linear issue",
+        "project task item"
+      ],
+      "aliases": [
+        "Plane issue row",
+        "Linear issue item",
+        "Jira backlog row"
+      ],
+      "visual_references": [
+        {
+          "name": "Plane",
+          "purpose": "dense issue row item with priority badge, status icon, and assignee indicator",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00047",
+        "mc-sh-prim-00048"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Accessible checkbox & row click handling",
+        "Empty container slot for custom badges"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/issue-row-item/source/IssueRowItem.tsx",
+        "foundations/shared/primitives/issue-row-item/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/issue-row-item",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00049",
+        "issue-row-item",
+        "issue row",
+        "task row",
+        "issue item",
+        "linear issue",
+        "project task item",
+        "plane issue row",
+        "linear issue item",
+        "jira backlog row",
+        "plane",
+        "priority-indicators",
+        "status-badge",
+        "key-identifier-tag",
+        "assignee-avatar",
+        "due-date-pill",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00052",
+      "name": "sql-query-editor-stage",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "SQL query workspace stage featuring title renaming, run controls with Ctrl+Enter keyboard shortcut, execution timing and row count metrics, and an empty tabular results container.",
+      "capabilities": [
+        "sql-code-editor",
+        "query-execution-controls",
+        "keyboard-shortcuts",
+        "execution-metrics-bar",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "sql editor",
+        "query runner",
+        "database query",
+        "results table",
+        "sql console"
+      ],
+      "aliases": [
+        "Supabase SQL editor",
+        "Postgres query tool",
+        "DBeaver query stage"
+      ],
+      "visual_references": [
+        {
+          "name": "Supabase Studio",
+          "purpose": "SQL editor stage with Run button shortcut, execution timing metrics, and results panel",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-desk-nav-00050",
+        "mc-desk-nav-00051",
+        "mc-desk-shell-00040"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No hardcoded colors",
+        "Accessible keyboard shortcuts",
+        "Empty container slot for results grid"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/sql-query-editor-stage/source/SqlQueryEditorStage.tsx",
+        "foundations/shared/primitives/sql-query-editor-stage/source/types.ts"
+      ],
+      "storage_path": "foundations/shared/primitives/sql-query-editor-stage",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00052",
+        "sql-query-editor-stage",
+        "sql editor",
+        "query runner",
+        "database query",
+        "results table",
+        "sql console",
+        "supabase sql editor",
+        "postgres query tool",
+        "dbeaver query stage",
+        "supabase studio",
+        "sql-code-editor",
+        "query-execution-controls",
+        "keyboard-shortcuts",
+        "execution-metrics-bar",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00053",
+      "name": "form-field-group",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Accessible form field wrapper (label, description, hint, inline error, required marker) with generated ids and aria wiring via a render prop, plus a titled multi-column form section.",
+      "capabilities": [
+        "label-control-association",
+        "aria-describedby-wiring",
+        "inline-error-alert",
+        "required-marker",
+        "horizontal-and-vertical-layouts",
+        "responsive-column-grid",
+        "render-prop-a11y-props"
+      ],
+      "keywords": [
+        "form field",
+        "form layout",
+        "input label",
+        "field error",
+        "form section",
+        "validation message"
+      ],
+      "aliases": [
+        "labeled input wrapper",
+        "form row",
+        "field group",
+        "form control wrapper"
+      ],
+      "visual_references": [
+        {
+          "name": "shadcn/ui Form",
+          "purpose": "label, description, and message structure",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Stripe Dashboard",
+          "purpose": "horizontal label-left form rows",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-lib-web-00001",
+        "mc-web-page-00009",
+        "mc-sh-prim-00054"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default",
+        "Does not bundle input controls"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/form-field-group/source/FormField.tsx",
+        "foundations/shared/primitives/form-field-group/source/FormSection.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/form-field-group",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00053",
+        "form-field-group",
+        "form field",
+        "form layout",
+        "input label",
+        "field error",
+        "form section",
+        "validation message",
+        "labeled input wrapper",
+        "form row",
+        "field group",
+        "form control wrapper",
+        "shadcn/ui form",
+        "stripe dashboard",
+        "label-control-association",
+        "aria-describedby-wiring",
+        "inline-error-alert",
+        "required-marker",
+        "horizontal-and-vertical-layouts",
+        "responsive-column-grid",
+        "render-prop-a11y-props"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00054",
+      "name": "form-wizard-shell",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Multi-step form shell with a numbered progress stepper, empty per-step content slot, Back/Next/Submit footer, gated progression, and optional jump-back to completed steps.",
+      "capabilities": [
+        "step-progress-indicator",
+        "controlled-or-uncontrolled-step",
+        "gated-next-button",
+        "submit-on-last-step",
+        "jump-back-navigation",
+        "aria-current-step",
+        "empty-step-content-slot"
+      ],
+      "keywords": [
+        "wizard",
+        "multi-step form",
+        "stepper",
+        "onboarding flow",
+        "checkout steps",
+        "progress steps"
+      ],
+      "aliases": [
+        "step form",
+        "onboarding wizard",
+        "form stepper",
+        "multi-page form"
+      ],
+      "visual_references": [
+        {
+          "name": "Stripe Checkout",
+          "purpose": "step progression with gated continue",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Typeform",
+          "purpose": "one-step-at-a-time form flow",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00053",
+        "mc-lib-web-00001",
+        "mc-sh-prim-00015"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default",
+        "No validation logic included; supply canProceed"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/form-wizard-shell/source/FormWizardShell.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/form-wizard-shell",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00054",
+        "form-wizard-shell",
+        "wizard",
+        "multi-step form",
+        "stepper",
+        "onboarding flow",
+        "checkout steps",
+        "progress steps",
+        "step form",
+        "onboarding wizard",
+        "form stepper",
+        "multi-page form",
+        "stripe checkout",
+        "typeform",
+        "step-progress-indicator",
+        "controlled-or-uncontrolled-step",
+        "gated-next-button",
+        "submit-on-last-step",
+        "jump-back-navigation",
+        "aria-current-step",
+        "empty-step-content-slot"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00055",
+      "name": "chart-panel-shell",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Chart card frame with title, range selector, actions, legend slot, and fixed-height plot area that handles ready, loading, empty, and error states without layout shift. Chart library not included.",
+      "capabilities": [
+        "range-selector",
+        "loading-skeleton",
+        "empty-state-message",
+        "error-with-retry",
+        "fixed-height-plot-area",
+        "legend-slot",
+        "library-agnostic-chart-slot"
+      ],
+      "keywords": [
+        "chart card",
+        "chart panel",
+        "analytics widget",
+        "graph container",
+        "time range selector",
+        "data viz shell"
+      ],
+      "aliases": [
+        "chart wrapper",
+        "analytics panel",
+        "graph card",
+        "metrics chart frame"
+      ],
+      "visual_references": [
+        {
+          "name": "Vercel Analytics",
+          "purpose": "chart card with range tabs",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Grafana",
+          "purpose": "panel with loading and no-data states",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00056",
+        "mc-web-page-00008",
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default",
+        "No chart library or sample data included"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/chart-panel-shell/source/ChartPanelShell.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/chart-panel-shell",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00055",
+        "chart-panel-shell",
+        "chart card",
+        "chart panel",
+        "analytics widget",
+        "graph container",
+        "time range selector",
+        "data viz shell",
+        "chart wrapper",
+        "analytics panel",
+        "graph card",
+        "metrics chart frame",
+        "vercel analytics",
+        "grafana",
+        "range-selector",
+        "loading-skeleton",
+        "empty-state-message",
+        "error-with-retry",
+        "fixed-height-plot-area",
+        "legend-slot",
+        "library-agnostic-chart-slot"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00056",
+      "name": "stat-tile",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Metric tile with label, value, change indicator (direction and sentiment are independent), caption, loading skeleton, optional sparkline slot, and optional click behavior. Props only, no sample numbers.",
+      "capabilities": [
+        "delta-indicator",
+        "direction-vs-sentiment",
+        "loading-skeleton",
+        "sparkline-slot",
+        "clickable-variant",
+        "screen-reader-delta-text"
+      ],
+      "keywords": [
+        "stat card",
+        "kpi tile",
+        "metric card",
+        "dashboard stat",
+        "number card"
+      ],
+      "aliases": [
+        "KPI card",
+        "metric tile",
+        "summary stat",
+        "dashboard number"
+      ],
+      "visual_references": [
+        {
+          "name": "Stripe Dashboard",
+          "purpose": "KPI tile with change delta",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Linear Insights",
+          "purpose": "compact metric with caption",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00055",
+        "mc-web-page-00008"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default",
+        "Delta colors overridable via sentimentClassNames"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/stat-tile/source/StatTile.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/stat-tile",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00056",
+        "stat-tile",
+        "stat card",
+        "kpi tile",
+        "metric card",
+        "dashboard stat",
+        "number card",
+        "kpi card",
+        "metric tile",
+        "summary stat",
+        "dashboard number",
+        "stripe dashboard",
+        "linear insights",
+        "delta-indicator",
+        "direction-vs-sentiment",
+        "loading-skeleton",
+        "sparkline-slot",
+        "clickable-variant",
+        "screen-reader-delta-text"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00057",
+      "name": "empty-state",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Centered empty-state block with icon, title, description, primary and secondary action slots, three sizes, and optional dashed border.",
+      "capabilities": [
+        "icon-slot",
+        "action-slots",
+        "three-sizes",
+        "dashed-border-variant",
+        "content-slot"
+      ],
+      "keywords": [
+        "empty state",
+        "no results",
+        "blank slate",
+        "zero state",
+        "placeholder panel"
+      ],
+      "aliases": [
+        "blank slate",
+        "no data placeholder",
+        "zero data state",
+        "nothing here yet"
+      ],
+      "visual_references": [
+        {
+          "name": "Linear",
+          "purpose": "empty list with call to action",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "GitHub",
+          "purpose": "blank slate with primary action",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00046",
+        "mc-sh-prim-00048",
+        "mc-sh-prim-00055"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/empty-state/source/EmptyState.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/empty-state",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00057",
+        "empty-state",
+        "empty state",
+        "no results",
+        "blank slate",
+        "zero state",
+        "placeholder panel",
+        "no data placeholder",
+        "zero data state",
+        "nothing here yet",
+        "linear",
+        "github",
+        "icon-slot",
+        "action-slots",
+        "three-sizes",
+        "dashed-border-variant",
+        "content-slot"
+      ]
+    },
+    {
+      "id": "mc-sh-prim-00058",
+      "name": "settings-row-group",
+      "type": "primitive",
+      "platform": "cross-platform",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Grouped settings list: titled card with divided rows, each row pairing a label and description with a control slot. Supports disabled, danger, and stacked layouts.",
+      "capabilities": [
+        "grouped-rows",
+        "label-control-association",
+        "disabled-row",
+        "danger-row",
+        "stacked-layout",
+        "empty-group-container"
+      ],
+      "keywords": [
+        "settings row",
+        "preferences list",
+        "toggle row",
+        "settings group",
+        "option row"
+      ],
+      "aliases": [
+        "preference row",
+        "settings list item",
+        "switch row",
+        "settings card"
+      ],
+      "visual_references": [
+        {
+          "name": "macOS System Settings",
+          "purpose": "grouped rows with trailing controls",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Vercel",
+          "purpose": "settings cards with danger zone",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-page-00009",
+        "mc-sh-prim-00053",
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Semantic design tokens only",
+        "Empty content slots by default",
+        "Does not bundle switch or select controls"
+      ],
+      "entry_points": [
+        "foundations/shared/primitives/settings-row-group/source/SettingsGroup.tsx",
+        "foundations/shared/primitives/settings-row-group/source/SettingsRow.tsx"
+      ],
+      "storage_path": "foundations/shared/primitives/settings-row-group",
+      "license": "MIT",
+      "validation_status": "partially_verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-prim-00058",
+        "settings-row-group",
+        "settings row",
+        "preferences list",
+        "toggle row",
+        "settings group",
+        "option row",
+        "preference row",
+        "settings list item",
+        "switch row",
+        "settings card",
+        "macos system settings",
+        "vercel",
+        "grouped-rows",
+        "label-control-association",
+        "disabled-row",
+        "danger-row",
+        "stacked-layout",
+        "empty-group-container"
+      ]
+    },
+    {
+      "id": "mc-sh-util-00017",
+      "name": "use-responsive-sidebars",
+      "type": "utility",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "React hook for responsive multi-panel layout resizing, pixel-preserved widths, auto-collapse on narrow screens, and automatic restoration.",
+      "capabilities": [
+        "pixel-preserved-resizing",
+        "localStorage-persistence",
+        "dual-sidebar-coordination",
+        "responsive-auto-collapse",
+        "auto-restore-on-expand"
+      ],
+      "keywords": [
+        "responsive sidebars",
+        "panel resize hook",
+        "layout hook",
+        "sidebar collapse",
+        "window resize listener"
+      ],
+      "aliases": [
+        "sidebar state hook",
+        "multi-panel layout hook",
+        "responsive layout controller"
+      ],
+      "visual_references": [
+        {
+          "name": "Claude Code",
+          "purpose": "dual sidebar auto-collapsing in narrow windows",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Cursor",
+          "purpose": "resizable side panels with remembered widths",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00012"
+      ],
+      "dependencies": [
+        "react"
+      ],
+      "design_constraints": [
+        "Headless utility with no visual styling"
+      ],
+      "entry_points": [
+        "foundations/shared/utilities/responsive-sidebars/source/use-responsive-sidebars.ts"
+      ],
+      "storage_path": "foundations/shared/utilities/responsive-sidebars",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-util-00017",
+        "use-responsive-sidebars",
+        "responsive sidebars",
+        "panel resize hook",
+        "layout hook",
+        "sidebar collapse",
+        "window resize listener",
+        "sidebar state hook",
+        "multi-panel layout hook",
+        "responsive layout controller",
+        "claude code",
+        "cursor",
+        "pixel-preserved-resizing",
+        "localstorage-persistence",
+        "dual-sidebar-coordination",
+        "responsive-auto-collapse",
+        "auto-restore-on-expand"
+      ]
+    },
+    {
+      "id": "mc-sh-util-00018",
+      "name": "cn-class-merger",
+      "type": "utility",
+      "platform": "cross-platform",
+      "frameworks": [
+        "shared"
+      ],
+      "description": "Standard utility function combining clsx and tailwind-merge to reliably compose and resolve Tailwind CSS class names.",
+      "capabilities": [
+        "conditional-class-merging",
+        "tailwind-conflict-resolution",
+        "headless-utility"
+      ],
+      "keywords": [
+        "cn",
+        "clsx",
+        "tailwind-merge",
+        "classNames",
+        "css utility"
+      ],
+      "aliases": [
+        "class merger",
+        "tailwind cn helper",
+        "classNames function"
+      ],
+      "visual_references": [
+        {
+          "name": "shadcn/ui Standard",
+          "purpose": "canonical class composition utility function",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "design_constraints": [
+        "Zero visual output (pure utility)"
+      ],
+      "entry_points": [
+        "foundations/shared/utilities/cn/source/utils.ts"
+      ],
+      "storage_path": "foundations/shared/utilities/cn",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-sh-util-00018",
+        "cn-class-merger",
+        "cn",
+        "clsx",
+        "tailwind-merge",
+        "classnames",
+        "css utility",
+        "class merger",
+        "tailwind cn helper",
+        "classnames function",
+        "shadcn/ui standard",
+        "conditional-class-merging",
+        "tailwind-conflict-resolution",
+        "headless-utility"
+      ]
+    },
+    {
+      "id": "mc-web-layout-00003",
+      "name": "auth-split-shell",
+      "type": "layout",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Dual-column responsive authentication layout with centered form container on one side and neutral aside preview slot on the other.",
+      "capabilities": [
+        "split-column-layout",
+        "responsive-stacking",
+        "unbranded-form-slot",
+        "aside-preview-slot"
+      ],
+      "keywords": [
+        "auth layout",
+        "login shell",
+        "signup layout",
+        "split screen",
+        "dual column layout"
+      ],
+      "aliases": [
+        "split auth screen",
+        "Linear-style login shell",
+        "SaaS auth foundation",
+        "two-column auth"
+      ],
+      "visual_references": [
+        {
+          "name": "Linear",
+          "purpose": "minimalist split authentication screen",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Supabase",
+          "purpose": "developer login split view with aside illustration slot",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "No pre-filled form fields",
+        "Blank aside slot",
+        "Responsive mobile single-column fallback"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/auth-split-shell/source/AuthSplitShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/auth-split-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-layout-00003",
+        "auth-split-shell",
+        "auth layout",
+        "login shell",
+        "signup layout",
+        "split screen",
+        "dual column layout",
+        "split auth screen",
+        "linear-style login shell",
+        "saas auth foundation",
+        "two-column auth",
+        "linear",
+        "supabase",
+        "split-column-layout",
+        "responsive-stacking",
+        "unbranded-form-slot",
+        "aside-preview-slot"
+      ]
+    },
+    {
+      "id": "mc-web-layout-00004",
+      "name": "canvas-workspace-shell",
+      "type": "layout",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Infinite canvas workspace shell featuring floating tool palette, viewport control slots, and an empty canvas surface container.",
+      "capabilities": [
+        "infinite-canvas-viewport",
+        "floating-tool-palette",
+        "floating-zoom-controls",
+        "floating-inspector-slot",
+        "empty-canvas-surface"
+      ],
+      "keywords": [
+        "canvas layout",
+        "Figma-style editor",
+        "infinite canvas",
+        "node editor shell",
+        "diagram workspace"
+      ],
+      "aliases": [
+        "Figma-inspired canvas",
+        "Miro-style board",
+        "workflow canvas shell",
+        "editor viewport"
+      ],
+      "visual_references": [
+        {
+          "name": "Figma",
+          "purpose": "design workspace, canvas layout, layers panel, floating tool palette",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Miro",
+          "purpose": "infinite whiteboard navigation and tool overlay",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "No pre-rendered nodes or graphs",
+        "Blank canvas surface container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/canvas-workspace-shell/source/CanvasWorkspaceShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/canvas-workspace-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-layout-00004",
+        "canvas-workspace-shell",
+        "canvas layout",
+        "figma-style editor",
+        "infinite canvas",
+        "node editor shell",
+        "diagram workspace",
+        "figma-inspired canvas",
+        "miro-style board",
+        "workflow canvas shell",
+        "editor viewport",
+        "figma",
+        "miro",
+        "infinite-canvas-viewport",
+        "floating-tool-palette",
+        "floating-zoom-controls",
+        "floating-inspector-slot",
+        "empty-canvas-surface"
+      ]
+    },
+    {
+      "id": "mc-web-nav-00007",
+      "name": "vertical-icon-rail",
+      "type": "navigation",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Compact vertical navigation rail with active pill indicators, tooltip overlays, top branding slot, and bottom status slot.",
+      "capabilities": [
+        "compact-icon-rail",
+        "active-indicator-pill",
+        "hover-tooltips",
+        "notification-badge-support",
+        "top-and-bottom-slots"
+      ],
+      "keywords": [
+        "icon rail",
+        "vertical navigation",
+        "compact sidebar",
+        "dock",
+        "activity bar"
+      ],
+      "aliases": [
+        "Linear icon rail",
+        "VS Code activity bar",
+        "compact navigation rail",
+        "dock sidebar"
+      ],
+      "visual_references": [
+        {
+          "name": "Linear",
+          "purpose": "compact navigation rail with active status indicator",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "VS Code",
+          "purpose": "activity bar vertical icon navigation layout",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-web-layout-00004"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "Neutral styling compatible with standard design tokens"
+      ],
+      "entry_points": [
+        "foundations/desktop/navigation/icon-rail/source/IconRail.tsx"
+      ],
+      "storage_path": "foundations/desktop/navigation/icon-rail",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-nav-00007",
+        "vertical-icon-rail",
+        "icon rail",
+        "vertical navigation",
+        "compact sidebar",
+        "dock",
+        "activity bar",
+        "linear icon rail",
+        "vs code activity bar",
+        "compact navigation rail",
+        "dock sidebar",
+        "linear",
+        "vs code",
+        "compact-icon-rail",
+        "active-indicator-pill",
+        "hover-tooltips",
+        "notification-badge-support",
+        "top-and-bottom-slots"
+      ]
+    },
+    {
+      "id": "mc-web-page-00008",
+      "name": "blank-dashboard-page",
+      "type": "foundation",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Neutral blank dashboard page container with header title, action bar slots, filter row, and empty content container ready for widgets or data tables.",
+      "capabilities": [
+        "page-header-slot",
+        "action-buttons-slot",
+        "filter-bar-slot",
+        "empty-content-area",
+        "responsive-padding"
+      ],
+      "keywords": [
+        "blank dashboard",
+        "dashboard page",
+        "admin page container",
+        "page structure",
+        "empty page"
+      ],
+      "aliases": [
+        "dashboard container",
+        "admin dashboard page shell",
+        "overview page structure"
+      ],
+      "visual_references": [
+        {
+          "name": "Vercel",
+          "purpose": "dashboard project page structure with action slots and empty body",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Linear",
+          "purpose": "minimalist view header with filter bar and blank view surface",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-lib-web-00001",
+        "mc-sh-prim-00055",
+        "mc-sh-prim-00056"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded metrics or fake charts",
+        "No pre-filled tables",
+        "Empty content area by default",
+        "No forced card surfaces"
+      ],
+      "entry_points": [
+        "foundations/desktop/blank-pages/dashboard-page/source/BlankDashboardPage.tsx"
+      ],
+      "storage_path": "foundations/desktop/blank-pages/dashboard-page",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-page-00008",
+        "blank-dashboard-page",
+        "blank dashboard",
+        "dashboard page",
+        "admin page container",
+        "page structure",
+        "empty page",
+        "dashboard container",
+        "admin dashboard page shell",
+        "overview page structure",
+        "vercel",
+        "linear",
+        "page-header-slot",
+        "action-buttons-slot",
+        "filter-bar-slot",
+        "empty-content-area",
+        "responsive-padding"
+      ]
+    },
+    {
+      "id": "mc-web-page-00009",
+      "name": "blank-settings-page",
+      "type": "foundation",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Two-column settings layout structure with category navigation sidebar on the left and empty section content container on the right.",
+      "capabilities": [
+        "two-column-settings-layout",
+        "category-navigation-tabs",
+        "section-description-header",
+        "empty-settings-container",
+        "responsive-stacking"
+      ],
+      "keywords": [
+        "settings layout",
+        "preferences page",
+        "configuration shell",
+        "account settings",
+        "options panel"
+      ],
+      "aliases": [
+        "settings layout",
+        "preferences shell",
+        "account settings page",
+        "two-column settings"
+      ],
+      "visual_references": [
+        {
+          "name": "Vercel",
+          "purpose": "project and team settings navigation layout",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "GitHub",
+          "purpose": "repository settings category sidebar and configuration body",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-shell-00001",
+        "mc-lib-web-00001",
+        "mc-sh-prim-00053",
+        "mc-sh-prim-00058"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No pre-filled application settings or secrets",
+        "Neutral styling compatible with standard design tokens",
+        "Empty section content slots"
+      ],
+      "entry_points": [
+        "foundations/desktop/blank-pages/settings-page/source/BlankSettingsPage.tsx"
+      ],
+      "storage_path": "foundations/desktop/blank-pages/settings-page",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-page-00009",
+        "blank-settings-page",
+        "settings layout",
+        "preferences page",
+        "configuration shell",
+        "account settings",
+        "options panel",
+        "preferences shell",
+        "account settings page",
+        "two-column settings",
+        "vercel",
+        "github",
+        "two-column-settings-layout",
+        "category-navigation-tabs",
+        "section-description-header",
+        "empty-settings-container",
+        "responsive-stacking"
+      ]
+    },
+    {
+      "id": "mc-web-shell-00001",
+      "name": "sidebar-shell",
+      "type": "foundation",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Responsive dashboard application shell with collapsible sidebar, top navigation bar, breadcrumb slots, and an empty main content area.",
+      "capabilities": [
+        "collapsible-sidebar",
+        "icon-rail-mode",
+        "keyboard-shortcuts",
+        "mobile-drawer-fallback",
+        "header-breadcrumbs",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "sidebar layout",
+        "dashboard shell",
+        "admin layout",
+        "productivity interface",
+        "responsive navigation"
+      ],
+      "aliases": [
+        "Linear-style layout",
+        "Vercel-style dashboard shell",
+        "admin sidebar foundation",
+        "SaaS application shell"
+      ],
+      "visual_references": [
+        {
+          "name": "Linear",
+          "purpose": "compact sidebar and keyboard-oriented productivity interface",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Vercel",
+          "purpose": "deployment dashboard and project navigation structure",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Notion",
+          "purpose": "hierarchical sidebar and flexible content area",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-web-nav-00007",
+        "mc-web-page-00008",
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "No application-specific content",
+        "No default decorative background",
+        "Neutral structural styling only"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/sidebar-shell/source/AppShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/sidebar-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-shell-00001",
+        "sidebar-shell",
+        "sidebar layout",
+        "dashboard shell",
+        "admin layout",
+        "productivity interface",
+        "responsive navigation",
+        "linear-style layout",
+        "vercel-style dashboard shell",
+        "admin sidebar foundation",
+        "saas application shell",
+        "linear",
+        "vercel",
+        "notion",
+        "collapsible-sidebar",
+        "icon-rail-mode",
+        "keyboard-shortcuts",
+        "mobile-drawer-fallback",
+        "header-breadcrumbs",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-web-shell-00012",
+      "name": "assistant-workspace-shell",
+      "type": "foundation",
+      "platform": "desktop",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Neutral application shell with collapsible sidebar, header with mode switcher and navigation history, resizable inspector panel, and empty main content container.",
+      "capabilities": [
+        "collapsible-sidebar",
+        "header-navigation",
+        "mode-switching",
+        "collapsible-inspector",
+        "responsive-layout",
+        "empty-content-container"
+      ],
+      "keywords": [
+        "AI workspace",
+        "chat application",
+        "developer tool",
+        "assistant interface",
+        "application shell",
+        "three-panel layout"
+      ],
+      "aliases": [
+        "chat-style layout",
+        "AI assistant shell",
+        "Claude Code-style structure",
+        "ChatGPT-style structure",
+        "Cursor-style layout"
+      ],
+      "visual_references": [
+        {
+          "name": "Claude Code",
+          "purpose": "developer workspace structure",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "ChatGPT",
+          "purpose": "conversational workspace structure",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Cursor",
+          "purpose": "contextual assistant panel layout",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [
+        "mc-sh-prim-00014",
+        "mc-sh-util-00017",
+        "mc-lib-web-00001"
+      ],
+      "dependencies": [
+        "react",
+        "react-dom",
+        "lucide-react"
+      ],
+      "design_constraints": [
+        "No forced brand identity",
+        "No application-specific content",
+        "No default decorative background",
+        "Main content container is empty by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/assistant-workspace-shell/source/AppShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/assistant-workspace-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-shell-00012",
+        "assistant-workspace-shell",
+        "ai workspace",
+        "chat application",
+        "developer tool",
+        "assistant interface",
+        "application shell",
+        "three-panel layout",
+        "chat-style layout",
+        "ai assistant shell",
+        "claude code-style structure",
+        "chatgpt-style structure",
+        "cursor-style layout",
+        "claude code",
+        "chatgpt",
+        "cursor",
+        "collapsible-sidebar",
+        "header-navigation",
+        "mode-switching",
+        "collapsible-inspector",
+        "responsive-layout",
+        "empty-content-container"
+      ]
+    },
+    {
+      "id": "mc-web-shell-00031",
+      "name": "marketing-shell",
+      "type": "layout",
+      "platform": "web",
+      "frameworks": [
+        "React"
+      ],
+      "description": "Responsive SaaS and product marketing layout shell with sticky glassmorphism header, brand slot, mobile navigation drawer, and empty main content container.",
+      "capabilities": [
+        "sticky-glassmorphism-header",
+        "responsive-mobile-navigation-drawer",
+        "announcement-banner-slot",
+        "empty-content-container",
+        "brand-and-actions-slots",
+        "customizable-max-width"
+      ],
+      "keywords": [
+        "marketing shell",
+        "landing page layout",
+        "website layout",
+        "SaaS landing layout",
+        "marketing header",
+        "responsive web shell"
+      ],
+      "aliases": [
+        "Vercel marketing layout",
+        "Stripe landing page shell",
+        "SaaS website layout"
+      ],
+      "visual_references": [
+        {
+          "name": "Vercel",
+          "purpose": "minimalist marketing navigation header with actions and clean page container",
+          "reference_type": "structural-search-hint"
+        },
+        {
+          "name": "Stripe",
+          "purpose": "product marketing landing shell with top announcement banner and responsive nav",
+          "reference_type": "structural-search-hint"
+        }
+      ],
+      "related_assets": [],
+      "dependencies": [
+        "lucide-react",
+        "react",
+        "react-dom"
+      ],
+      "design_constraints": [
+        "No hardcoded marketing copy, hero sections, pricing tables, or brand logos",
+        "Empty main content container by default"
+      ],
+      "entry_points": [
+        "foundations/desktop/layouts/marketing-shell/source/MarketingShell.tsx"
+      ],
+      "storage_path": "foundations/desktop/layouts/marketing-shell",
+      "license": "MIT",
+      "validation_status": "verified",
+      "version": "1.0.0",
+      "search_terms": [
+        "mc-web-shell-00031",
+        "marketing-shell",
+        "marketing shell",
+        "landing page layout",
+        "website layout",
+        "saas landing layout",
+        "marketing header",
+        "responsive web shell",
+        "vercel marketing layout",
+        "stripe landing page shell",
+        "saas website layout",
+        "vercel",
+        "stripe",
+        "sticky-glassmorphism-header",
+        "responsive-mobile-navigation-drawer",
+        "announcement-banner-slot",
+        "empty-content-container",
+        "brand-and-actions-slots",
+        "customizable-max-width"
+      ]
+    }
+  ]
+}

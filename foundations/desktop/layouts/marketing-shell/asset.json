@@ -1,0 +1,66 @@
+{
+  "id": "mc-web-shell-00031",
+  "name": "marketing-shell",
+  "type": "layout",
+  "platform": "web",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Responsive SaaS and product marketing layout shell with sticky glassmorphism header, brand slot, mobile navigation drawer, and empty main content container.",
+  "capabilities": [
+    "sticky-glassmorphism-header",
+    "responsive-mobile-navigation-drawer",
+    "announcement-banner-slot",
+    "empty-content-container",
+    "brand-and-actions-slots",
+    "customizable-max-width"
+  ],
+  "keywords": [
+    "marketing shell",
+    "landing page layout",
+    "website layout",
+    "SaaS landing layout",
+    "marketing header",
+    "responsive web shell"
+  ],
+  "aliases": [
+    "Vercel marketing layout",
+    "Stripe landing page shell",
+    "SaaS website layout"
+  ],
+  "visual_references": [
+    {
+      "name": "Vercel",
+      "purpose": "minimalist marketing navigation header with actions and clean page container",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Stripe",
+      "purpose": "product marketing landing shell with top announcement banner and responsive nav",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded marketing copy, hero sections, pricing tables, or brand logos",
+    "Empty main content container by default"
+  ],
+  "entry_points": [
+    "source/MarketingShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "codegrey-moolre.zip",
+    "original_paths": [
+      "src/components/marketing-header.tsx"
+    ],
+    "neutralization_summary": "Extracted responsive marketing layout shell. Removed brand logo, specific route links, and session-specific user menus in favor of generic slots."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

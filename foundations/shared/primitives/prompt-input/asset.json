@@ -1,0 +1,75 @@
+{
+  "id": "mc-sh-prim-00030",
+  "name": "prompt-input",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Auto-expanding AI prompt input primitive with attachment chips, model selector slot, voice recording state, and morphing submit/stop actions.",
+  "capabilities": [
+    "auto-expanding-multiline-input",
+    "keyboard-enter-submission",
+    "attachment-chips-with-removal",
+    "file-attachment-trigger",
+    "morphing-submit-stop-button",
+    "voice-recording-toggle",
+    "model-selector-slot"
+  ],
+  "keywords": [
+    "prompt input",
+    "AI composer",
+    "chat input",
+    "prompt textarea",
+    "chat composer",
+    "message box",
+    "multimodal input"
+  ],
+  "aliases": [
+    "ChatGPT prompt bar",
+    "Claude chat input",
+    "Cursor composer input"
+  ],
+  "visual_references": [
+    {
+      "name": "ChatGPT",
+      "purpose": "minimal prompt bar with rounded borders and circular submit button",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Claude",
+      "purpose": "multiline composer with attachment chips and model selection",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Cursor",
+      "purpose": "AI prompt composer with context chips and morphing send/stop action",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded AI providers, model endpoints, or API clients",
+    "Empty and neutral layout customizable via standard CSS tokens"
+  ],
+  "entry_points": [
+    "source/PromptInput.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "codegrey-moolre.zip",
+    "original_paths": [
+      "src/components/prompt-input.tsx"
+    ],
+    "neutralization_summary": "Extracted auto-expanding prompt input primitive. Removed hardcoded brand logos, Supabase auth ties, and specific LLM provider API clients."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

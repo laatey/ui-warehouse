@@ -1,0 +1,64 @@
+{
+  "id": "mc-sh-prim-00049",
+  "name": "issue-row-item",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Compact horizontal issue and task item row primitive featuring priority icons, status badges, mono key identifier, title truncation, assignee avatar, and due date indicators.",
+  "capabilities": [
+    "priority-indicators",
+    "status-badge",
+    "key-identifier-tag",
+    "assignee-avatar",
+    "due-date-pill",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "issue row",
+    "task row",
+    "issue item",
+    "linear issue",
+    "project task item"
+  ],
+  "aliases": [
+    "Plane issue row",
+    "Linear issue item",
+    "Jira backlog row"
+  ],
+  "visual_references": [
+    {
+      "name": "Plane",
+      "purpose": "dense issue row item with priority badge, status icon, and assignee indicator",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00047",
+    "mc-sh-prim-00048"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Accessible checkbox & row click handling",
+    "Empty container slot for custom badges"
+  ],
+  "entry_points": [
+    "source/IssueRowItem.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "plane-web",
+    "original_paths": [
+      "apps/web/components/issues/relations/issue-list-item.tsx",
+      "apps/web/components/base-layouts/list/item.tsx"
+    ],
+    "neutralization_summary": "Extracted issue row presentation, priority iconography, and assignee slots; removed Plane MobX store hooks and Propel UI components in favor of plain React props."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

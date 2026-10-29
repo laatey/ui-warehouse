@@ -1,0 +1,63 @@
+{
+  "id": "mc-sh-prim-00016",
+  "name": "diff-viewer",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Unified code diff viewer with line numbers, hunk separation, addition/deletion highlights, and line truncation handling.",
+  "capabilities": [
+    "unified-diff-view",
+    "gutter-line-numbers",
+    "hunk-separation",
+    "addition-deletion-styling",
+    "large-diff-truncation"
+  ],
+  "keywords": [
+    "diff viewer",
+    "code diff",
+    "git diff",
+    "syntax diff",
+    "patch viewer"
+  ],
+  "aliases": [
+    "GitHub diff viewer",
+    "code change viewer",
+    "patch inspector"
+  ],
+  "visual_references": [
+    {
+      "name": "GitHub",
+      "purpose": "unified pull request code diff display",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Cursor",
+      "purpose": "inline code modification diff panel",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00012"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Neutral styling compatible with standard design tokens",
+    "No hardcoded dark/light values"
+  ],
+  "entry_points": [
+    "source/DiffViewer.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/components/diff-view.tsx"
+    ],
+    "neutralization_summary": "Extracted standalone unified diff viewer. Replaced specific highlight.js HTML injections with pure text diff rendering and tokenized additions/deletions styles."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

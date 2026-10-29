@@ -1,0 +1,65 @@
+{
+  "id": "mc-sh-prim-00048",
+  "name": "kanban-board-stage",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Multi-column kanban board stage supporting collapsible status lanes, count badges, add-item triggers, card renderer slots, and empty drop zones.",
+  "capabilities": [
+    "multi-column-kanban",
+    "collapsible-lanes",
+    "column-header-badges",
+    "add-item-trigger",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "kanban board",
+    "card lanes",
+    "board stage",
+    "task board",
+    "issue columns"
+  ],
+  "aliases": [
+    "Plane kanban board",
+    "Jira sprint board",
+    "Linear project board",
+    "Trello board"
+  ],
+  "visual_references": [
+    {
+      "name": "Plane",
+      "purpose": "horizontal scrollable kanban columns with status headers and collapsible states",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00047",
+    "mc-sh-prim-00049"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Accessible region landmarks",
+    "Empty container slot for cards"
+  ],
+  "entry_points": [
+    "source/KanbanBoardStage.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "plane-web",
+    "original_paths": [
+      "apps/web/components/base-layouts/kanban/layout.tsx",
+      "apps/web/components/base-layouts/kanban/group.tsx",
+      "apps/web/components/base-layouts/kanban/group-header.tsx"
+    ],
+    "neutralization_summary": "Extracted column lane container, header collapse toggle, and item drop layout; removed MobX observer and Propel tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

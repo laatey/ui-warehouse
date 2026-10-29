@@ -1,0 +1,66 @@
+{
+  "id": "mc-mob-page-00022",
+  "name": "native-blank-screen",
+  "type": "foundation",
+  "platform": "mobile",
+  "frameworks": ["React Native", "Expo"],
+  "description": "Neutral blank screen foundation for React Native and Expo with safe-area insets, optional header with back action, and empty scrollable content container.",
+  "capabilities": [
+    "safe-area-insets",
+    "optional-screen-header",
+    "back-navigation-support",
+    "empty-scrollable-container",
+    "fixed-footer-slot",
+    "keyboard-handled-taps"
+  ],
+  "keywords": [
+    "react native blank screen",
+    "expo screen shell",
+    "mobile page container",
+    "safe area screen",
+    "empty mobile page"
+  ],
+  "aliases": [
+    "React Native screen shell",
+    "Expo blank page",
+    "mobile screen container"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS Standard",
+      "purpose": "standard single-screen layout with safe-area handling and header",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-nav-00021",
+    "mc-mob-nav-00020",
+    "mc-lib-mob-00023"
+  ],
+  "dependencies": [
+    "@expo/vector-icons",
+    "expo-haptics",
+    "react",
+    "react-native",
+    "react-native-safe-area-context"
+  ],
+  "design_constraints": [
+    "Empty content area by default",
+    "No hardcoded brand themes",
+    "Safe-area insets preserved"
+  ],
+  "entry_points": [
+    "source/NativeBlankScreen.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "nomo-rider-mobile.zip",
+    "original_paths": [
+      "src/screens/AccountScreen.tsx",
+      "src/screens/PaymentScreen.tsx"
+    ],
+    "neutralization_summary": "Extracted blank screen structure with safe-area handling and header back actions, stripped all rider account details and payment forms."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

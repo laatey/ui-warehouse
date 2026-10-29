@@ -1,0 +1,65 @@
+{
+  "id": "mc-web-nav-00007",
+  "name": "vertical-icon-rail",
+  "type": "navigation",
+  "platform": "web",
+  "frameworks": ["React"],
+  "description": "Compact vertical navigation rail with active pill indicators, tooltip overlays, top branding slot, and bottom status slot.",
+  "capabilities": [
+    "compact-icon-rail",
+    "active-indicator-pill",
+    "hover-tooltips",
+    "notification-badge-support",
+    "top-and-bottom-slots"
+  ],
+  "keywords": [
+    "icon rail",
+    "vertical navigation",
+    "compact sidebar",
+    "dock",
+    "activity bar"
+  ],
+  "aliases": [
+    "Linear icon rail",
+    "VS Code activity bar",
+    "compact navigation rail",
+    "dock sidebar"
+  ],
+  "visual_references": [
+    {
+      "name": "Linear",
+      "purpose": "compact navigation rail with active status indicator",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "VS Code",
+      "purpose": "activity bar vertical icon navigation layout",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00001",
+    "mc-web-layout-00004"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/IconRail.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/moor/workspace-shell.tsx"
+    ],
+    "neutralization_summary": "Extracted icon rail navigation from morline workspace navigation, generalized items and slots, removed TanStack Router link dependencies."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

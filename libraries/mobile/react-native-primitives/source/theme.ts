@@ -1,0 +1,87 @@
+export const theme = {
+  colors: {
+    background: '#FFFFFF',
+    foreground: '#0B0F18',
+    card: '#FFFFFF',
+    cardForeground: '#0B0F18',
+    primary: '#0B0F18',
+    primaryForeground: '#FAFCFF',
+    secondary: '#EDF0F6',
+    secondaryForeground: '#181F2E',
+    muted: '#EFF1F5',
+    mutedForeground: '#6C727E',
+    accent: '#E4EDFF',
+    accentForeground: '#2230B1',
+    destructive: '#E7000B',
+    destructiveForeground: '#FAFCFE',
+    border: '#E2E5EA',
+    input: '#E2E5EA',
+    surface: '#070B14',
+    surfaceForeground: '#F7F8FA',
+    success: '#0F9D58',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 20,
+    xxl: 24,
+    xxxl: 32,
+  },
+  radius: {
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 20,
+    '2xl': 24,
+    '3xl': 28,
+    '4xl': 32,
+    full: 9999,
+  },
+  font: {
+    size: {
+      xxs: 11,
+      xs: 12,
+      sm: 13,
+      base: 14,
+      md: 15,
+      lg: 17,
+      xl: 20,
+      xxl: 24,
+      display: 32,
+    },
+    weight: {
+      regular: '400' as const,
+      medium: '500' as const,
+      semibold: '600' as const,
+      bold: '700' as const,
+    },
+  },
+} as const;
+
+export const shadow = {
+  card: {
+    shadowColor: '#0B0F18',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.06,
+    shadowRadius: 12,
+    elevation: 2,
+  },
+  sheet: {
+    shadowColor: '#0B0F18',
+    shadowOffset: { width: 0, height: -8 },
+    shadowOpacity: 0.12,
+    shadowRadius: 20,
+    elevation: 10,
+  },
+  soft: {
+    shadowColor: '#0B0F18',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 6,
+    elevation: 1,
+  },
+};
+
+export type Theme = typeof theme;

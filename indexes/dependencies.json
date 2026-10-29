@@ -1,0 +1,444 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-29T10:15:08.431Z",
+  "total_dependencies": 46,
+  "dependencies": [
+    {
+      "name": "@expo/vector-icons",
+      "used_by_assets": [
+        "mc-lib-mob-00023",
+        "mc-mob-nav-00020",
+        "mc-mob-nav-00021",
+        "mc-mob-page-00022",
+        "mc-mob-shell-00019"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-accordion",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-alert-dialog",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-aspect-ratio",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-avatar",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-checkbox",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-collapsible",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-context-menu",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-dropdown-menu",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-hover-card",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-label",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-menubar",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-navigation-menu",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-popover",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-progress",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-radio-group",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-scroll-area",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-select",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-separator",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-slider",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-switch",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-tabs",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-toggle",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-toggle-group",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@radix-ui/react-tooltip",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "@react-navigation/bottom-tabs",
+      "used_by_assets": [
+        "mc-mob-nav-00020"
+      ]
+    },
+    {
+      "name": "class-variance-authority",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "clsx",
+      "used_by_assets": [
+        "mc-lib-web-00001",
+        "mc-sh-util-00018"
+      ]
+    },
+    {
+      "name": "cmdk",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "embla-carousel-react",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "expo-haptics",
+      "used_by_assets": [
+        "mc-lib-mob-00023",
+        "mc-mob-nav-00020",
+        "mc-mob-nav-00021",
+        "mc-mob-page-00022",
+        "mc-mob-shell-00019"
+      ]
+    },
+    {
+      "name": "input-otp",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "lucide-react",
+      "used_by_assets": [
+        "mc-desk-nav-00005",
+        "mc-desk-nav-00006",
+        "mc-desk-nav-00025",
+        "mc-desk-nav-00026",
+        "mc-desk-nav-00027",
+        "mc-desk-nav-00029",
+        "mc-desk-nav-00039",
+        "mc-desk-nav-00041",
+        "mc-desk-nav-00047",
+        "mc-desk-nav-00050",
+        "mc-desk-nav-00051",
+        "mc-desk-shell-00002",
+        "mc-desk-shell-00033",
+        "mc-desk-shell-00034",
+        "mc-desk-shell-00035",
+        "mc-desk-shell-00036",
+        "mc-desk-shell-00037",
+        "mc-desk-shell-00040",
+        "mc-lib-desk-00002",
+        "mc-lib-web-00001",
+        "mc-mob-nav-00012",
+        "mc-mob-page-00013",
+        "mc-mob-shell-00010",
+        "mc-sh-prim-00030",
+        "mc-sh-prim-00038",
+        "mc-sh-prim-00042",
+        "mc-sh-prim-00043",
+        "mc-sh-prim-00044",
+        "mc-sh-prim-00045",
+        "mc-sh-prim-00046",
+        "mc-sh-prim-00048",
+        "mc-sh-prim-00049",
+        "mc-sh-prim-00052",
+        "mc-web-shell-00001",
+        "mc-web-shell-00012",
+        "mc-web-shell-00031"
+      ]
+    },
+    {
+      "name": "react",
+      "used_by_assets": [
+        "mc-desk-nav-00005",
+        "mc-desk-nav-00006",
+        "mc-desk-nav-00025",
+        "mc-desk-nav-00026",
+        "mc-desk-nav-00027",
+        "mc-desk-nav-00028",
+        "mc-desk-nav-00029",
+        "mc-desk-nav-00039",
+        "mc-desk-nav-00041",
+        "mc-desk-nav-00047",
+        "mc-desk-nav-00050",
+        "mc-desk-nav-00051",
+        "mc-desk-shell-00002",
+        "mc-desk-shell-00024",
+        "mc-desk-shell-00032",
+        "mc-desk-shell-00033",
+        "mc-desk-shell-00034",
+        "mc-desk-shell-00035",
+        "mc-desk-shell-00036",
+        "mc-desk-shell-00037",
+        "mc-desk-shell-00040",
+        "mc-lib-desk-00002",
+        "mc-lib-mob-00003",
+        "mc-lib-mob-00023",
+        "mc-lib-web-00001",
+        "mc-mob-nav-00011",
+        "mc-mob-nav-00012",
+        "mc-mob-nav-00020",
+        "mc-mob-nav-00021",
+        "mc-mob-page-00013",
+        "mc-mob-page-00022",
+        "mc-mob-shell-00010",
+        "mc-mob-shell-00019",
+        "mc-sh-prim-00014",
+        "mc-sh-prim-00015",
+        "mc-sh-prim-00016",
+        "mc-sh-prim-00030",
+        "mc-sh-prim-00038",
+        "mc-sh-prim-00042",
+        "mc-sh-prim-00043",
+        "mc-sh-prim-00044",
+        "mc-sh-prim-00045",
+        "mc-sh-prim-00046",
+        "mc-sh-prim-00048",
+        "mc-sh-prim-00049",
+        "mc-sh-prim-00052",
+        "mc-sh-prim-00053",
+        "mc-sh-prim-00054",
+        "mc-sh-prim-00055",
+        "mc-sh-prim-00056",
+        "mc-sh-prim-00057",
+        "mc-sh-prim-00058",
+        "mc-sh-util-00017",
+        "mc-web-layout-00003",
+        "mc-web-layout-00004",
+        "mc-web-nav-00007",
+        "mc-web-page-00008",
+        "mc-web-page-00009",
+        "mc-web-shell-00001",
+        "mc-web-shell-00012",
+        "mc-web-shell-00031"
+      ]
+    },
+    {
+      "name": "react-day-picker",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "react-dom",
+      "used_by_assets": [
+        "mc-desk-nav-00005",
+        "mc-desk-nav-00006",
+        "mc-desk-nav-00025",
+        "mc-desk-nav-00026",
+        "mc-desk-nav-00027",
+        "mc-desk-nav-00028",
+        "mc-desk-nav-00029",
+        "mc-desk-nav-00039",
+        "mc-desk-nav-00041",
+        "mc-desk-nav-00047",
+        "mc-desk-nav-00050",
+        "mc-desk-nav-00051",
+        "mc-desk-shell-00002",
+        "mc-desk-shell-00024",
+        "mc-desk-shell-00032",
+        "mc-desk-shell-00033",
+        "mc-desk-shell-00034",
+        "mc-desk-shell-00035",
+        "mc-desk-shell-00036",
+        "mc-desk-shell-00037",
+        "mc-desk-shell-00040",
+        "mc-lib-desk-00002",
+        "mc-lib-mob-00003",
+        "mc-lib-web-00001",
+        "mc-mob-nav-00011",
+        "mc-mob-nav-00012",
+        "mc-mob-page-00013",
+        "mc-mob-shell-00010",
+        "mc-sh-prim-00014",
+        "mc-sh-prim-00015",
+        "mc-sh-prim-00016",
+        "mc-sh-prim-00030",
+        "mc-sh-prim-00038",
+        "mc-sh-prim-00042",
+        "mc-sh-prim-00043",
+        "mc-sh-prim-00044",
+        "mc-sh-prim-00045",
+        "mc-sh-prim-00046",
+        "mc-sh-prim-00048",
+        "mc-sh-prim-00049",
+        "mc-sh-prim-00052",
+        "mc-web-layout-00003",
+        "mc-web-layout-00004",
+        "mc-web-nav-00007",
+        "mc-web-page-00008",
+        "mc-web-page-00009",
+        "mc-web-shell-00001",
+        "mc-web-shell-00012",
+        "mc-web-shell-00031"
+      ]
+    },
+    {
+      "name": "react-hook-form",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "react-native",
+      "used_by_assets": [
+        "mc-lib-mob-00023",
+        "mc-mob-nav-00020",
+        "mc-mob-nav-00021",
+        "mc-mob-page-00022",
+        "mc-mob-shell-00019"
+      ]
+    },
+    {
+      "name": "react-native-safe-area-context",
+      "used_by_assets": [
+        "mc-lib-mob-00023",
+        "mc-mob-nav-00020",
+        "mc-mob-page-00022",
+        "mc-mob-shell-00019"
+      ]
+    },
+    {
+      "name": "react-resizable-panels",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "recharts",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "sonner",
+      "used_by_assets": [
+        "mc-lib-web-00001"
+      ]
+    },
+    {
+      "name": "tailwind-merge",
+      "used_by_assets": [
+        "mc-lib-web-00001",
+        "mc-sh-util-00018"
+      ]
+    },
+    {
+      "name": "vaul",
+      "used_by_assets": [
+        "mc-lib-mob-00003",
+        "mc-lib-web-00001"
+      ]
+    }
+  ]
+}

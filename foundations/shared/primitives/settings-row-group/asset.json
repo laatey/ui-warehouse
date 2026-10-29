@@ -1,0 +1,72 @@
+{
+  "id": "mc-sh-prim-00058",
+  "name": "settings-row-group",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Grouped settings list: titled card with divided rows, each row pairing a label and description with a control slot. Supports disabled, danger, and stacked layouts.",
+  "capabilities": [
+    "grouped-rows",
+    "label-control-association",
+    "disabled-row",
+    "danger-row",
+    "stacked-layout",
+    "empty-group-container"
+  ],
+  "keywords": [
+    "settings row",
+    "preferences list",
+    "toggle row",
+    "settings group",
+    "option row"
+  ],
+  "aliases": [
+    "preference row",
+    "settings list item",
+    "switch row",
+    "settings card"
+  ],
+  "visual_references": [
+    {
+      "name": "macOS System Settings",
+      "purpose": "grouped rows with trailing controls",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Vercel",
+      "purpose": "settings cards with danger zone",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-page-00009",
+    "mc-sh-prim-00053",
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default",
+    "Does not bundle switch or select controls"
+  ],
+  "entry_points": [
+    "source/SettingsGroup.tsx",
+    "source/SettingsRow.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/SettingsGroup.tsx",
+      "source/SettingsRow.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

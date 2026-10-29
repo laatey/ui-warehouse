@@ -1,0 +1,63 @@
+{
+  "id": "mc-desk-nav-00050",
+  "name": "schema-table-sidebar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Database schema and table navigation sidebar supporting schema selector dropdown, real-time table search filtering, entity status icons (tables, views, RLS locks), row count badges, and new-table triggers.",
+  "capabilities": [
+    "schema-picker-dropdown",
+    "table-filter-search",
+    "entity-status-badges",
+    "row-count-indicators",
+    "create-table-action"
+  ],
+  "keywords": [
+    "database sidebar",
+    "schema navigation",
+    "table list",
+    "database tables",
+    "studio navigation"
+  ],
+  "aliases": [
+    "Supabase table editor menu",
+    "Postgres studio sidebar",
+    "Prisma studio sidebar"
+  ],
+  "visual_references": [
+    {
+      "name": "Supabase Studio",
+      "purpose": "schema picker dropdown and table list sidebar with RLS badges and row counts",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00051",
+    "mc-sh-prim-00052"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Semantic navigation markup",
+    "Empty container slot for tree extensions"
+  ],
+  "entry_points": [
+    "source/SchemaTableSidebar.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "supabase-studio",
+    "original_paths": [
+      "apps/studio/components/layouts/TableEditorLayout/TableEditorMenu.tsx",
+      "apps/studio/components/layouts/TableEditorLayout/EntityListItem.tsx"
+    ],
+    "neutralization_summary": "Extracted schema dropdown and table entity list structure, removed project ref routing and TanStack Query state in favor of standard React props and semantic tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

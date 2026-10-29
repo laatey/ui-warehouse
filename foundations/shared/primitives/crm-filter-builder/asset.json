@@ -1,0 +1,63 @@
+{
+  "id": "mc-sh-prim-00045",
+  "name": "crm-filter-builder",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Compact interactive filter bar primitive supporting dynamic filter chips, operator toggles (is, contains, empty), in-place value editing, and add-filter field picker dropdown.",
+  "capabilities": [
+    "dynamic-filter-chips",
+    "operator-selection",
+    "inline-value-editor",
+    "field-picker-menu",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "crm filter",
+    "filter builder",
+    "filter chips",
+    "view bar filter",
+    "data filters"
+  ],
+  "aliases": [
+    "Twenty filter chip bar",
+    "Notion filter builder",
+    "Airtable filter row"
+  ],
+  "visual_references": [
+    {
+      "name": "Twenty CRM",
+      "purpose": "inline view bar filter chips with operator and value dropdowns",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00044",
+    "mc-sh-prim-00046"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Generic operator vocabulary",
+    "Empty container slot for custom popovers"
+  ],
+  "entry_points": [
+    "source/CrmFilterBuilder.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "twenty-front",
+    "original_paths": [
+      "packages/twenty-front/src/modules/views/components/SortOrFilterChip.tsx",
+      "packages/twenty-front/src/modules/views/editable-chip/components/EditableFilterChip.tsx"
+    ],
+    "neutralization_summary": "Extracted filter chip presentation and field picker menu, removed Linaria styling and Jotai store dependencies in favor of standard semantic tokens and React props."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

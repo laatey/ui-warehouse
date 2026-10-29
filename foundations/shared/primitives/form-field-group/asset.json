@@ -1,0 +1,74 @@
+{
+  "id": "mc-sh-prim-00053",
+  "name": "form-field-group",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": [
+    "React"
+  ],
+  "description": "Accessible form field wrapper (label, description, hint, inline error, required marker) with generated ids and aria wiring via a render prop, plus a titled multi-column form section.",
+  "capabilities": [
+    "label-control-association",
+    "aria-describedby-wiring",
+    "inline-error-alert",
+    "required-marker",
+    "horizontal-and-vertical-layouts",
+    "responsive-column-grid",
+    "render-prop-a11y-props"
+  ],
+  "keywords": [
+    "form field",
+    "form layout",
+    "input label",
+    "field error",
+    "form section",
+    "validation message"
+  ],
+  "aliases": [
+    "labeled input wrapper",
+    "form row",
+    "field group",
+    "form control wrapper"
+  ],
+  "visual_references": [
+    {
+      "name": "shadcn/ui Form",
+      "purpose": "label, description, and message structure",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Stripe Dashboard",
+      "purpose": "horizontal label-left form rows",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-lib-web-00001",
+    "mc-web-page-00009",
+    "mc-sh-prim-00054"
+  ],
+  "dependencies": [
+    "react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "Semantic design tokens only",
+    "Empty content slots by default",
+    "Does not bundle input controls"
+  ],
+  "entry_points": [
+    "source/FormField.tsx",
+    "source/FormSection.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "authored-original",
+    "original_paths": [
+      "source/FormField.tsx",
+      "source/FormSection.tsx"
+    ],
+    "neutralization_summary": "Authored as a generic primitive; no third-party source."
+  },
+  "license": "MIT",
+  "validation_status": "partially_verified",
+  "version": "1.0.0"
+}

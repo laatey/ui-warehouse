@@ -1,0 +1,64 @@
+{
+  "id": "mc-desk-nav-00051",
+  "name": "data-grid-toolbar",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Database and table data grid action toolbar featuring schema breadcrumbs, active filter/sort counter triggers, role view indicators, row insertion actions, and export menus.",
+  "capabilities": [
+    "schema-table-breadcrumb",
+    "filter-counter-trigger",
+    "sort-counter-trigger",
+    "insert-row-action",
+    "export-dropdown-menu",
+    "grid-refresh-control"
+  ],
+  "keywords": [
+    "data grid toolbar",
+    "table toolbar",
+    "database toolbar",
+    "studio actions",
+    "filter sort bar"
+  ],
+  "aliases": [
+    "Supabase grid header actions",
+    "Postgres grid toolbar",
+    "Airtable table header"
+  ],
+  "visual_references": [
+    {
+      "name": "Supabase Studio",
+      "purpose": "table grid header toolbar with filter and sort badges and insert row button",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-nav-00050",
+    "mc-sh-prim-00052"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Accessible toolbar role",
+    "Empty container slot for custom actions"
+  ],
+  "entry_points": [
+    "source/DataGridToolbar.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "supabase-studio",
+    "original_paths": [
+      "apps/studio/components/interfaces/TableGridEditor/GridHeaderActions.tsx",
+      "apps/studio/components/layouts/TableEditorLayout/TableEditor.Commands.tsx"
+    ],
+    "neutralization_summary": "Extracted breadcrumb title, filter/sort counter buttons, export dropdown, and insert row action; removed Supabase state snapshots and telemetry."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

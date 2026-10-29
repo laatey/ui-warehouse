@@ -1,0 +1,78 @@
+{
+  "id": "mc-web-shell-00012",
+  "name": "assistant-workspace-shell",
+  "type": "foundation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Neutral application shell with collapsible sidebar, header with mode switcher and navigation history, resizable inspector panel, and empty main content container.",
+  "capabilities": [
+    "collapsible-sidebar",
+    "header-navigation",
+    "mode-switching",
+    "collapsible-inspector",
+    "responsive-layout",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "AI workspace",
+    "chat application",
+    "developer tool",
+    "assistant interface",
+    "application shell",
+    "three-panel layout"
+  ],
+  "aliases": [
+    "chat-style layout",
+    "AI assistant shell",
+    "Claude Code-style structure",
+    "ChatGPT-style structure",
+    "Cursor-style layout"
+  ],
+  "visual_references": [
+    {
+      "name": "Claude Code",
+      "purpose": "developer workspace structure",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "ChatGPT",
+      "purpose": "conversational workspace structure",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Cursor",
+      "purpose": "contextual assistant panel layout",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00014",
+    "mc-sh-util-00017",
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "No application-specific content",
+    "No default decorative background",
+    "Main content container is empty by default"
+  ],
+  "entry_points": [
+    "source/AppShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/App.tsx",
+      "src/renderer/src/components/segmented-switch.tsx"
+    ],
+    "neutralization_summary": "Extracted three-panel desktop application shell, removed all MoreCode branding and specific stores, generalized header and inspector tabs, kept responsive collapse and slot mechanisms."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

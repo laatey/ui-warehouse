@@ -1,0 +1,69 @@
+{
+  "id": "mc-sh-prim-00038",
+  "name": "property-inspector-panel",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Tabbed property inspector panel featuring editable entity title, Content/Style/Events tab switching, real-time property search, collapsible accordion sections, and JS expression toggle triggers.",
+  "capabilities": [
+    "editable-entity-title",
+    "tabbed-inspector-modes",
+    "collapsible-property-sections",
+    "search-filtering-properties",
+    "js-expression-toggle-pills"
+  ],
+  "keywords": [
+    "property inspector",
+    "property pane",
+    "appsmith properties",
+    "low code inspector",
+    "settings sidebar",
+    "component config panel",
+    "accordion inspector"
+  ],
+  "aliases": [
+    "Appsmith PropertyPane",
+    "Figma properties inspector",
+    "widget property panel"
+  ],
+  "visual_references": [
+    {
+      "name": "Appsmith",
+      "purpose": "property pane with Content and Style tabs, search input, and collapsible section cards",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Figma",
+      "purpose": "right properties panel with collapsible section headers and input rows",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00033"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded Appsmith widgets, DSL types, or Redux store connections",
+    "Fully controlled/uncontrolled tabs and clean section configuration schema"
+  ],
+  "entry_points": [
+    "source/PropertyInspectorPanel.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "appsmith",
+    "original_paths": [
+      "app/client/src/pages/Editor/PropertyPane/PropertyPaneTitle.tsx",
+      "app/client/src/pages/Editor/PropertyPane/PropertyPaneTab.tsx",
+      "app/client/src/pages/Editor/PropertyPane/PropertySection.tsx",
+      "app/client/src/pages/Editor/PropertyPane/PropertyHelpLabel.tsx"
+    ],
+    "neutralization_summary": "Extracted collapsible, tabbed property inspector panel from Appsmith PropertyPane architecture. Replaced Redux selectors and Appsmith ADS styled-components with clean React props and semantic CSS tokens."
+  },
+  "license": "Apache-2.0",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

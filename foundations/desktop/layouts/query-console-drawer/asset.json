@@ -1,0 +1,68 @@
+{
+  "id": "mc-desk-shell-00040",
+  "name": "query-console-drawer",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Collapsible bottom query, console, and execution logs drawer featuring category tabs with badge counters, height resize handle, maximize/restore view, and empty content container.",
+  "capabilities": [
+    "collapsible-bottom-drawer",
+    "resizable-height-handle",
+    "maximize-minimize-view",
+    "tabbed-console-navigation",
+    "badge-counter-status-pills",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "query console",
+    "bottom drawer",
+    "appsmith console",
+    "developer logs drawer",
+    "terminal drawer",
+    "execution panel",
+    "resizable console"
+  ],
+  "aliases": [
+    "Appsmith BottomView drawer",
+    "Retool query console",
+    "developer logs panel"
+  ],
+  "visual_references": [
+    {
+      "name": "Appsmith",
+      "purpose": "bottom view drawer with tabs for Query, Errors, and Logs with collapse button",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Retool",
+      "purpose": "bottom query and state inspector drawer with resize handle",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00033",
+    "mc-desk-nav-00028"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded Appsmith API actions, queries, or redux dispatchers",
+    "Empty console viewport by default"
+  ],
+  "entry_points": [
+    "source/QueryConsoleDrawer.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "appsmith",
+    "original_paths": [
+      "app/client/src/IDE/Components/BottomView.tsx"
+    ],
+    "neutralization_summary": "Extracted collapsible bottom console and query drawer from Appsmith IDE BottomView architecture. Replaced styled-components and Redux view state with clean React props and semantic CSS tokens."
+  },
+  "license": "Apache-2.0",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

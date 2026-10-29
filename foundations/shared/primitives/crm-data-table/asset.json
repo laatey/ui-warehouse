@@ -1,0 +1,64 @@
+{
+  "id": "mc-sh-prim-00046",
+  "name": "crm-data-table",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Tabular record data grid foundation featuring sticky sortable column headers, multi-select checkboxes, indeterminate selection states, custom cell renderers, and an empty content container.",
+  "capabilities": [
+    "sticky-table-header",
+    "multi-select-checkboxes",
+    "indeterminate-selection",
+    "column-sorting",
+    "custom-cell-renderers",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "crm table",
+    "data table",
+    "record table",
+    "grid view",
+    "sortable table"
+  ],
+  "aliases": [
+    "Twenty record table",
+    "Airtable grid view",
+    "Attio record table"
+  ],
+  "visual_references": [
+    {
+      "name": "Twenty CRM",
+      "purpose": "dense record table with sticky column headers and row select checkboxes",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-sh-prim-00044",
+    "mc-sh-prim-00045"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "lucide-react"
+  ],
+  "design_constraints": [
+    "No hardcoded colors",
+    "Semantic table markup (thead, tbody, tr, th, td)",
+    "Empty container slot for virtualization or custom records"
+  ],
+  "entry_points": [
+    "source/CrmDataTable.tsx",
+    "source/types.ts"
+  ],
+  "source_provenance": {
+    "source_archive": "twenty-front",
+    "original_paths": [
+      "packages/twenty-front/src/modules/object-record/record-table/record-table-header/components/RecordTableHeader.tsx",
+      "packages/twenty-front/src/modules/object-record/record-table/record-table-header/components/RecordTableHeaderCell.tsx"
+    ],
+    "neutralization_summary": "Extracted tabular layout semantics and header sorting interactions, replaced Linaria CSS with semantic Tailwind utility classes, and established empty rows/children slots."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

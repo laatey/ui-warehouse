@@ -1,0 +1,67 @@
+{
+  "id": "mc-desk-nav-00041",
+  "name": "inbox-conversation-list",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Shared support inbox conversation list feed featuring search filtering, status tabs (Open, Pending, Resolved), unread counter badges, channel tags, priority badges, and active conversation selection.",
+  "capabilities": [
+    "status-segmented-tabs",
+    "realtime-search-filtering",
+    "unread-badge-counters",
+    "channel-and-priority-indicators",
+    "active-conversation-selection"
+  ],
+  "keywords": [
+    "conversation list",
+    "chatwoot inbox list",
+    "support ticket list",
+    "message feed",
+    "inbox card list",
+    "unread badges",
+    "status filtering"
+  ],
+  "aliases": [
+    "Chatwoot ConversationCard list",
+    "Intercom conversation feed",
+    "Zendesk ticket queue list"
+  ],
+  "visual_references": [
+    {
+      "name": "Chatwoot",
+      "purpose": "conversation list feed with status tabs, unread badges, and last message previews",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Intercom",
+      "purpose": "team inbox conversation column with priority tags and assignee indicators",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00034"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded customer data or messaging backend couplings",
+    "Clean item array interface with customizable callbacks"
+  ],
+  "entry_points": [
+    "source/InboxConversationList.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "chatwoot",
+    "original_paths": [
+      "app/javascript/dashboard/components/widgets/conversation/ConversationCard.vue",
+      "app/javascript/dashboard/components/ChatList.vue"
+    ],
+    "neutralization_summary": "Extracted conversation item feed and filter list from Chatwoot ConversationCard and ChatList architecture. Replaced Vuex state and helper functions with clean React props and semantic CSS tokens."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

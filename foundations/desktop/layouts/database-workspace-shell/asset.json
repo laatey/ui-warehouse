@@ -1,0 +1,70 @@
+{
+  "id": "mc-desk-shell-00037",
+  "name": "database-workspace-shell",
+  "type": "layout",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Multi-tier database and table editor workspace layout featuring primary service navigation rail, collapsible schema & entity explorer sidebar, secondary action toolbar, blank data stage, and resizable right inspector panel.",
+  "capabilities": [
+    "primary-service-navigation-rail",
+    "collapsible-secondary-schema-table-sidebar",
+    "keyboard-shortcut-sidebar-toggle",
+    "secondary-action-and-filter-toolbar",
+    "resizable-right-inspector-panel",
+    "empty-content-container"
+  ],
+  "keywords": [
+    "database workspace",
+    "supabase studio layout",
+    "table editor shell",
+    "sql editor layout",
+    "schema explorer shell",
+    "admin database console",
+    "two tier navigation"
+  ],
+  "aliases": [
+    "Supabase Studio workspace",
+    "Neon database console",
+    "Drizzle Studio table layout"
+  ],
+  "visual_references": [
+    {
+      "name": "Supabase Studio",
+      "purpose": "database and table editor with primary icon rail, secondary schema sidebar, and action toolbar",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Neon",
+      "purpose": "serverless database console with branch/table explorer and SQL stage",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-nav-00007",
+    "mc-desk-shell-00035"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded database schemas, SQL statements, or Postgres connection strings",
+    "Empty main stage container by default"
+  ],
+  "entry_points": [
+    "source/DatabaseWorkspaceShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "supabase",
+    "original_paths": [
+      "apps/studio/components/layouts/TableEditorLayout/TableEditorLayout.tsx",
+      "apps/studio/components/layouts/TableEditorLayout/TableEditorMenu.tsx",
+      "apps/studio/components/layouts/ProjectLayout/LayoutSidebar/index.tsx"
+    ],
+    "neutralization_summary": "Extracted database and table editor workspace shell from Supabase Studio layout architecture. Removed Postgres permissions, local storage queries, and Supabase client bindings in favor of clean React slots and standard CSS tokens."
+  },
+  "license": "Apache-2.0",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mc-sh-prim-00014",
+  "name": "segmented-switch",
+  "type": "primitive",
+  "platform": "cross-platform",
+  "frameworks": ["React"],
+  "description": "Accessible sliding segmented switch / control with animated thumb for mode selection and multi-state view toggles.",
+  "capabilities": [
+    "animated-sliding-thumb",
+    "radiogroup-aria-semantics",
+    "icon-and-label-support",
+    "customizable-dimensions",
+    "token-based-neutral-theming"
+  ],
+  "keywords": [
+    "segmented switch",
+    "segmented control",
+    "mode toggle",
+    "pill switch",
+    "tab switch"
+  ],
+  "aliases": [
+    "iOS segmented control",
+    "mode switcher",
+    "pill toggle",
+    "sliding toggle"
+  ],
+  "visual_references": [
+    {
+      "name": "Linear",
+      "purpose": "segmented view mode switch",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Claude Code",
+      "purpose": "compact mode toggle control",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-shell-00012"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "Neutral styling compatible with standard design tokens",
+    "No hardcoded colors"
+  ],
+  "entry_points": [
+    "source/SegmentedSwitch.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morecode.zip",
+    "original_paths": [
+      "src/renderer/src/components/segmented-switch.tsx"
+    ],
+    "neutralization_summary": "Replaced hardcoded hex values with standard Tailwind design tokens (bg-muted, bg-background, text-foreground), preserved sliding animation and ARIA radiogroup roles."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

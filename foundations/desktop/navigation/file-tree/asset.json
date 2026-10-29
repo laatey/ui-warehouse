@@ -1,0 +1,65 @@
+{
+  "id": "mc-desk-nav-00029",
+  "name": "file-tree",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Hierarchical file and directory tree navigation with expandable folders, active file selection, inline search filter, and file type icons.",
+  "capabilities": [
+    "hierarchical-folder-expansion",
+    "search-filter-filtering",
+    "active-path-selection",
+    "file-extension-icon-mapping",
+    "custom-filter-placeholder"
+  ],
+  "keywords": [
+    "file tree",
+    "directory tree",
+    "explorer tree",
+    "project tree",
+    "folder navigator",
+    "VS code explorer"
+  ],
+  "aliases": [
+    "VS Code file tree",
+    "GitHub repo explorer",
+    "directory tree navigator"
+  ],
+  "visual_references": [
+    {
+      "name": "VS Code",
+      "purpose": "left sidebar file explorer with hierarchical indentation and active item highlight",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "GitHub",
+      "purpose": "repository file browser tree view",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-web-nav-00007"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded file systems or project paths",
+    "Generic recursive node model with customizable active state"
+  ],
+  "entry_points": [
+    "source/FileTree.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "codegrey-moolre.zip",
+    "original_paths": [
+      "src/components/FileTree.tsx"
+    ],
+    "neutralization_summary": "Extracted recursive file and folder tree navigation. Removed hardcoded project repository data and integrated generic filter and selection callbacks."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

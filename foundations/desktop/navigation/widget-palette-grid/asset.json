@@ -1,0 +1,67 @@
+{
+  "id": "mc-desk-nav-00039",
+  "name": "widget-palette-grid",
+  "type": "navigation",
+  "platform": "desktop",
+  "frameworks": ["React"],
+  "description": "Categorized widget and component palette grid featuring search filtering, draggable component cards, category grouping, and click-to-insert triggers.",
+  "capabilities": [
+    "categorized-component-cards",
+    "realtime-search-filtering",
+    "html5-drag-and-drop-support",
+    "customizable-grid-columns"
+  ],
+  "keywords": [
+    "widget palette",
+    "component grid",
+    "appsmith widgets",
+    "draggable components",
+    "builder palette",
+    "component picker",
+    "low code palette"
+  ],
+  "aliases": [
+    "Appsmith Widget Palette",
+    "Retool component drawer",
+    "visual builder palette"
+  ],
+  "visual_references": [
+    {
+      "name": "Appsmith",
+      "purpose": "widget palette grid with categorized cards for Inputs, Display, and Buttons",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Retool",
+      "purpose": "component palette drawer with search input and draggable component tiles",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-desk-shell-00033",
+    "mc-sh-prim-00038"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No hardcoded Appsmith proprietary widget DSL types",
+    "Generic item and category interface"
+  ],
+  "entry_points": [
+    "source/WidgetPaletteGrid.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "appsmith",
+    "original_paths": [
+      "app/client/src/pages/Editor/Explorer/Widgets/WidgetIcon.tsx",
+      "app/client/src/pages/Editor/Explorer/ExplorerIcons.tsx"
+    ],
+    "neutralization_summary": "Extracted categorized component palette grid from Appsmith Explorer Widgets. Removed proprietary widget factory registration in favor of generic React icon and item descriptors."
+  },
+  "license": "Apache-2.0",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

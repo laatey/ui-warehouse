@@ -1,0 +1,61 @@
+{
+  "id": "mc-lib-mob-00003",
+  "name": "mobile-touch-primitives",
+  "type": "library",
+  "platform": "mobile",
+  "frameworks": ["React"],
+  "description": "Touch-optimized mobile UI primitives including swipeable gesture bottom sheet drawer (vaul-based) and haptic touch buttons.",
+  "capabilities": [
+    "touch-friendly-dimensions",
+    "gesture-drag-handle",
+    "safe-area-awareness",
+    "active-touch-scale-feedback",
+    "swipe-to-dismiss"
+  ],
+  "keywords": [
+    "mobile touch primitives",
+    "bottom sheet",
+    "touch button",
+    "gesture drawer",
+    "vaul sheet"
+  ],
+  "aliases": [
+    "mobile drawer kit",
+    "touch primitives",
+    "bottom sheet modal"
+  ],
+  "visual_references": [
+    {
+      "name": "iOS / Mobile Standard",
+      "purpose": "native-feeling swipeable bottom sheet and touch feedback button",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-mob-shell-00010",
+    "mc-mob-nav-00012"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "vaul"
+  ],
+  "design_constraints": [
+    "Minimum touch target size (44px)",
+    "Neutral styling compatible with standard design tokens"
+  ],
+  "entry_points": [
+    "source/BottomSheet.tsx",
+    "source/TouchButton.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/ui/drawer.tsx"
+    ],
+    "neutralization_summary": "Extracted touch-optimized primitives (BottomSheet and TouchButton) with accessible safe area insets and tactile feedback."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}

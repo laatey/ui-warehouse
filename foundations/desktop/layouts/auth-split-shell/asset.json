@@ -1,0 +1,65 @@
+{
+  "id": "mc-web-layout-00003",
+  "name": "auth-split-shell",
+  "type": "layout",
+  "platform": "web",
+  "frameworks": ["React"],
+  "description": "Dual-column responsive authentication layout with centered form container on one side and neutral aside preview slot on the other.",
+  "capabilities": [
+    "split-column-layout",
+    "responsive-stacking",
+    "unbranded-form-slot",
+    "aside-preview-slot"
+  ],
+  "keywords": [
+    "auth layout",
+    "login shell",
+    "signup layout",
+    "split screen",
+    "dual column layout"
+  ],
+  "aliases": [
+    "split auth screen",
+    "Linear-style login shell",
+    "SaaS auth foundation",
+    "two-column auth"
+  ],
+  "visual_references": [
+    {
+      "name": "Linear",
+      "purpose": "minimalist split authentication screen",
+      "reference_type": "structural-search-hint"
+    },
+    {
+      "name": "Supabase",
+      "purpose": "developer login split view with aside illustration slot",
+      "reference_type": "structural-search-hint"
+    }
+  ],
+  "related_assets": [
+    "mc-lib-web-00001"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom"
+  ],
+  "design_constraints": [
+    "No forced brand identity",
+    "No pre-filled form fields",
+    "Blank aside slot",
+    "Responsive mobile single-column fallback"
+  ],
+  "entry_points": [
+    "source/AuthSplitShell.tsx"
+  ],
+  "source_provenance": {
+    "source_archive": "morline.zip",
+    "original_paths": [
+      "src/components/moor/auth-layout.tsx"
+    ],
+    "neutralization_summary": "Extracted split layout structure, removed 'morline' logo, hardcoded background styles, and proprietary marketing copy. Kept responsive grid mechanics and clean slots."
+  },
+  "license": "MIT",
+  "validation_status": "verified",
+  "version": "1.0.0"
+}
