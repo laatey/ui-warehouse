@@ -55,9 +55,9 @@ const MAX_BODY = Number(env.MCP_MAX_BODY ?? 1_048_576)
 const LOOPBACK_HOSTS = new Set(['localhost', '127.0.0.1', '[::1]', '::1'])
 const bindIsLoopback = LOOPBACK_HOSTS.has(HOST.toLowerCase())
 
-const PUBLIC_URL = env.MCP_PUBLIC_URL || ''
-const OWNER_PASSWORD = env.MCP_OWNER_PASSWORD || ''
-let OAUTH_SECRET = env.MCP_OAUTH_SECRET || ''
+const PUBLIC_URL = (env.MCP_PUBLIC_URL || '').trim()
+const OWNER_PASSWORD = (env.MCP_OWNER_PASSWORD || '').trim()
+let OAUTH_SECRET = (env.MCP_OAUTH_SECRET || '').trim()
 if (PUBLIC_URL || OWNER_PASSWORD) {
   let u
   try { u = new URL(PUBLIC_URL) } catch { log('MCP_PUBLIC_URL must be a valid URL, e.g. https://mcp.example.com'); process.exit(1) }

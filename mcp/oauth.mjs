@@ -103,10 +103,10 @@ button.pri{background:var(--pri);color:var(--prif);border-color:var(--pri)}.err{
     res.writeHead(status, {
       'Content-Type': 'text/html; charset=utf-8',
       'Content-Length': Buffer.byteLength(html),
-      'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'",
+      'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'",
       'X-Frame-Options': 'DENY',
       'X-Content-Type-Options': 'nosniff',
-      'Referrer-Policy': 'no-referrer',
+      'Referrer-Policy': 'same-origin',
       ...noStore,
     })
     res.end(html)
@@ -203,7 +203,12 @@ ${errorMsg ? `<p class="err" role="alert">${esc(errorMsg)}</p>` : ''}
 
   async function authorizePost(req, res, ip) {
     const origin = req.headers.origin
-    if (origin && origin !== publicOrigin) return page(res, 403, 'Forbidden', '<h1>Forbidden</h1><p>Cross-origin submission rejected.</p>')
+    const fwdHost = String(req.headers['x-forwarded-host'] || req.headers.host || '').split(',')[0].trim().toLowerCase()
+    let originHost = ''
+    try { if (origin && origin !== 'null') originHost = new URL(origin).host.toLowerCase() } catch { originHost = 'invalid' }
+    if (origin && origin !== 'null' && origin !== publicOrigin && (!fwdHost || originHost !== fwdHost)) {
+      return page(res, 403, 'Forbidden', '<h1>Forbidden</h1><p>Cross-origin submission rejected.</p>')
+    }
     let form
     try { form = await parseForm(req) } catch { return page(res, 400, 'Invalid request', '<h1>Invalid request</h1>') }
     const r = verify(form.req, 'req')
