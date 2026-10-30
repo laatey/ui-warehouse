@@ -90,7 +90,7 @@ export function createOAuth({ publicUrl, mcpPath, secret, ownerPassword, staticC
     res.end()
   }
 
-  const page = (res, status, title, body) => {
+  const page = (res, status, title, body, formTargets = []) => {
     const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>${esc(title)}</title><style>
 :root{color-scheme:light dark;--bg:#fff;--fg:#111;--mut:#666;--bd:#ddd;--pri:#111;--prif:#fff}
 @media(prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--mut:#999;--bd:#333;--pri:#eee;--prif:#111}}
@@ -100,10 +100,13 @@ h1{font-size:18px;margin:0 0 8px}p{color:var(--mut);margin:6px 0}code{color:var(
 input[type=password]{width:100%;box-sizing:border-box;margin:14px 0 4px;padding:9px 10px;border:1px solid var(--bd);border-radius:8px;background:transparent;color:var(--fg);font:inherit}
 .row{display:flex;gap:8px;margin-top:14px}button{flex:1;padding:9px;border-radius:8px;border:1px solid var(--bd);background:transparent;color:var(--fg);font:inherit;cursor:pointer}
 button.pri{background:var(--pri);color:var(--prif);border-color:var(--pri)}.err{color:#c0392b}</style></head><body><main>${body}</main></body></html>`
+    // form-action also governs where the POST may redirect to, so the consent page must allow the
+    // client's redirect origin (e.g. MoreCode's http://127.0.0.1:<port> loopback) as well as itself.
+    const formAction = ["'self'", new URL(issuer).origin, ...formTargets].join(' ')
     res.writeHead(status, {
       'Content-Type': 'text/html; charset=utf-8',
       'Content-Length': Buffer.byteLength(html),
-      'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'",
+      'Content-Security-Policy': `default-src 'none'; style-src 'unsafe-inline'; form-action ${formAction}; frame-ancestors 'none'; base-uri 'none'`,
       'X-Frame-Options': 'DENY',
       'X-Content-Type-Options': 'nosniff',
       'Referrer-Policy': 'same-origin',
@@ -123,7 +126,7 @@ ${errorMsg ? `<p class="err" role="alert">${esc(errorMsg)}</p>` : ''}
 <input type="hidden" name="req" value="${esc(reqBlob)}">
 <input type="password" name="password" placeholder="Owner password" autocomplete="current-password" autofocus aria-label="Owner password">
 <div class="row"><button type="submit" name="decision" value="deny" formnovalidate>Deny</button><button class="pri" type="submit" name="decision" value="approve">Approve</button></div>
-</form>`)
+</form>`, [new URL(redirectUri).origin])
   }
 
   // Password attempts: 10 per 15 minutes per IP (per process).
